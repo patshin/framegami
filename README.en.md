@@ -14,7 +14,7 @@
 
 ## Use a prompt
 
-<table><tr><td valign="top">Open a style, pick a model and language, and select Copy full prompt. Upload your photo to your image tool and paste the prompt.</td><td width="240"><a href="https://patshin.github.io/framegami/en/style/baimiao/"><img src="docs/demo/mobile-en.jpg" width="230" alt="Model, prompt language and copy button on mobile"></a></td></tr></table>
+<table><tr><td width="53%" valign="top">Open a style, pick a model and language, and select Copy full prompt. Upload your photo to your image tool and paste the prompt.</td><td><a href="https://patshin.github.io/framegami/en/style/baimiao/"><img src="docs/demo/mobile-en.jpg" width="230" alt="Model, prompt language and copy button on mobile"></a></td></tr></table>
 
 ## Run locally
 

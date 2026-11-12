@@ -89,7 +89,7 @@ export function composePrompt(style, model='chatgpt', lang='en', options={}) {
   return [zh?`使用上传图片作为唯一内容参考，把整幅画面重新绘制为「${style.name.zh}」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。`:`Use the uploaded image as the sole content reference and redraw the whole scene as ${style.name.en}. This is image editing and style transfer, not a new scene loosely inspired by a description.`,identity+'\n'+structure,zh?`视觉语言\n${style.technique.zh}`:`VISUAL LANGUAGE\n${style.technique.en}`,bg+'\n'+pal+'\n'+det,zh?`避免的偏差\n${style.avoid.zh}`:`FAILURE MODES TO AVOID\n${style.avoid.en}`,ext?(zh?'用户额外要求\n':'ADDITIONAL USER DIRECTION\n')+ext:'',changed?(zh?'输出一张符合指定展示方式的完整作品；只有该条目明确要求的边框、盒子或版式可以出现，不加额外标题、水印或多版本比较。':'Output one coherent work in the specified presentation. Only frames, boxes or layouts explicitly required by this recipe are allowed; add no unrelated titles, watermarks or variant comparisons.'):(zh?'输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。':'Output one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning.')].filter(Boolean).join('\n\n');
 }
 export function validateImport(data, knownIds=new Set()) {
-  if(!data||typeof data!=='object'||Array.isArray(data)) throw new Error('Expected an Framegami backup object / 需要 Framegami 备份对象');
+  if(!data||typeof data!=='object'||Array.isArray(data)) throw new Error('Expected a Framegami backup object / 需要 Framegami 备份对象');
   // A recipe exported by this application must also round-trip through Import.
   if(data.schema==='iro-recipe/v1') {
     if(typeof data.prompt!=='string'||!data.prompt.trim()||data.prompt.length>20000) throw new Error('Invalid recipe prompt / 提示词无效');

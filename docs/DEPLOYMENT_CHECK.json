@@ -1,14 +1,12 @@
 {
-  "checkedAt": "2026-10-19",
-  "authenticatedLogin": "patshin",
-  "targetRepository": "patshin/iro-style-atlas",
-  "getRepositoryResponse": 404,
-  "note": "404 can mean absent or inaccessible; it is not proof of absence. No creation or write action is exposed by the current GitHub connection.",
-  "remoteWritesPerformed": 0,
-  "repositoryCreatedByThisRun": false,
-  "pagesDeployedByThisRun": false,
-  "browserConnection": "Read-only tab tools",
-  "localGitHubCLI": "Not installed in the working container",
-  "alternativePluginSearch": "Returned the existing GitHub integration; no additional usable creation/push action became available",
-  "nextRequirement": "An authenticated local GitHub CLI or equivalent write-capable environment. Never paste an API key or token into chat or the public project."
+  "checkedAt": "2026-11-12",
+  "repository": "https://github.com/patshin/framegami",
+  "pages": "https://patshin.github.io/framegami/",
+  "deployedCommit": "1f0269c649c97b7f9caafd768b57667bbd3c2287",
+  "workflow": "https://github.com/patshin/framegami/actions/runs/43142109408",
+  "conclusion": "success",
+  "browserChecks": [
+    "GitHub rendered both READMEs with linked screenshots and three case images per language.",
+    "Chromium opened the public atlas from the repository screenshot, selected a style and verified clipboard contents at desktop and mobile viewport sizes."
+  ]
 }

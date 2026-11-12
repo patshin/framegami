@@ -33,5 +33,5 @@ if(process.argv[1]===fileURLToPath(import.meta.url)){
  if(!fs.existsSync(defaultRoot))throw new Error('Run npm run build first.');
  const port=Number(process.env.PORT||4173);if(!Number.isInteger(port)||port<1||port>65535)throw new Error('Invalid port');
  const prefix=normalizePrefix(process.env.BASE_PATH||'');
- createStaticServer({prefix}).listen(port,'127.0.0.1',()=>console.log(`IRO local preview: http://127.0.0.1:${port}${prefix}/`));
+ createStaticServer({prefix}).listen(port,'127.0.0.1',()=>console.log(`Framegami local preview: http://127.0.0.1:${port}${prefix}/`));
 }

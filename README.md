@@ -14,7 +14,7 @@
 
 ## 使用提示词
 
-<table><tr><td valign="top">打开一个风格，选择模型和语言，点击「复制完整提示词」。在你使用的图像工具里上传照片，粘贴提示词。</td><td width="240"><a href="https://patshin.github.io/framegami/zh/style/baimiao/"><img src="docs/demo/mobile-zh.jpg" width="230" alt="手机版白描详情页的模型、语言和复制按钮"></a></td></tr></table>
+<table><tr><td width="53%" valign="top">打开一个风格，选择模型和语言，点击「复制完整提示词」。在你使用的图像工具里上传照片，粘贴提示词。</td><td><a href="https://patshin.github.io/framegami/zh/style/baimiao/"><img src="docs/demo/mobile-zh.jpg" width="230" alt="手机版白描详情页的模型、语言和复制按钮"></a></td></tr></table>
 
 ## 本地运行
 
