@@ -28,3 +28,8 @@
   height: 100%;
   object-fit: cover;
 }
+
+.reference-list { margin: 24px 0; }
+.reference-list summary { cursor: pointer; }
+.reference-list ul, .about-block ul { padding-inline-start: 1.4em; }
+.reference-list li { margin-block: .4em; }

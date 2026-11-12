@@ -40,6 +40,16 @@ export function buildSearchIndex(styles, categories) {
 export function hasDisplaySample(style){return !!((style?.examples||[]).some(x=>x.accepted===true)||(style?.illustrations||[]).some(x=>x.displayApproved===true&&x.path));}
 export const hasDisplayExample=hasDisplaySample;
 export function getDisplaySample(style, model=null, lang=null){return (style?.examples||[]).find(x=>x.accepted===true&&x.promptVersion===style.version&&(!model||x.model===model)&&(!lang||x.lang===lang))||(style?.illustrations||[]).find(x=>x.displayApproved===true&&(!model||!x.model||x.model===model)&&(!lang||!x.lang||x.lang===lang))||(style?.illustrations||[]).find(x=>x.displayApproved===true)||null;}
+export function sampleSourceLabel(sample, lang) {
+  const labels = {
+    'same-input-showcase': ['独立 AI 示意', 'AI illustration'],
+    'montage-derived-preview': ['拼图裁切', 'Montage crop'],
+    'procedural-style-study': ['程序化预览', 'Procedural preview']
+  };
+  const label = sample?.accepted ? ['已验证例图', 'Verified example']
+    : labels[sample?.kind] || (sample ? ['风格示意', 'Style illustration'] : ['暂无示例图', 'No example image']);
+  return label[lang === 'zh' ? 0 : 1];
+}
 export const getDisplayExample=getDisplaySample;
 
 export function searchStyles(index, options={}) {

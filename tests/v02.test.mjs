@@ -33,7 +33,7 @@ test('v02 shared comparisons ignore unknown and duplicate IDs',()=>{const q=read
 test('v02 absence of comparison query does not wipe local selection',()=>assert.equal(readComparisonQuery('',ids).ids,null));
 test('v02 empty explicit comparison query means empty selection',()=>assert.deepEqual(readComparisonQuery('?ids=',ids).ids,[]));
 test('v02 comparison query rejects invented models and languages',()=>assert.deepEqual(readComparisonQuery('?model=x&pl=x',ids),{ids:null,model:null,lang:null}));
-test('v02 standalone 404 has no relative scripts or stylesheets',()=>{const html=fs.readFileSync(root+'/dist/404.html','utf8');assert(!/<script\b/.test(html));assert(!/<link\b/.test(html));assert(html.includes('This page is not in the atlas'));});
+test('v02 standalone 404 has no relative scripts or stylesheets',()=>{const html=fs.readFileSync(root+'/dist/404.html','utf8');assert(!/<script\b/.test(html));assert(!/<link\b/.test(html));assert(html.includes('找不到这个页面<br>Page not found'));});
 test('v02 workflow uses checked Pages artifact version and least privilege',()=>{const y=fs.readFileSync(root+'/.github/workflows/pages.yml','utf8');assert(y.includes('actions/upload-pages-artifact@v4'));assert(y.includes('id-token: write'));assert(!y.includes('write-all'));assert(y.includes('package-manager-cache: false'));});
 
 test('v02 model status flags alone cannot certify compatibility',async()=>{const {validateCatalog}=await import('../scripts/validate.mjs');const copy=structuredClone(styles);copy[0].modelStatus.gemini='exampled';assert(validateCatalog(copy).errors.some(x=>x.includes('Model status badge')));});

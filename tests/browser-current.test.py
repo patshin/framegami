@@ -25,7 +25,8 @@ try:
             errors=[]
             page.on('pageerror',lambda exc:errors.append(str(exc)))
             page.goto(base)
-            expect(page.locator('.research-notice')).to_contain_text('213/213')
+            expect(page.get_by_role('heading', name='图生图风格图鉴', exact=True)).to_be_visible()
+            expect(page.locator('#result-count')).to_contain_text('213')
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
             page.screenshot(path=out/f'atlas-{width}.jpg')
             search=page.locator('#style-search')
@@ -71,6 +72,8 @@ try:
                     image.evaluate('img => img.decode()')
                     assert image.evaluate('img=>img.naturalWidth')==sample['width']
                     page.evaluate('async url=>{const img=new Image();img.src=url;await img.decode()}',base+sample['thumbnailPath'])
+                    source = {'same-input-showcase':'独立 AI 示意','montage-derived-preview':'拼图裁切','procedural-style-study':'程序化预览'}[sample['kind']]
+                    expect(page.locator('.visual-note')).to_have_text(source)
                     if sample['kind']=='montage-derived-preview':
                         assert page.locator('.split-view').count()==0
                 page.goto(base+'en/compare/?ids=shin-hanga,rural-handdrawn')
