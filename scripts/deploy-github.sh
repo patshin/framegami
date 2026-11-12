@@ -3,7 +3,7 @@
 # Never overwrites a pre-existing repository. No model/API credentials are used.
 set -euo pipefail
 PROJECT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-REPO="${1:-iro-style-atlas}"
+REPO="${1:-framegami}"
 [[ "$REPO" =~ ^[A-Za-z0-9][A-Za-z0-9._-]{0,99}$ ]] || { echo 'Invalid repository name.' >&2; exit 2; }
 for cmd in gh git node npm tar; do command -v "$cmd" >/dev/null || { echo "Missing $cmd. Install it before running this script." >&2; exit 2; }; done
 gh auth status >/dev/null || { echo 'Run gh auth login, then rerun. Never paste a token into this project.' >&2; exit 2; }
@@ -51,7 +51,7 @@ git config user.email "$USER_ID+$OWNER@users.noreply.github.com"
 git add .
 # Avoid running the Pages workflow before the Pages setting exists.
 git commit -m 'Initial IRO research preview [skip ci]'
-gh repo create "$OWNER/$REPO" --public --description 'IRO: bilingual image-to-image style recipes. Research preview; examples pending.' --source . --remote origin --push
+gh repo create "$OWNER/$REPO" --public --description 'Framegami: 213 illustrated image-to-image styles and bilingual prompts.' --source . --remote origin --push
 CREATED='yes'
 gh api --method POST "repos/$OWNER/$REPO/pages" -f build_type=workflow >/dev/null
 gh workflow run pages.yml --repo "$OWNER/$REPO" --ref main

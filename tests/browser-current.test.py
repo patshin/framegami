@@ -6,15 +6,16 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright, expect
 
 root = Path(__file__).resolve().parents[1]
-out = root / 'evidence/final-integration'
+out = root / 'test-results'
+out.mkdir(exist_ok=True)
 catalog = json.loads((root / 'data/catalog.json').read_text())
 server = subprocess.Popen(['node', '--input-type=module', '-e', """
 import {createStaticServer} from './scripts/serve.mjs';
-const server = createStaticServer({prefix:'/iro-style-atlas'});
+const server = createStaticServer({prefix:'/framegami'});
 server.listen(0,'127.0.0.1',()=>console.log(server.address().port));
 """], cwd=root, stdout=subprocess.PIPE, text=True)
 try:
-    base = f'http://127.0.0.1:{int(server.stdout.readline())}/iro-style-atlas/'
+    base = f'http://127.0.0.1:{int(server.stdout.readline())}/framegami/'
     with sync_playwright() as pw:
         for width,height in [(1920,1080),(1366,768),(375,667),(412,915)]:
             browser = pw.chromium.launch(executable_path=os.getenv('IRO_CHROME') or None)

@@ -1,5 +1,5 @@
 {
-  "name": "iro-style-atlas",
+  "name": "framegami",
   "version": "0.4.0",
   "private": true,
   "description": "Bilingual, local-first image-to-image style research atlas. Static GitHub Pages build; no API keys or backend.",

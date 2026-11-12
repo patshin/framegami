@@ -20,3 +20,11 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.specimen{transition:none}}
 
 .compare-tray .button{color:#22332b;background:#f5f3ed}
+
+.card-cover > img,
+.large-cover > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

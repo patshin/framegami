@@ -1,42 +1,32 @@
-# IRO · 色谱 | Image-to-Image Style Atlas
+# Framegami
 
-中英文图生图 Prompt 图鉴。213 种风格按 19 个分类、60 个家族收录，每种提供 ChatGPT、Gemini、FLUX 的中英文配方，共 1,278 个文本版本。网站使用静态文件，收藏、草稿和自定义配方保存在当前浏览器。
+**213 种图生图风格，每种都有示例图和可复制的中英文提示词。**
 
-**视觉覆盖 213/213**，包括 155 张独立 AI 风格示意、30 张有原始拼图和裁切坐标的预览、28 张基于 B00 的程序化示意。严格 Prompt 验证为 **0/213**。模型选项用于切换文字配方。Batch 05 和 08 共 20 张独立 AI 示意由素材包声明来源，缺少生成编号；Batch 05 的提交语言也未知。
+[**浏览图鉴 ↗**](https://patshin.github.io/framegami/zh/)　·　[English](README.en.md)
 
-## 使用
+[![Framegami 成品界面：分类栏与风格卡片](public/demo/atlas-zh.jpg)](https://patshin.github.io/framegami/zh/)
 
-1. 在图鉴按分类和家族浏览，或用中文、英文及别名搜索。
-2. 打开风格详情，查看案例来源、技法、参考资料。选择模型和语言后复制 Prompt，在自己的图像工具中配合原图使用。
-3. 将多个风格加入比较台，或在工作台调整背景、色彩和文字。另存自定义配方可保留编辑版本。更换浏览器前可导出备份。
+## 风格示例
 
-## Local development
+| [![白描](public/examples/baimiao.thumb.webp)](https://patshin.github.io/framegami/zh/style/baimiao/) | [![刺子绣](public/examples/sashiko.thumb.webp)](https://patshin.github.io/framegami/zh/style/sashiko/) | [![熔融玻璃](public/examples/fused-glass.thumb.webp)](https://patshin.github.io/framegami/zh/style/fused-glass/) |
+|:---:|:---:|:---:|
+| [白描](https://patshin.github.io/framegami/zh/style/baimiao/) | [刺子绣](https://patshin.github.io/framegami/zh/style/sashiko/) | [熔融玻璃](https://patshin.github.io/framegami/zh/style/fused-glass/) |
 
-Use Node.js 22. The static build has no npm dependencies.
+## 使用提示词
+
+<table><tr><td valign="top">打开一个风格，选择模型和语言，点击「复制完整提示词」。在你使用的图像工具里上传照片，粘贴提示词。</td><td width="240"><a href="https://patshin.github.io/framegami/zh/style/baimiao/"><img src="docs/demo/mobile-zh.jpg" width="230" alt="手机版白描详情页的模型、语言和复制按钮"></a></td></tr></table>
+
+## 本地运行
+
+Node.js 22
 
 ```sh
-npm run check
+npm run build
 npm run preview
 ```
 
-Open the localhost address printed by the preview server. For a repository subpath, set SITE_BASE_PATH=/iro-style-atlas/ during build and BASE_PATH=/iro-style-atlas during preview.
+## 来源与许可
 
-## Asset maintenance
+图库包含 155 张独立 AI 示意、30 张拼图裁切和 28 张程序化预览。严格逐字 Prompt 验证为 0 项。
 
-```sh
-python3 -m pip install Pillow playwright
-python3 scripts/import-image-pack.py /path/to/pack.zip --dry-run
-python3 scripts/import-image-pack.py /path/to/pack.zip
-npm run check
-npm run test:import
-python3 -m playwright install chromium
-npm run test:browser
-```
-
-All canonical IDs currently have images. To replace an active montage or procedural preview with an independent AI showcase, add `--upgrade-preview` to both importer commands. The importer archives the previous illustration. See [image pack format](docs/IMAGE_PACK_HANDOFF.md), [coverage](evidence/image-coverage.json), [batch audit](evidence/final-integration/audit.json) and [content licensing](CONTENT-LICENSE.md).
-
-## English guide
-
-Browse by category or family, search by name or alias, then open a style to inspect its illustration and copy a model-specific prompt in either language. Use Compare for side-by-side review and Workbench for editable local recipes. The gallery contains 155 independent AI showcases, 30 montage crops and 28 procedural studies. All 213 styles await exact-prompt verification.
-
-The Pages workflow builds from main using Node 22. The strict gallery and release gates remain separate from technical preview checks. Code uses the MIT license.
+[图片来源](evidence/image-coverage.json) · [维护与贡献](CONTRIBUTING.md) · [代码许可](LICENSE) · [内容许可](CONTENT-LICENSE.md)

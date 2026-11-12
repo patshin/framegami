@@ -1,4 +1,4 @@
-name: Publish IRO to GitHub Pages
+name: Publish Framegami to GitHub Pages
 on:
   push:
     branches: [main]
