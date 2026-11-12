@@ -1,0 +1,91 @@
+{
+  "benchmark": "B00",
+  "integrated": [
+    {
+      "styleId": "pixar-inspired-3d",
+      "sourceFile": "lakeside_café_with_cat_and_camera.png",
+      "generationId": "a773dd3e-bed4-4632-bbaf-b74b28b33d1a",
+      "outputSha256": "5784b72d74e1264fe35037a38a99a3ed5e5b564df3702c9a94ee3311e86ab95e",
+      "result": "integrated-as-style-illustration",
+      "promptVerified": false,
+      "note": "Warm stylized 3D animation; the facial proportions are deliberately stylized."
+    },
+    {
+      "styleId": "pixel-16bit",
+      "sourceFile": "pixel_art_lakeside_café_with_cat.png",
+      "generationId": "749d5690-8412-4c20-9b79-b126273ab1d5",
+      "outputSha256": "caf25126b8afd822bc483b5c8d3991ba00ea17aa6975fffb394cb85bbf7008f0",
+      "result": "integrated-as-style-illustration",
+      "promptVerified": false,
+      "note": "Visible pixel clusters throughout the scene; generated pixel aesthetic, not a hardware-certified 16-bit palette."
+    },
+    {
+      "styleId": "watercolor-wet",
+      "sourceFile": "sunlit_lakeside_café_watercolour.png",
+      "generationId": "31bee3c8-4fe2-4916-b894-3273d30e5f28",
+      "outputSha256": "a2e812fe538e09891937c67acc4cb5b3c0c69abd0173d904a393484bff9562e1",
+      "result": "integrated-as-style-illustration",
+      "promptVerified": false,
+      "note": "Transparent watercolor with paper texture; illustrative correspondence, not a controlled wet-on-wet process test."
+    },
+    {
+      "styleId": "cel-1990s-soft",
+      "sourceFile": "lakeside_café_afternoon_with_cat.png",
+      "generationId": "a0516fb0-468e-4992-b60b-af3da869d103",
+      "outputSha256": "df6aa65453da596103e791f7d7ca5c91cc9b7c82c9dd11c14c08e986ef18d3fb",
+      "result": "integrated-as-style-illustration",
+      "promptVerified": false,
+      "note": "Hand-drawn anime contours and soft cel-like colors; associated by visual review, not a dated animation-production specimen."
+    },
+    {
+      "styleId": "impressionist",
+      "sourceFile": "impressionist_lakeside_café_by_the_alps.png",
+      "generationId": "8bed50dc-1b5a-49c8-a329-9113d1374276",
+      "outputSha256": "fd6076499039dd147f51cc39ab77c5152d833b7a57cb6310f434e694d724a019",
+      "result": "integrated-as-style-illustration",
+      "promptVerified": false,
+      "note": "Broken color and thick visible painted strokes across person, cat and scenery."
+    },
+    {
+      "styleId": "watercolor-line-wash",
+      "sourceFile": "lakeside_café_in_ink_and_watercolour.png",
+      "generationId": "9619d436-342e-46fb-ab85-25b3108fc74a",
+      "outputSha256": "92a52359baac58a737de02b1ec508ca8db01d2438bbcaa850066e714d7dd9ebb",
+      "result": "integrated-as-style-illustration",
+      "promptVerified": false,
+      "note": "Ink linework and muted watercolor washes throughout the image."
+    },
+    {
+      "styleId": "ukiyo-e-nishiki",
+      "sourceFile": "ukiyo_e_lakeside_café_with_cat.png",
+      "generationId": "954c2e3f-39b4-40c4-ac5a-913704a2df44",
+      "outputSha256": "5e46c757165067bae5034fb7ae32822915dda4992d6d473ad7f8a8f42f489e2b",
+      "result": "integrated-as-style-illustration",
+      "promptVerified": false,
+      "note": "Bounded printed color planes, dark contours and paper grain; a woodblock-inspired reinterpretation, not historical-process certification."
+    },
+    {
+      "styleId": "silver-gelatin",
+      "sourceFile": "monochrome_lakeside_café_portrait.png",
+      "generationId": "f227acc5-0fa1-48d6-98c7-cb9f67a3d18f",
+      "outputSha256": "887ccacf8d03f2f1f3270671029a3ad3263a5a969267fcd3164c606d5ee54114",
+      "result": "integrated-as-style-illustration",
+      "promptVerified": false,
+      "note": "Black-and-white photographic tonal rendering; digital generated illustration of a silver-gelatin-like look, not an actual chemical print."
+    }
+  ],
+  "unassigned": [
+    {
+      "file": "neon_rain_at_the_lakeside_café.png",
+      "reason": "Neon-lit photography is not the neon-contour drawing recipe. Not assigned to an unrelated style."
+    }
+  ],
+  "rejectedCurrentTurn": [
+    "6845b161-179e-46b7-a92d-2f04a7434d92",
+    "9a3f929c-2e01-4027-aa86-fc2dad7f1327",
+    "b9824ee7-79e3-4499-b663-288e34cd7e1d",
+    "24da9954-40ad-48ec-9036-cbfcecc50046",
+    "0b2d65aa-84ed-4e6f-82a9-3e81e97b1ba6"
+  ],
+  "rejectionReason": "Returned UI mockups or multi-style poster instead of individual requested style assets; not cut up or reused as evidence."
+}

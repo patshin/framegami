@@ -1,0 +1,109 @@
+{
+  "schema": "iro-generation-worklist-v1",
+  "batch_number": 9,
+  "total_batches": 11,
+  "benchmark_original": "public/benchmark/B00-original.png",
+  "styles": [
+    {
+      "style_id": "collage-picturebook",
+      "name_zh": "拼贴绘本",
+      "name_en": "Picture-book collage",
+      "category": "illustration",
+      "family": "book",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「拼贴绘本」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n用手工彩纸与少量印刷纹理拼出主体，轮廓圆润有变化，背景以同样纸片语言保留原布局。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不加儿童故事标题或无关动物。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Picture-book collage. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nAssemble rounded expressive forms from handmade colored paper and sparse printed texture, retaining the setting through the same paper-piece language.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not add storybook titles or unrelated animals.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "vintage-book-plate",
+      "name_zh": "复古彩色书页插画",
+      "name_en": "Vintage color book plate",
+      "category": "illustration",
+      "family": "book",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「复古彩色书页插画」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n采用细致墨线、柔和旧式套色和浅纸色，保留丰富但有秩序的场景细节，不加入书页边框。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不添加页码、书名或虚构作者签名。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Vintage color book plate. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nUse delicate ink drawing, soft old-style registered color and pale paper tones, retaining rich ordered scene detail without a page frame.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not add page numbers, book titles or invented signatures.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "editorial-flat",
+      "name_zh": "平面编辑插画",
+      "name_en": "Flat editorial illustration",
+      "category": "illustration",
+      "family": "editorial",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「平面编辑插画」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n将复杂物体概括为清楚色块、少量几何阴影和精简轮廓，主体特征仍可识别，构图不重排。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不要为了版式留白而删除主体。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Flat editorial illustration. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nReduce complex objects to clear color masses, sparse geometric shadows and concise contours while retaining identifying features and original arrangement.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not remove subjects to make editorial negative space.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "painterly-editorial",
+      "name_zh": "笔刷编辑插画",
+      "name_en": "Painterly editorial illustration",
+      "category": "illustration",
+      "family": "editorial",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「笔刷编辑插画」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n结合几何化大形与可见手绘笔刷，色彩有主次且保留原关系，局部细节引导注意力但不更换场景。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不添加文章标题、隐喻道具或新闻人物。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Painterly editorial illustration. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nCombine geometric large forms with visible hand-painted marks, organizing color hierarchy from the source and using selective detail without replacing the scene.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not add article headings, metaphorical props or public figures.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "fashion-marker",
+      "name_zh": "服装马克笔手绘",
+      "name_en": "Fashion-marker drawing",
+      "category": "illustration",
+      "family": "editorial",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「服装马克笔手绘」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n以自然比例保留人物，用流畅线条和半透明马克笔层表现衣服褶皱，宠物与背景同步简化但不删除。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不要拉长腿部、换装或做秀场。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Fashion-marker drawing. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nKeep natural proportions while using fluent lines and translucent marker layers for garment folds, simplifying but not removing the pet and setting.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not lengthen legs, change outfits or invent a runway.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "botanical-precision",
+      "name_zh": "博物图鉴笔法",
+      "name_en": "Natural-history illustration treatment",
+      "category": "illustration",
+      "family": "technical",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「博物图鉴笔法」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n以细致观察、清晰轮廓和透明色层精确描绘所有原有主体，保持场景关系，而不是只留下植物标本。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不添加拉丁学名、标尺或解剖剖面。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Natural-history illustration treatment. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nApply precise observation, clear contours and transparent color layers to all existing subjects, retaining the scene rather than isolating botanical specimens.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not add Latin labels, rulers or anatomical sections.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "architectural-wash",
+      "name_zh": "建筑钢笔淡彩",
+      "name_en": "Architectural pen wash",
+      "category": "illustration",
+      "family": "technical",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「建筑钢笔淡彩」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n用透视准确的钢笔结构线与轻透明色层描绘原有建筑，人物和宠物仍在原位置，整体细节服从空间。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不生成新建筑或把人物删成比例小人。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Architectural pen wash. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nUse perspective-aware structural pen lines and light transparent washes for existing architecture, retaining people and pet in place and organizing detail by space.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not invent architecture or replace people with generic scale figures.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "technical-line",
+      "name_zh": "工程线描美学",
+      "name_en": "Technical-line illustration",
+      "category": "illustration",
+      "family": "technical",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「工程线描美学」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n采用清晰细线、有限线宽与无文字的结构性阴影重绘原场景，保留原有视角，不制造无法证实的内部结构。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不添加测量尺寸、伪参数或工程认证。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Technical-line illustration. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nUse clear fine lines, limited line weights and text-free structural shading, preserving perspective without inventing hidden internal mechanisms.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not add measurements, invented parameters or engineering certification.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "renaissance-modeling",
+      "name_zh": "文艺复兴柔和塑形",
+      "name_en": "Renaissance-inspired modeling",
+      "category": "movements",
+      "family": "classical",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「文艺复兴柔和塑形」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n以均衡体积、微妙明暗和柔和但明确的边缘重绘，皮肤自然，衣服与环境仍为现代原图内容。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不添加古装、宗教故事或金色光环。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Renaissance-inspired modeling. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nRepaint with balanced volume, subtle value modeling and soft yet defined edges, keeping natural skin and all modern clothing and setting content.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not add period dress, religious narratives or halos.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "baroque-chiaroscuro",
+      "name_zh": "巴洛克明暗绘画",
+      "name_en": "Baroque-inspired chiaroscuro",
+      "category": "movements",
+      "family": "classical",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「巴洛克明暗绘画」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n以有逻辑的深暗色层与集中亮部强化原图光线关系，笔触有体积感，背景不被完全吞没。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不重新布置聚光灯或增添戏剧情节。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Baroque-inspired chiaroscuro. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nStrengthen existing light relationships through coherent deep shadows and concentrated highlights, using volumetric brushwork without erasing the background.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not invent a new spotlight setup or dramatic events.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    }
+  ],
+  "notes": "Unvalidated prompt suggestions. Produce real outputs and record generation IDs; never label synthetic images as AI-generated."
+}

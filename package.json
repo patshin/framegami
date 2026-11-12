@@ -1,0 +1,30 @@
+{
+  "name": "iro-style-atlas",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Bilingual, local-first image-to-image style research atlas. Static GitHub Pages build; no API keys or backend.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node scripts/validate.mjs",
+    "preview": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "check": "npm run validate && npm run build && npm run gallery:report && npm run assets:queue && npm test && npm run test:routes",
+    "test:routes": "node scripts/check-static-routes.mjs",
+    "test:http": "node --test tests/http.test.mjs",
+    "test:browser": "python3 tests/browser-current.test.py",
+    "release:check": "node scripts/release-gate.mjs",
+    "preview:check": "node scripts/release-gate.mjs --allow-research-preview",
+    "test:images": "python3 tests/browser-current.test.py",
+    "gallery:check": "node scripts/gallery-coverage.mjs --require-complete",
+    "gallery:report": "node scripts/gallery-coverage.mjs",
+    "assets:queue": "node scripts/export-missing-queue.mjs",
+    "assets:import": "python3 scripts/import-image-pack.py",
+    "test:import": "python3 tests/importer-integration.py"
+  },
+  "license": "MIT"
+}

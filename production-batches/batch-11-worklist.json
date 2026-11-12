@@ -1,0 +1,89 @@
+{
+  "schema": "iro-generation-worklist-v1",
+  "batch_number": 11,
+  "total_batches": 11,
+  "benchmark_original": "public/benchmark/B00-original.png",
+  "styles": [
+    {
+      "style_id": "embroidered-patch",
+      "name_zh": "刺绣徽章",
+      "name_en": "Embroidered patch",
+      "category": "lab",
+      "family": "object",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「刺绣徽章」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n本任务明确允许按下面的风格要求重构构图或展示容器；在此之外不要任意改变内容。\n\n视觉语言\n把原场景简化成一个无文字刺绣徽章，保留主要主体特征，用细密针脚、包边和少量底布构成。\n\n按目标改造方式统一处理人物、宠物与新的展示形式，不保留与新形式冲突的照片背景。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n明确会简化背景，不添加社团徽记和名字。\n\n输出一张符合指定展示方式的完整作品；只有该条目明确要求的边框、盒子或版式可以出现，不加额外标题、水印或多版本比较。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Embroidered patch. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nThis treatment explicitly permits the composition or presentation-container changes described below; do not make unrelated content changes.\n\nVISUAL LANGUAGE\nSimplify the source into a text-free embroidered patch, retaining principal subject features through dense stitching, bound edges and a small cloth ground.\n\nCoherently treat people, pets and the requested presentation; do not retain a photographic background that conflicts with the specified transformation.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nThis simplifies the background; do not add organizational emblems or names.\n\nOutput one coherent work in the specified presentation. Only frames, boxes or layouts explicitly required by this recipe are allowed; add no unrelated titles, watermarks or variant comparisons."
+    },
+    {
+      "style_id": "acrylic-standee",
+      "name_zh": "透明亚克力立牌",
+      "name_en": "Clear acrylic standee",
+      "category": "lab",
+      "family": "object",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「透明亚克力立牌」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n本任务明确允许按下面的风格要求重构构图或展示容器；在此之外不要任意改变内容。\n\n视觉语言\n从原图提取主要人物和宠物轮廓，制作为精细印刷的透明亚克力立牌，保留衣着和表情，底座简洁无字。\n\n按目标改造方式统一处理人物、宠物与新的展示形式，不保留与新形式冲突的照片背景。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n此处允许背景移除，不宣称保留完整场景。\n\n输出一张符合指定展示方式的完整作品；只有该条目明确要求的边框、盒子或版式可以出现，不加额外标题、水印或多版本比较。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Clear acrylic standee. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nThis treatment explicitly permits the composition or presentation-container changes described below; do not make unrelated content changes.\n\nVISUAL LANGUAGE\nExtract the principal person and pet silhouettes as finely printed clear acrylic standees, retaining clothes and expressions on a simple text-free base.\n\nCoherently treat people, pets and the requested presentation; do not retain a photographic background that conflicts with the specified transformation.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nBackground removal is intentional; do not claim full-scene preservation.\n\nOutput one coherent work in the specified presentation. Only frames, boxes or layouts explicitly required by this recipe are allowed; add no unrelated titles, watermarks or variant comparisons."
+    },
+    {
+      "style_id": "enamel-pin",
+      "name_zh": "珐琅胸针",
+      "name_en": "Enamel pin",
+      "category": "lab",
+      "family": "object",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「珐琅胸针」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n本任务明确允许按下面的风格要求重构构图或展示容器；在此之外不要任意改变内容。\n\n视觉语言\n把主体特征提炼为一个细金属边珐琅胸针，颜色饱满、线条清楚，放在中性背景展示。\n\n按目标改造方式统一处理人物、宠物与新的展示形式，不保留与新形式冲突的照片背景。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不添加品牌，不承诺每个背景细节都保留。\n\n输出一张符合指定展示方式的完整作品；只有该条目明确要求的边框、盒子或版式可以出现，不加额外标题、水印或多版本比较。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Enamel pin. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nThis treatment explicitly permits the composition or presentation-container changes described below; do not make unrelated content changes.\n\nVISUAL LANGUAGE\nDistill identifying features into one enamel pin with fine metal boundaries, saturated fills and clear lines on a neutral display background.\n\nCoherently treat people, pets and the requested presentation; do not retain a photographic background that conflicts with the specified transformation.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not add branding or promise all background detail is preserved.\n\nOutput one coherent work in the specified presentation. Only frames, boxes or layouts explicitly required by this recipe are allowed; add no unrelated titles, watermarks or variant comparisons."
+    },
+    {
+      "style_id": "pop-up-book",
+      "name_zh": "立体书跨页",
+      "name_en": "Pop-up book spread",
+      "category": "lab",
+      "family": "space",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「立体书跨页」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n本任务明确允许按下面的风格要求重构构图或展示容器；在此之外不要任意改变内容。\n\n视觉语言\n将人物、宠物和原场景构造成一张展开立体书里的纸工程，折叠连接合理，主要形体与颜色保持。\n\n按目标改造方式统一处理人物、宠物与新的展示形式，不保留与新形式冲突的照片背景。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n构图会改变，不添加故事段落或书名。\n\n输出一张符合指定展示方式的完整作品；只有该条目明确要求的边框、盒子或版式可以出现，不加额外标题、水印或多版本比较。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Pop-up book spread. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nThis treatment explicitly permits the composition or presentation-container changes described below; do not make unrelated content changes.\n\nVISUAL LANGUAGE\nConstruct the people, pet and setting as plausible paper engineering in an open pop-up book, retaining principal shapes and colors.\n\nCoherently treat people, pets and the requested presentation; do not retain a photographic background that conflicts with the specified transformation.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nComposition changes; do not add story paragraphs or a book title.\n\nOutput one coherent work in the specified presentation. Only frames, boxes or layouts explicitly required by this recipe are allowed; add no unrelated titles, watermarks or variant comparisons."
+    },
+    {
+      "style_id": "isometric-diorama",
+      "name_zh": "等距微缩布景",
+      "name_en": "Isometric diorama",
+      "category": "lab",
+      "family": "space",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「等距微缩布景」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n本任务明确允许按下面的风格要求重构构图或展示容器；在此之外不要任意改变内容。\n\n视觉语言\n把原场景重构成有边界的等距微缩布景，保留主体数量、身份、相对位置与代表性建筑物件。\n\n按目标改造方式统一处理人物、宠物与新的展示形式，不保留与新形式冲突的照片背景。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n允许视角变化，不添加多余房间或游戏UI。\n\n输出一张符合指定展示方式的完整作品；只有该条目明确要求的边框、盒子或版式可以出现，不加额外标题、水印或多版本比较。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Isometric diorama. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nThis treatment explicitly permits the composition or presentation-container changes described below; do not make unrelated content changes.\n\nVISUAL LANGUAGE\nReconstruct the source as a bounded isometric miniature set, retaining counts, identities, relative placements and representative architectural objects.\n\nCoherently treat people, pets and the requested presentation; do not retain a photographic background that conflicts with the specified transformation.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nThe viewpoint changes; do not add rooms or game UI.\n\nOutput one coherent work in the specified presentation. Only frames, boxes or layouts explicitly required by this recipe are allowed; add no unrelated titles, watermarks or variant comparisons."
+    },
+    {
+      "style_id": "miniature-tiltshift",
+      "name_zh": "模型摄影微缩",
+      "name_en": "Miniature-model reinterpretation",
+      "category": "lab",
+      "family": "space",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「模型摄影微缩」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n本任务明确允许按下面的风格要求重构构图或展示容器；在此之外不要任意改变内容。\n\n视觉语言\n以模型材料和真实微缩接触阴影重新搭建原图，保持主体关系，使用适度浅景深但脸部与宠物清楚。\n\n按目标改造方式统一处理人物、宠物与新的展示形式，不保留与新形式冲突的照片背景。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不只是照片上下模糊，不增加模型制作工具。\n\n输出一张符合指定展示方式的完整作品；只有该条目明确要求的边框、盒子或版式可以出现，不加额外标题、水印或多版本比较。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Miniature-model reinterpretation. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nThis treatment explicitly permits the composition or presentation-container changes described below; do not make unrelated content changes.\n\nVISUAL LANGUAGE\nRebuild the scene from model materials with convincing miniature contact shadows and moderate shallow depth while keeping faces and pet clear.\n\nCoherently treat people, pets and the requested presentation; do not retain a photographic background that conflicts with the specified transformation.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not merely blur the photo edges or add model-making tools.\n\nOutput one coherent work in the specified presentation. Only frames, boxes or layouts explicitly required by this recipe are allowed; add no unrelated titles, watermarks or variant comparisons."
+    },
+    {
+      "style_id": "sticker-sheet",
+      "name_zh": "角色贴纸组",
+      "name_en": "Character sticker sheet",
+      "category": "lab",
+      "family": "layout",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「角色贴纸组」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n本任务明确允许按下面的风格要求重构构图或展示容器；在此之外不要任意改变内容。\n\n视觉语言\n根据原图主要人物与宠物制作少量彼此一致的独立贴纸，保留身份特征，使用清楚留白与切边。\n\n按目标改造方式统一处理人物、宠物与新的展示形式，不保留与新形式冲突的照片背景。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n此处会拆分原构图，不添加未经要求的表情或文字。\n\n输出一张符合指定展示方式的完整作品；只有该条目明确要求的边框、盒子或版式可以出现，不加额外标题、水印或多版本比较。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Character sticker sheet. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nThis treatment explicitly permits the composition or presentation-container changes described below; do not make unrelated content changes.\n\nVISUAL LANGUAGE\nCreate a small coherent set of separate stickers based on the original person and pet, preserving identity cues with clear spacing and cut edges.\n\nCoherently treat people, pets and the requested presentation; do not retain a photographic background that conflicts with the specified transformation.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nThe composition is split; do not add unrequested expressions or text.\n\nOutput one coherent work in the specified presentation. Only frames, boxes or layouts explicitly required by this recipe are allowed; add no unrelated titles, watermarks or variant comparisons."
+    },
+    {
+      "style_id": "trading-card",
+      "name_zh": "收藏卡艺术版",
+      "name_en": "Art collectible card",
+      "category": "lab",
+      "family": "layout",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「收藏卡艺术版」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n本任务明确允许按下面的风格要求重构构图或展示容器；在此之外不要任意改变内容。\n\n视觉语言\n将原图改绘为一张无品牌收藏卡的主视觉，保留主体关系与关键环境，卡框简洁，留白不含假数据。\n\n按目标改造方式统一处理人物、宠物与新的展示形式，不保留与新形式冲突的照片背景。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不模仿既有游戏模板，不添加战力数值。\n\n输出一张符合指定展示方式的完整作品；只有该条目明确要求的边框、盒子或版式可以出现，不加额外标题、水印或多版本比较。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Art collectible card. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nThis treatment explicitly permits the composition or presentation-container changes described below; do not make unrelated content changes.\n\nVISUAL LANGUAGE\nRestyle the source as the main artwork of an unbranded collectible card, retaining subject relationships and setting cues within a simple border without invented statistics.\n\nCoherently treat people, pets and the requested presentation; do not retain a photographic background that conflicts with the specified transformation.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not copy established game layouts or invent power statistics.\n\nOutput one coherent work in the specified presentation. Only frames, boxes or layouts explicitly required by this recipe are allowed; add no unrelated titles, watermarks or variant comparisons."
+    }
+  ],
+  "notes": "Unvalidated prompt suggestions. Produce real outputs and record generation IDs; never label synthetic images as AI-generated."
+}

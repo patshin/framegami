@@ -1,0 +1,11 @@
+node_modules/
+dist/
+IRO-preview.html
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+playwright-report/
+test-results/
+__pycache__/

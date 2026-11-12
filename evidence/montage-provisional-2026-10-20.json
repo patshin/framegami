@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-20",
+  "benchmarkUsed": false,
+  "montagePanels": 10,
+  "independentGeneratedOutputsAdded": 0,
+  "note": "Generated montage panels are temporary reference illustrations only. They are not independent image edits or actual preset-prompt tests.",
+  "items": [
+    {
+      "styleId": "matte-gouache",
+      "generationId": "dcc612fd-420e-4960-a539-cc2a4b32d0f5",
+      "sourceMontage": "evidence/montages/a_clean_grid_portfolio_collage_ui_image_of_10_styl.png",
+      "sourcePanelLabel": "Gouache Illustration",
+      "cropBox": [
+        618,
+        9,
+        912,
+        411
+      ],
+      "outputPath": "examples/matte-gouache.webp",
+      "kind": "montage-derived-preview"
+    },
+    {
+      "styleId": "pixel-dither",
+      "generationId": "dcc612fd-420e-4960-a539-cc2a4b32d0f5",
+      "sourceMontage": "evidence/montages/a_clean_grid_portfolio_collage_ui_image_of_10_styl.png",
+      "sourcePanelLabel": "Pixel Art",
+      "cropBox": [
+        4,
+        521,
+        297,
+        923
+      ],
+      "outputPath": "examples/pixel-dither.webp",
+      "kind": "montage-derived-preview"
+    },
+    {
+      "styleId": "shonen-ink",
+      "generationId": "828a51a7-78ff-485b-856c-fb6a62a4fe67",
+      "sourceMontage": "evidence/montages/a_clean_grid_album_style_composite_image_a_tiled.png",
+      "sourcePanelLabel": "Manga Line Art",
+      "cropBox": [
+        926,
+        9,
+        1219,
+        411
+      ],
+      "outputPath": "examples/shonen-ink.webp",
+      "kind": "montage-derived-preview"
+    },
+    {
+      "styleId": "silver-age-comic",
+      "generationId": "828a51a7-78ff-485b-856c-fb6a62a4fe67",
+      "sourceMontage": "evidence/montages/a_clean_grid_album_style_composite_image_a_tiled.png",
+      "sourcePanelLabel": "Comic Book",
+      "cropBox": [
+        1233,
+        9,
+        1526,
+        411
+      ],
+      "outputPath": "examples/silver-age-comic.webp",
+      "kind": "montage-derived-preview"
+    },
+    {
+      "styleId": "ink-crosshatch",
+      "generationId": "828a51a7-78ff-485b-856c-fb6a62a4fe67",
+      "sourceMontage": "evidence/montages/a_clean_grid_album_style_composite_image_a_tiled.png",
+      "sourcePanelLabel": "Ink Sketch",
+      "cropBox": [
+        311,
+        521,
+        604,
+        923
+      ],
+      "outputPath": "examples/ink-crosshatch.webp",
+      "kind": "montage-derived-preview"
+    },
+    {
+      "styleId": "expressionist",
+      "generationId": "4955d3c8-7d9f-4137-b78a-3654f499ab23",
+      "sourceMontage": "evidence/montages/a_clean_collage_grid_ui_of_stylized_portrait_examp.png",
+      "sourcePanelLabel": "Van Gogh Style",
+      "cropBox": [
+        311,
+        9,
+        604,
+        411
+      ],
+      "outputPath": "examples/expressionist.webp",
+      "kind": "montage-derived-preview"
+    },
+    {
+      "styleId": "soft-focus-optical",
+      "generationId": "32f0142c-7967-45c8-8424-ea8e7075022f",
+      "sourceMontage": "evidence/montages/a_wide_poster_like_collage_grid_of_ten_stylized_po.png",
+      "sourcePanelLabel": "Dreamy Glow",
+      "cropBox": [
+        618,
+        521,
+        912,
+        923
+      ],
+      "outputPath": "examples/soft-focus-optical.webp",
+      "kind": "montage-derived-preview"
+    },
+    {
+      "styleId": "film-color-negative",
+      "generationId": "32f0142c-7967-45c8-8424-ea8e7075022f",
+      "sourceMontage": "evidence/montages/a_wide_poster_like_collage_grid_of_ten_stylized_po.png",
+      "sourcePanelLabel": "Film Grain",
+      "cropBox": [
+        4,
+        521,
+        297,
+        923
+      ],
+      "outputPath": "examples/film-color-negative.webp",
+      "kind": "montage-derived-preview"
+    },
+    {
+      "styleId": "webtoon-clean",
+      "generationId": "dcc612fd-420e-4960-a539-cc2a4b32d0f5",
+      "sourceMontage": "evidence/montages/a_clean_grid_portfolio_collage_ui_image_of_10_styl.png",
+      "sourcePanelLabel": "Anime Film",
+      "cropBox": [
+        926,
+        9,
+        1219,
+        411
+      ],
+      "outputPath": "examples/webtoon-clean.webp",
+      "kind": "montage-derived-preview"
+    },
+    {
+      "styleId": "watercolor-dry",
+      "generationId": "dcc612fd-420e-4960-a539-cc2a4b32d0f5",
+      "sourceMontage": "evidence/montages/a_clean_grid_portfolio_collage_ui_image_of_10_styl.png",
+      "sourcePanelLabel": "Watercolor Illustration",
+      "cropBox": [
+        311,
+        9,
+        604,
+        411
+      ],
+      "outputPath": "examples/watercolor-dry.webp",
+      "kind": "montage-derived-preview"
+    }
+  ]
+}

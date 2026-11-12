@@ -1,0 +1,7 @@
+IRO-Style-Atlas-Working-Checkpoint-105of213
+Assembled: 2026-11-03
+Authoritative source: this iro-style-atlas/ directory, data/catalog.json, and CHECKPOINT-MANIFEST.json.
+105 unique styles with active images: 67 individually generated AI showcase outputs (exact prompt unverified), 10 montage crops, 28 active procedural B00 previews (30 retained procedural records including 2 archived).
+108 styles still missing images; 0 exact-prompt-validated.
+Older 85of213 and 95of213 packages are history only; do not overwrite this baseline from them.
+GitHub repository and Pages deployment were not performed.

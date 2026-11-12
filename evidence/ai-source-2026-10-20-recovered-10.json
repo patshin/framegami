@@ -1,0 +1,90 @@
+{
+  "batch_id": "ai-source-2026-10-20-recovered-10",
+  "date": "2026-10-20",
+  "originalSha256": "ff819217be09facc06721466d3ea378b33fbeebfe82903dd654d8434e7179ae3",
+  "newStyleCoverage": 8,
+  "stylePreviewUpgrades": 2,
+  "records": [
+    {
+      "style_id": "egg-tempera",
+      "generation_id": "19809a7b-d777-4a3f-a6a7-5b48f541ccb9",
+      "source_sha256": "6562e802c4024d34ebcd4c217553edc599b098db79a0f499d2247db1c0e82076",
+      "path": "examples/egg-tempera.webp",
+      "image_sha256": "1c5e44ddd832513605754ac5a2dd937664579e4424567b9cec542b04db4274a6",
+      "prior_procedural_replaced": false
+    },
+    {
+      "style_id": "sanguine-chalk",
+      "generation_id": "9ecf81ea-c5de-4e99-8773-42e38383298d",
+      "source_sha256": "df7fe82cbe7b5b103d60760ae52cdb49eed98336c3d897574dd43072ebb03d3e",
+      "path": "examples/sanguine-chalk.webp",
+      "image_sha256": "26709fc38d031ff411d40c79de3cc4ed70dbb58e2938f183fdf067b62cbe3217",
+      "prior_procedural_replaced": false
+    },
+    {
+      "style_id": "ink-stipple",
+      "generation_id": "b918f077-21dc-46b4-9f14-5cded0b54d14",
+      "source_sha256": "521b8d75230b6c14ac5a92bb4ac36b08bd5e0fa703ea7a14bf3f097a316b6b83",
+      "path": "examples/ink-stipple.webp",
+      "image_sha256": "3df5b37069c30c7e1b301cebe68f6957268aed7a853096a7e3e70c993c5e02c2",
+      "prior_procedural_replaced": false
+    },
+    {
+      "style_id": "etching-line",
+      "generation_id": "72ab3ca1-2c2e-496a-9750-7911d629cff7",
+      "source_sha256": "89fe5ae86afaf387017b5e0225b5262eacdf7f16111305261317c961e2761cf1",
+      "path": "examples/etching-line.webp",
+      "image_sha256": "3d7767d351c09ca57a47aad76bfb9585e91f31c5c48377a17cabae4b75267b89",
+      "prior_procedural_replaced": false
+    },
+    {
+      "style_id": "rinpa-gold",
+      "generation_id": "836ddbd1-3554-4249-953a-c19b6368d08d",
+      "source_sha256": "649587044147ad577f9f81e4065575dec09664a2d826171ce724b3f1ec680203",
+      "path": "examples/rinpa-gold.webp",
+      "image_sha256": "815bd0cf87d4ff58f09d9ecff690659296eff7baf12fde1e7664b1d6db09ce5e",
+      "prior_procedural_replaced": false
+    },
+    {
+      "style_id": "city-pop-airbrush",
+      "generation_id": "7f9026d1-c072-42b0-8122-1e97abd70ac4",
+      "source_sha256": "4bb56ff8f118ac88baca9a719ace7dc53bd3fe4f6073eafe8753283208820a73",
+      "path": "examples/city-pop-airbrush.webp",
+      "image_sha256": "c0f6e5e80eee6dc874419b1f0bdffef074d95a997969d4f99b969f0c7e8fccf0",
+      "prior_procedural_replaced": false
+    },
+    {
+      "style_id": "pixel-1bit",
+      "generation_id": "79ca5cbf-7005-47ce-b1bb-b66fef363e91",
+      "source_sha256": "68781429419873457bd0accd4deeaf1906ff79c3cdf59d507b4c29e40cff4dd8",
+      "path": "examples/pixel-1bit.webp",
+      "image_sha256": "b00df8582dd65ed27e77b73f4a2d3c5bccd271e410969ac6b6dd94063eb5ebca",
+      "prior_procedural_replaced": true
+    },
+    {
+      "style_id": "patchwork",
+      "generation_id": "cd9e37e1-7ea1-44f3-833b-27563e856676",
+      "source_sha256": "7c46b98ba570cfeb179597181f63276ad4b9bd7636b421319a082fcb66ec6dfb",
+      "path": "examples/patchwork.webp",
+      "image_sha256": "478bfc2e777cace01c5ee27e6080eb22a99266f526d2f1ff3ca264830ab4f299",
+      "prior_procedural_replaced": false
+    },
+    {
+      "style_id": "hammered-metal",
+      "generation_id": "c5e4dbd2-cc6e-44e6-9932-e89af8dbb99d",
+      "source_sha256": "7c8ed95074dbfeaf591d39fb596cbbf288b4f1866bafe9bdfec120a1f4dc1df5",
+      "path": "examples/hammered-metal.webp",
+      "image_sha256": "1cc4b5f7ac4b1c5b6b8b366e2319bb089752f3aee2dd7688a582855dc1ae693d",
+      "prior_procedural_replaced": false
+    },
+    {
+      "style_id": "thermal-palette",
+      "generation_id": "e0c5a570-e23e-4052-9251-dec0e439d937",
+      "source_sha256": "5226ed53e8cacce16b192d6e72c8131b96a28e99695782f7b4f70776f147078e",
+      "path": "examples/thermal-palette.webp",
+      "image_sha256": "3506671b7f57f8de507822afe86f9d43e90b77a11ca189161341b59ea7a3ba8f",
+      "prior_procedural_replaced": true
+    }
+  ],
+  "disclaimer": "Independently generated example images; NOT exact prompt or proven B00 image edit tests."
+}

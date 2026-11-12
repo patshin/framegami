@@ -1,0 +1,12 @@
+import fs from 'node:fs';import path from 'node:path';
+import {root,readJSON,hash} from './validate.mjs';
+const [input,confirm]=process.argv.slice(2);
+if(!input||confirm!=='--confirm-standalone-original')throw new Error('Usage: node scripts/freeze-benchmark.mjs /absolute/original.png --confirm-standalone-original');
+const old=readJSON('data/benchmark.json');
+if(old.path||old.sha256)throw new Error('Benchmark is already frozen. Do not replace it without a new version and invalidating all examples.');
+const file=path.resolve(input),ext=path.extname(file).toLowerCase();
+if(!['.png','.jpg','.jpeg','.webp'].includes(ext)||!fs.statSync(file).isFile()||fs.statSync(file).size>20*1024*1024)throw new Error('Expected a standalone PNG/JPG/WebP under 20 MB.');
+const target='benchmark/B00-original'+ext;fs.mkdirSync(path.join(root,'public/benchmark'),{recursive:true});fs.copyFileSync(file,path.join(root,'public',target));
+const sha256=hash(file);
+fs.writeFileSync(path.join(root,'data/benchmark.json'),JSON.stringify({...old,status:'frozen',path:target,sha256,frozenAt:new Date().toISOString(),note:{zh:'操作者已确认这是独立原图，不是UI、拼图或已有风格化结果。',en:'The operator confirmed this is a standalone original, not UI, a montage or a prior stylization.'}},null,2)+'\n');
+console.log('Frozen B00:',sha256,'No style examples generated.');

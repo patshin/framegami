@@ -1,0 +1,19 @@
+{
+  "version": "0.4.0-image-work-in-progress",
+  "decision": "RESEARCH_PREVIEW_ONLY",
+  "stats": {
+    "styles": 213,
+    "categories": 19,
+    "families": 60,
+    "sources": 25,
+    "examples": 0,
+    "exampledStyles": 0
+  },
+  "blockers": [
+    "CHATGPT_EXAMPLE_MISSING_FOR_ONE_OR_MORE_STYLES"
+  ],
+  "remoteDeployment": "NOT_PERFORMED",
+  "visualQuality": "NOT_ESTABLISHED_BY_CODE_TESTS",
+  "allowedAsResearchPreview": true,
+  "completeProduct": false
+}

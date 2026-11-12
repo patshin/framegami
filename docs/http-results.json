@@ -1,0 +1,28 @@
+{
+  "kind": "node-real-http-not-browser",
+  "routesPerPrefix": 439,
+  "requests": 895,
+  "prefixes": [
+    {
+      "prefix": "/",
+      "pages": 439,
+      "assets": 5,
+      "status": "PASS"
+    },
+    {
+      "prefix": "/iro-style-atlas",
+      "pages": 439,
+      "assets": 5,
+      "status": "PASS"
+    }
+  ],
+  "checks": [
+    "deep404",
+    "query-preserving-redirect",
+    "post405",
+    "head",
+    "encoded-traversal",
+    "null-byte",
+    "prefix-boundary"
+  ]
+}

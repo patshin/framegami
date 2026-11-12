@@ -1,0 +1,1632 @@
+
+> iro-style-atlas@0.1.0 check
+> npm run validate && npm test && npm run build
+
+
+> iro-style-atlas@0.1.0 validate
+> node scripts/validate.mjs
+
+{
+  "styles": 213,
+  "categories": 19,
+  "families": 60,
+  "sources": 25,
+  "examples": 0,
+  "exampledStyles": 0
+}
+Content schema passed. This does not certify image quality.
+
+> iro-style-atlas@0.1.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: schema and content constraints pass
+ok 1 - schema and content constraints pass
+  ---
+  duration_ms: 10.207976
+  type: 'test'
+  ...
+# Subtest: no examples are fabricated
+ok 2 - no examples are fabricated
+  ---
+  duration_ms: 0.222073
+  type: 'test'
+  ...
+# Subtest: all 19 categories contain content
+ok 3 - all 19 categories contain content
+  ---
+  duration_ms: 0.118498
+  type: 'test'
+  ...
+# Subtest: model targets are not falsely labeled tested
+ok 4 - model targets are not falsely labeled tested
+  ---
+  duration_ms: 0.301742
+  type: 'test'
+  ...
+# Subtest: Chinese Pixar alias resolves
+ok 5 - Chinese Pixar alias resolves
+  ---
+  duration_ms: 7.249961
+  type: 'test'
+  ...
+# Subtest: English exact alias resolves
+ok 6 - English exact alias resolves
+  ---
+  duration_ms: 0.802163
+  type: 'test'
+  ...
+# Subtest: shin hanga normalization resolves
+ok 7 - shin hanga normalization resolves
+  ---
+  duration_ms: 0.695342
+  type: 'test'
+  ...
+# Subtest: UK watercolor spelling is normalized
+ok 8 - UK watercolor spelling is normalized
+  ---
+  duration_ms: 0.623675
+  type: 'test'
+  ...
+# Subtest: one-character typo resolves
+ok 9 - one-character typo resolves
+  ---
+  duration_ms: 0.709604
+  type: 'test'
+  ...
+# Subtest: Japanese and technique terms can combine
+ok 10 - Japanese and technique terms can combine
+  ---
+  duration_ms: 0.818948
+  type: 'test'
+  ...
+# Subtest: unknown query gives zero results
+ok 11 - unknown query gives zero results
+  ---
+  duration_ms: 0.474221
+  type: 'test'
+  ...
+# Subtest: query uses AND rather than broad OR
+ok 12 - query uses AND rather than broad OR
+  ---
+  duration_ms: 0.989874
+  type: 'test'
+  ...
+# Subtest: nested family filter is respected
+ok 13 - nested family filter is respected
+  ---
+  duration_ms: 0.205848
+  type: 'test'
+  ...
+# Subtest: example-only filter stays empty
+ok 14 - example-only filter stays empty
+  ---
+  duration_ms: 0.139058
+  type: 'test'
+  ...
+# Subtest: favorite-only filter is precise
+ok 15 - favorite-only filter is precise
+  ---
+  duration_ms: 0.215093
+  type: 'test'
+  ...
+# Subtest: empty favorite collection stays empty
+ok 16 - empty favorite collection stays empty
+  ---
+  duration_ms: 0.105418
+  type: 'test'
+  ...
+# Subtest: tags act independently of category
+ok 17 - tags act independently of category
+  ---
+  duration_ms: 0.174702
+  type: 'test'
+  ...
+# Subtest: name sort is deterministic
+ok 18 - name sort is deterministic
+  ---
+  duration_ms: 0.929814
+  type: 'test'
+  ...
+# Subtest: HTML escaping covers imported content
+ok 19 - HTML escaping covers imported content
+  ---
+  duration_ms: 0.215453
+  type: 'test'
+  ...
+# Subtest: unicode normalization handles full-width
+ok 20 - unicode normalization handles full-width
+  ---
+  duration_ms: 0.112409
+  type: 'test'
+  ...
+# Subtest: transpose typo recognized
+ok 21 - transpose typo recognized
+  ---
+  duration_ms: 0.063515
+  type: 'test'
+  ...
+# Subtest: two unrelated edits rejected
+ok 22 - two unrelated edits rejected
+  ---
+  duration_ms: 0.049484
+  type: 'test'
+  ...
+# Subtest: query aliases do not erase normal terms
+ok 23 - query aliases do not erase normal terms
+  ---
+  duration_ms: 0.151186
+  type: 'test'
+  ...
+# Subtest: HTTP and script source links rejected
+ok 24 - HTTP and script source links rejected
+  ---
+  duration_ms: 0.088512
+  type: 'test'
+  ...
+# Subtest: credential-bearing URLs rejected
+ok 25 - credential-bearing URLs rejected
+  ---
+  duration_ms: 0.067882
+  type: 'test'
+  ...
+# Subtest: safe HTTPS reference allowed
+ok 26 - safe HTTPS reference allowed
+  ---
+  duration_ms: 0.057006
+  type: 'test'
+  ...
+# Subtest: compare is limited to four unique known IDs
+ok 27 - compare is limited to four unique known IDs
+  ---
+  duration_ms: 0.136175
+  type: 'test'
+  ...
+# Subtest: unknown compare ID discarded
+ok 28 - unknown compare ID discarded
+  ---
+  duration_ms: 0.096385
+  type: 'test'
+  ...
+# Subtest: query cannot invent sort enums
+ok 29 - query cannot invent sort enums
+  ---
+  duration_ms: 0.252539
+  type: 'test'
+  ...
+# Subtest: query length is bounded
+ok 30 - query length is bounded
+  ---
+  duration_ms: 0.175332
+  type: 'test'
+  ...
+# Subtest: backup rejects wrong schema
+ok 31 - backup rejects wrong schema
+  ---
+  duration_ms: 0.497696
+  type: 'test'
+  ...
+# Subtest: backup rejects array root
+ok 32 - backup rejects array root
+  ---
+  duration_ms: 0.124146
+  type: 'test'
+  ...
+# Subtest: backup drops unknown favorites
+ok 33 - backup drops unknown favorites
+  ---
+  duration_ms: 0.100691
+  type: 'test'
+  ...
+# Subtest: backup preserves hostile strings as plain text
+ok 34 - backup preserves hostile strings as plain text
+  ---
+  duration_ms: 0.320721
+  type: 'test'
+  ...
+# Subtest: backup rejects overlong prompt
+ok 35 - backup rejects overlong prompt
+  ---
+  duration_ms: 0.101682
+  type: 'test'
+  ...
+# Subtest: backup rejects duplicate custom IDs
+ok 36 - backup rejects duplicate custom IDs
+  ---
+  duration_ms: 0.117456
+  type: 'test'
+  ...
+# Subtest: backup whitelists fields and model names
+ok 37 - backup whitelists fields and model names
+  ---
+  duration_ms: 0.085818
+  type: 'test'
+  ...
+# Subtest: merge keeps conflicting edits under a new ID
+ok 38 - merge keeps conflicting edits under a new ID
+  ---
+  duration_ms: 0.34046
+  type: 'test'
+  ...
+# Subtest: merge deduplicates identical recipes
+ok 39 - merge deduplicates identical recipes
+  ---
+  duration_ms: 0.076374
+  type: 'test'
+  ...
+# Subtest: compiler rejects unknown model
+ok 40 - compiler rejects unknown model
+  ---
+  duration_ms: 0.072609
+  type: 'test'
+  ...
+# Subtest: compiler rejects unknown locale
+ok 41 - compiler rejects unknown locale
+  ---
+  duration_ms: 0.058107
+  type: 'test'
+  ...
+# Subtest: compiled model variants are not identical
+ok 42 - compiled model variants are not identical
+  ---
+  duration_ms: 0.085318
+  type: 'test'
+  ...
+# Subtest: blank background becomes an explicit edit
+ok 43 - blank background becomes an explicit edit
+  ---
+  duration_ms: 0.13331
+  type: 'test'
+  ...
+# Subtest: source palette respects limited-color media
+ok 44 - source palette respects limited-color media
+  ---
+  duration_ms: 0.070616
+  type: 'test'
+  ...
+# Subtest: extra prompt text survives exactly
+ok 45 - extra prompt text survives exactly
+  ---
+  duration_ms: 0.058738
+  type: 'test'
+  ...
+# Subtest: lab layouts do not prohibit their own frames
+ok 46 - lab layouts do not prohibit their own frames
+  ---
+  duration_ms: 0.145739
+  type: 'test'
+  ...
+# Subtest: isometric change does not demand identical camera
+ok 47 - isometric change does not demand identical camera
+  ---
+  duration_ms: 0.209173
+  type: 'test'
+  ...
+# Subtest: fake accepted sample fails validation
+ok 48 - fake accepted sample fails validation
+  ---
+  duration_ms: 8.478662
+  type: 'test'
+  ...
+# Subtest: unearned exampled status fails
+ok 49 - unearned exampled status fails
+  ---
+  duration_ms: 4.903262
+  type: 'test'
+  ...
+# Subtest: unearned model validation fails
+ok 50 - unearned model validation fails
+  ---
+  duration_ms: 4.563633
+  type: 'test'
+  ...
+# Subtest: duplicate IDs fail validation
+ok 51 - duplicate IDs fail validation
+  ---
+  duration_ms: 3.077504
+  type: 'test'
+  ...
+# Subtest: there is no API key form or remote fetch in app
+ok 52 - there is no API key form or remote fetch in app
+  ---
+  duration_ms: 0.614782
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pixar-inspired-3d
+ok 53 - all six prompts are complete for pixar-inspired-3d
+  ---
+  duration_ms: 0.144416
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pixel-16bit
+ok 54 - all six prompts are complete for pixel-16bit
+  ---
+  duration_ms: 0.163726
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for shin-hanga
+ok 55 - all six prompts are complete for shin-hanga
+  ---
+  duration_ms: 0.057787
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for watercolor-wet
+ok 56 - all six prompts are complete for watercolor-wet
+  ---
+  duration_ms: 0.044867
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for oil-impasto
+ok 57 - all six prompts are complete for oil-impasto
+  ---
+  duration_ms: 0.040281
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for rural-handdrawn
+ok 58 - all six prompts are complete for rural-handdrawn
+  ---
+  duration_ms: 0.043756
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for risograph
+ok 59 - all six prompts are complete for risograph
+  ---
+  duration_ms: 0.043105
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for satin-stitch
+ok 60 - all six prompts are complete for satin-stitch
+  ---
+  duration_ms: 0.041692
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for stained-glass
+ok 61 - all six prompts are complete for stained-glass
+  ---
+  duration_ms: 0.039599
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for ukiyo-e-nishiki
+ok 62 - all six prompts are complete for ukiyo-e-nishiki
+  ---
+  duration_ms: 0.037906
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for line-density
+ok 63 - all six prompts are complete for line-density
+  ---
+  duration_ms: 0.037867
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for claymation
+ok 64 - all six prompts are complete for claymation
+  ---
+  duration_ms: 0.038077
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for charcoal-mass
+ok 65 - all six prompts are complete for charcoal-mass
+  ---
+  duration_ms: 0.063635
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for gongbi-color
+ok 66 - all six prompts are complete for gongbi-color
+  ---
+  duration_ms: 0.046069
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for layered-papercut
+ok 67 - all six prompts are complete for layered-papercut
+  ---
+  duration_ms: 0.038908
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for crochet-amigurumi
+ok 68 - all six prompts are complete for crochet-amigurumi
+  ---
+  duration_ms: 0.038017
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for cyanotype
+ok 69 - all six prompts are complete for cyanotype
+  ---
+  duration_ms: 0.035003
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for ligne-claire
+ok 70 - all six prompts are complete for ligne-claire
+  ---
+  duration_ms: 0.035954
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for impressionist
+ok 71 - all six prompts are complete for impressionist
+  ---
+  duration_ms: 0.03362
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for origami-facets
+ok 72 - all six prompts are complete for origami-facets
+  ---
+  duration_ms: 0.035203
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for ova-1980s
+ok 73 - all six prompts are complete for ova-1980s
+  ---
+  duration_ms: 0.035143
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for persian-miniature
+ok 74 - all six prompts are complete for persian-miniature
+  ---
+  duration_ms: 0.07986
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for paper-quilling
+ok 75 - all six prompts are complete for paper-quilling
+  ---
+  duration_ms: 0.17991
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for art-nouveau
+ok 76 - all six prompts are complete for art-nouveau
+  ---
+  duration_ms: 0.077647
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for oil-glaze
+ok 77 - all six prompts are complete for oil-glaze
+  ---
+  duration_ms: 0.058959
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for oil-palette-knife
+ok 78 - all six prompts are complete for oil-palette-knife
+  ---
+  duration_ms: 0.042374
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for oil-alla-prima
+ok 79 - all six prompts are complete for oil-alla-prima
+  ---
+  duration_ms: 0.042523
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for oil-scumble
+ok 80 - all six prompts are complete for oil-scumble
+  ---
+  duration_ms: 0.047411
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for watercolor-dry
+ok 81 - all six prompts are complete for watercolor-dry
+  ---
+  duration_ms: 0.071667
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for watercolor-granulation
+ok 82 - all six prompts are complete for watercolor-granulation
+  ---
+  duration_ms: 0.03997
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for watercolor-line-wash
+ok 83 - all six prompts are complete for watercolor-line-wash
+  ---
+  duration_ms: 0.035734
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for watercolor-negative
+ok 84 - all six prompts are complete for watercolor-negative
+  ---
+  duration_ms: 0.036215
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for watercolor-pencil
+ok 85 - all six prompts are complete for watercolor-pencil
+  ---
+  duration_ms: 0.034632
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for matte-gouache
+ok 86 - all six prompts are complete for matte-gouache
+  ---
+  duration_ms: 0.041372
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for acrylic-hard-edge
+ok 87 - all six prompts are complete for acrylic-hard-edge
+  ---
+  duration_ms: 0.03329
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for casein-paint
+ok 88 - all six prompts are complete for casein-paint
+  ---
+  duration_ms: 0.036284
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for egg-tempera
+ok 89 - all six prompts are complete for egg-tempera
+  ---
+  duration_ms: 0.077576
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for fresco-plaster
+ok 90 - all six prompts are complete for fresco-plaster
+  ---
+  duration_ms: 0.046149
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for encaustic-wax
+ok 91 - all six prompts are complete for encaustic-wax
+  ---
+  duration_ms: 0.036245
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for graphite-hatching
+ok 92 - all six prompts are complete for graphite-hatching
+  ---
+  duration_ms: 0.054451
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for sanguine-chalk
+ok 93 - all six prompts are complete for sanguine-chalk
+  ---
+  duration_ms: 0.036074
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for soft-pastel
+ok 94 - all six prompts are complete for soft-pastel
+  ---
+  duration_ms: 0.033039
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for oil-pastel
+ok 95 - all six prompts are complete for oil-pastel
+  ---
+  duration_ms: 0.038257
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for colored-pencil
+ok 96 - all six prompts are complete for colored-pencil
+  ---
+  duration_ms: 0.052008
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for ink-crosshatch
+ok 97 - all six prompts are complete for ink-crosshatch
+  ---
+  duration_ms: 0.035403
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for ink-stipple
+ok 98 - all six prompts are complete for ink-stipple
+  ---
+  duration_ms: 0.036325
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for brush-ink
+ok 99 - all six prompts are complete for brush-ink
+  ---
+  duration_ms: 0.032619
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for ballpoint-blue
+ok 100 - all six prompts are complete for ballpoint-blue
+  ---
+  duration_ms: 0.031067
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for scratchboard
+ok 101 - all six prompts are complete for scratchboard
+  ---
+  duration_ms: 0.030095
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for continuous-line
+ok 102 - all six prompts are complete for continuous-line
+  ---
+  duration_ms: 0.090275
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for contour-drawing
+ok 103 - all six prompts are complete for contour-drawing
+  ---
+  duration_ms: 0.042373
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for linocut
+ok 104 - all six prompts are complete for linocut
+  ---
+  duration_ms: 0.033951
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for wood-engraving
+ok 105 - all six prompts are complete for wood-engraving
+  ---
+  duration_ms: 0.030716
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for woodcut-bold
+ok 106 - all six prompts are complete for woodcut-bold
+  ---
+  duration_ms: 0.030486
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for engraving-burin
+ok 107 - all six prompts are complete for engraving-burin
+  ---
+  duration_ms: 0.13347
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for etching-line
+ok 108 - all six prompts are complete for etching-line
+  ---
+  duration_ms: 0.038858
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for drypoint
+ok 109 - all six prompts are complete for drypoint
+  ---
+  duration_ms: 0.03356
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for aquatint
+ok 110 - all six prompts are complete for aquatint
+  ---
+  duration_ms: 0.030466
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for mezzotint
+ok 111 - all six prompts are complete for mezzotint
+  ---
+  duration_ms: 0.036494
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for lithograph-crayon
+ok 112 - all six prompts are complete for lithograph-crayon
+  ---
+  duration_ms: 0.032549
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for screenprint-flat
+ok 113 - all six prompts are complete for screenprint-flat
+  ---
+  duration_ms: 0.030256
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for stencil-cut
+ok 114 - all six prompts are complete for stencil-cut
+  ---
+  duration_ms: 0.030355
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for cmyk-halftone
+ok 115 - all six prompts are complete for cmyk-halftone
+  ---
+  duration_ms: 0.029404
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for photocopy-zine
+ok 116 - all six prompts are complete for photocopy-zine
+  ---
+  duration_ms: 0.029935
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for sosaku-hanga
+ok 117 - all six prompts are complete for sosaku-hanga
+  ---
+  duration_ms: 0.030146
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for sumizuri-e
+ok 118 - all six prompts are complete for sumizuri-e
+  ---
+  duration_ms: 0.034542
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for nihonga-mineral
+ok 119 - all six prompts are complete for nihonga-mineral
+  ---
+  duration_ms: 0.29372
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for yamato-e
+ok 120 - all six prompts are complete for yamato-e
+  ---
+  duration_ms: 0.041512
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for rinpa-gold
+ok 121 - all six prompts are complete for rinpa-gold
+  ---
+  duration_ms: 0.034242
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for sumi-e-dry
+ok 122 - all six prompts are complete for sumi-e-dry
+  ---
+  duration_ms: 0.101432
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for taisho-romance
+ok 123 - all six prompts are complete for taisho-romance
+  ---
+  duration_ms: 0.069404
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for showa-ad-illustration
+ok 124 - all six prompts are complete for showa-ad-illustration
+  ---
+  duration_ms: 0.038788
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for city-pop-airbrush
+ok 125 - all six prompts are complete for city-pop-airbrush
+  ---
+  duration_ms: 0.037627
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for kawaii-stationery
+ok 126 - all six prompts are complete for kawaii-stationery
+  ---
+  duration_ms: 0.032068
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for katazome
+ok 127 - all six prompts are complete for katazome
+  ---
+  duration_ms: 0.032479
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for sashiko
+ok 128 - all six prompts are complete for sashiko
+  ---
+  duration_ms: 0.029234
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for washi-collage
+ok 129 - all six prompts are complete for washi-collage
+  ---
+  duration_ms: 0.029965
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for baimiao
+ok 130 - all six prompts are complete for baimiao
+  ---
+  duration_ms: 0.031517
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for xieyi-small
+ok 131 - all six prompts are complete for xieyi-small
+  ---
+  duration_ms: 0.031377
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for xieyi-bold
+ok 132 - all six prompts are complete for xieyi-bold
+  ---
+  duration_ms: 0.036494
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for green-blue-mineral
+ok 133 - all six prompts are complete for green-blue-mineral
+  ---
+  duration_ms: 0.030386
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for qianjiang
+ok 134 - all six prompts are complete for qianjiang
+  ---
+  duration_ms: 0.031127
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for nianhua
+ok 135 - all six prompts are complete for nianhua
+  ---
+  duration_ms: 0.030997
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for chinese-papercut
+ok 136 - all six prompts are complete for chinese-papercut
+  ---
+  duration_ms: 0.035203
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for shadow-puppet
+ok 137 - all six prompts are complete for shadow-puppet
+  ---
+  duration_ms: 0.113841
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for blue-white-porcelain
+ok 138 - all six prompts are complete for blue-white-porcelain
+  ---
+  duration_ms: 0.043796
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for cloisonne
+ok 139 - all six prompts are complete for cloisonne
+  ---
+  duration_ms: 0.057025
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for mughal-miniature
+ok 140 - all six prompts are complete for mughal-miniature
+  ---
+  duration_ms: 0.036876
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for rajput-miniature
+ok 141 - all six prompts are complete for rajput-miniature
+  ---
+  duration_ms: 0.031117
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for korean-minhwa
+ok 142 - all six prompts are complete for korean-minhwa
+  ---
+  duration_ms: 0.032789
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for mexican-papel
+ok 143 - all six prompts are complete for mexican-papel
+  ---
+  duration_ms: 0.032288
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for polish-wycinanki
+ok 144 - all six prompts are complete for polish-wycinanki
+  ---
+  duration_ms: 0.030486
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for rosemaling
+ok 145 - all six prompts are complete for rosemaling
+  ---
+  duration_ms: 0.030065
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pysanky-linework
+ok 146 - all six prompts are complete for pysanky-linework
+  ---
+  duration_ms: 0.029434
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for retro-tv-cel
+ok 147 - all six prompts are complete for retro-tv-cel
+  ---
+  duration_ms: 0.030376
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for cel-1990s-soft
+ok 148 - all six prompts are complete for cel-1990s-soft
+  ---
+  duration_ms: 0.06697
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for urban-anime-light
+ok 149 - all six prompts are complete for urban-anime-light
+  ---
+  duration_ms: 0.652158
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for flat-web-anime
+ok 150 - all six prompts are complete for flat-web-anime
+  ---
+  duration_ms: 0.048513
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for chibi-proportions
+ok 151 - all six prompts are complete for chibi-proportions
+  ---
+  duration_ms: 0.036445
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for shoujo-screentone
+ok 152 - all six prompts are complete for shoujo-screentone
+  ---
+  duration_ms: 0.036024
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for gekiga-hatching
+ok 153 - all six prompts are complete for gekiga-hatching
+  ---
+  duration_ms: 0.032178
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for shonen-ink
+ok 154 - all six prompts are complete for shonen-ink
+  ---
+  duration_ms: 0.030055
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for slice-life-manga
+ok 155 - all six prompts are complete for slice-life-manga
+  ---
+  duration_ms: 0.031838
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for painted-3d
+ok 156 - all six prompts are complete for painted-3d
+  ---
+  duration_ms: 0.061952
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for paper-cut-animation
+ok 157 - all six prompts are complete for paper-cut-animation
+  ---
+  duration_ms: 0.038478
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for rubber-hose
+ok 158 - all six prompts are complete for rubber-hose
+  ---
+  duration_ms: 0.030606
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for upa-flat
+ok 159 - all six prompts are complete for upa-flat
+  ---
+  duration_ms: 0.029344
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for storybook-cel
+ok 160 - all six prompts are complete for storybook-cel
+  ---
+  duration_ms: 0.031187
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for rotoscope-painted
+ok 161 - all six prompts are complete for rotoscope-painted
+  ---
+  duration_ms: 0.031397
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for franco-belgian-brush
+ok 162 - all six prompts are complete for franco-belgian-brush
+  ---
+  duration_ms: 0.030426
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for noir-comic
+ok 163 - all six prompts are complete for noir-comic
+  ---
+  duration_ms: 0.069465
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for silver-age-comic
+ok 164 - all six prompts are complete for silver-age-comic
+  ---
+  duration_ms: 0.035554
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for modern-graphic-novel
+ok 165 - all six prompts are complete for modern-graphic-novel
+  ---
+  duration_ms: 0.030866
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for webtoon-clean
+ok 166 - all six prompts are complete for webtoon-clean
+  ---
+  duration_ms: 0.029624
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for indie-duotone-comic
+ok 167 - all six prompts are complete for indie-duotone-comic
+  ---
+  duration_ms: 0.028663
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for underground-comix
+ok 168 - all six prompts are complete for underground-comix
+  ---
+  duration_ms: 0.098988
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pixel-1bit
+ok 169 - all six prompts are complete for pixel-1bit
+  ---
+  duration_ms: 0.041292
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pixel-handheld-4
+ok 170 - all six prompts are complete for pixel-handheld-4
+  ---
+  duration_ms: 0.030156
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pixel-8bit
+ok 171 - all six prompts are complete for pixel-8bit
+  ---
+  duration_ms: 0.028924
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pixel-isometric
+ok 172 - all six prompts are complete for pixel-isometric
+  ---
+  duration_ms: 0.034753
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pixel-dither
+ok 173 - all six prompts are complete for pixel-dither
+  ---
+  duration_ms: 0.029624
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pixel-cga
+ok 174 - all six prompts are complete for pixel-cga
+  ---
+  duration_ms: 0.028923
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pixel-ascii-mosaic
+ok 175 - all six prompts are complete for pixel-ascii-mosaic
+  ---
+  duration_ms: 0.028182
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for ps1-lowpoly
+ok 176 - all six prompts are complete for ps1-lowpoly
+  ---
+  duration_ms: 0.030015
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pre-rendered-rpg
+ok 177 - all six prompts are complete for pre-rendered-rpg
+  ---
+  duration_ms: 0.076665
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for voxel-sculpt
+ok 178 - all six prompts are complete for voxel-sculpt
+  ---
+  duration_ms: 0.034061
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for silhouette-paper
+ok 179 - all six prompts are complete for silhouette-paper
+  ---
+  duration_ms: 0.030856
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for kirigami
+ok 180 - all six prompts are complete for kirigami
+  ---
+  duration_ms: 0.029354
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for cardboard-model
+ok 181 - all six prompts are complete for cardboard-model
+  ---
+  duration_ms: 0.030255
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for torn-paper
+ok 182 - all six prompts are complete for torn-paper
+  ---
+  duration_ms: 0.028593
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for magazine-collage
+ok 183 - all six prompts are complete for magazine-collage
+  ---
+  duration_ms: 0.031056
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for photomontage-paper
+ok 184 - all six prompts are complete for photomontage-paper
+  ---
+  duration_ms: 0.070986
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pressed-botanical
+ok 185 - all six prompts are complete for pressed-botanical
+  ---
+  duration_ms: 0.03296
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for cross-stitch
+ok 186 - all six prompts are complete for cross-stitch
+  ---
+  duration_ms: 0.0336
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for french-knot
+ok 187 - all six prompts are complete for french-knot
+  ---
+  duration_ms: 0.028993
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for chain-stitch
+ok 188 - all six prompts are complete for chain-stitch
+  ---
+  duration_ms: 0.028533
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for patchwork
+ok 189 - all six prompts are complete for patchwork
+  ---
+  duration_ms: 0.134041
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for quilting
+ok 190 - all six prompts are complete for quilting
+  ---
+  duration_ms: 0.038137
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for tapestry
+ok 191 - all six prompts are complete for tapestry
+  ---
+  duration_ms: 0.030596
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for batik
+ok 192 - all six prompts are complete for batik
+  ---
+  duration_ms: 0.028563
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for needle-felt
+ok 193 - all six prompts are complete for needle-felt
+  ---
+  duration_ms: 0.028923
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for tufted-yarn
+ok 194 - all six prompts are complete for tufted-yarn
+  ---
+  duration_ms: 0.027321
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for terracotta
+ok 195 - all six prompts are complete for terracotta
+  ---
+  duration_ms: 0.030516
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for matte-ceramic
+ok 196 - all six prompts are complete for matte-ceramic
+  ---
+  duration_ms: 0.029905
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for porcelain-glaze
+ok 197 - all six prompts are complete for porcelain-glaze
+  ---
+  duration_ms: 0.122634
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for wood-carving
+ok 198 - all six prompts are complete for wood-carving
+  ---
+  duration_ms: 0.033861
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for stone-relief
+ok 199 - all six prompts are complete for stone-relief
+  ---
+  duration_ms: 0.03358
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for bronze-relief
+ok 200 - all six prompts are complete for bronze-relief
+  ---
+  duration_ms: 0.029815
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for hammered-metal
+ok 201 - all six prompts are complete for hammered-metal
+  ---
+  duration_ms: 0.028202
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for mosaic-tesserae
+ok 202 - all six prompts are complete for mosaic-tesserae
+  ---
+  duration_ms: 0.063665
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for fused-glass
+ok 203 - all six prompts are complete for fused-glass
+  ---
+  duration_ms: 0.034903
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for resin-sculpt
+ok 204 - all six prompts are complete for resin-sculpt
+  ---
+  duration_ms: 0.029214
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for film-color-negative
+ok 205 - all six prompts are complete for film-color-negative
+  ---
+  duration_ms: 0.029614
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for film-slide
+ok 206 - all six prompts are complete for film-slide
+  ---
+  duration_ms: 0.027652
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for silver-gelatin
+ok 207 - all six prompts are complete for silver-gelatin
+  ---
+  duration_ms: 0.030095
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for instant-print
+ok 208 - all six prompts are complete for instant-print
+  ---
+  duration_ms: 0.028924
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for bleach-bypass
+ok 209 - all six prompts are complete for bleach-bypass
+  ---
+  duration_ms: 0.028763
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for wet-plate
+ok 210 - all six prompts are complete for wet-plate
+  ---
+  duration_ms: 0.027531
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for salt-print
+ok 211 - all six prompts are complete for salt-print
+  ---
+  duration_ms: 0.027902
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for platinum-print
+ok 212 - all six prompts are complete for platinum-print
+  ---
+  duration_ms: 0.028283
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pinhole
+ok 213 - all six prompts are complete for pinhole
+  ---
+  duration_ms: 0.029624
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for infrared-mono
+ok 214 - all six prompts are complete for infrared-mono
+  ---
+  duration_ms: 0.028563
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for soft-focus-optical
+ok 215 - all six prompts are complete for soft-focus-optical
+  ---
+  duration_ms: 0.028182
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for split-tone-duotone
+ok 216 - all six prompts are complete for split-tone-duotone
+  ---
+  duration_ms: 0.028442
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for bauhaus-geometry
+ok 217 - all six prompts are complete for bauhaus-geometry
+  ---
+  duration_ms: 0.027872
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for constructivist-planes
+ok 218 - all six prompts are complete for constructivist-planes
+  ---
+  duration_ms: 0.028833
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for swiss-reductive
+ok 219 - all six prompts are complete for swiss-reductive
+  ---
+  duration_ms: 0.028232
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for art-deco
+ok 220 - all six prompts are complete for art-deco
+  ---
+  duration_ms: 0.028032
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for memphis
+ok 221 - all six prompts are complete for memphis
+  ---
+  duration_ms: 0.029364
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for op-art-contours
+ok 222 - all six prompts are complete for op-art-contours
+  ---
+  duration_ms: 0.029214
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pop-art-spot
+ok 223 - all six prompts are complete for pop-art-spot
+  ---
+  duration_ms: 0.028333
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for psychedelic-flow
+ok 224 - all six prompts are complete for psychedelic-flow
+  ---
+  duration_ms: 0.028473
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for vintage-travel-graphic
+ok 225 - all six prompts are complete for vintage-travel-graphic
+  ---
+  duration_ms: 0.027932
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for street-marker
+ok 226 - all six prompts are complete for street-marker
+  ---
+  duration_ms: 0.030195
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for crayon-picturebook
+ok 227 - all six prompts are complete for crayon-picturebook
+  ---
+  duration_ms: 0.029083
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for no-outline-gouache
+ok 228 - all six prompts are complete for no-outline-gouache
+  ---
+  duration_ms: 0.034072
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for collage-picturebook
+ok 229 - all six prompts are complete for collage-picturebook
+  ---
+  duration_ms: 0.028663
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for vintage-book-plate
+ok 230 - all six prompts are complete for vintage-book-plate
+  ---
+  duration_ms: 0.029514
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for editorial-flat
+ok 231 - all six prompts are complete for editorial-flat
+  ---
+  duration_ms: 0.028342
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for painterly-editorial
+ok 232 - all six prompts are complete for painterly-editorial
+  ---
+  duration_ms: 0.028262
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for fashion-marker
+ok 233 - all six prompts are complete for fashion-marker
+  ---
+  duration_ms: 0.028673
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for botanical-precision
+ok 234 - all six prompts are complete for botanical-precision
+  ---
+  duration_ms: 0.030446
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for architectural-wash
+ok 235 - all six prompts are complete for architectural-wash
+  ---
+  duration_ms: 0.029704
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for technical-line
+ok 236 - all six prompts are complete for technical-line
+  ---
+  duration_ms: 0.110045
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for renaissance-modeling
+ok 237 - all six prompts are complete for renaissance-modeling
+  ---
+  duration_ms: 0.040821
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for baroque-chiaroscuro
+ok 238 - all six prompts are complete for baroque-chiaroscuro
+  ---
+  duration_ms: 0.031166
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for rococo-light
+ok 239 - all six prompts are complete for rococo-light
+  ---
+  duration_ms: 0.028993
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pointillist
+ok 240 - all six prompts are complete for pointillist
+  ---
+  duration_ms: 0.031698
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for fauvist
+ok 241 - all six prompts are complete for fauvist
+  ---
+  duration_ms: 0.028803
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for expressionist
+ok 242 - all six prompts are complete for expressionist
+  ---
+  duration_ms: 0.027882
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for cubist-facets
+ok 243 - all six prompts are complete for cubist-facets
+  ---
+  duration_ms: 0.057697
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for futurist-rhythm
+ok 244 - all six prompts are complete for futurist-rhythm
+  ---
+  duration_ms: 0.031247
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for geometric-abstraction
+ok 245 - all six prompts are complete for geometric-abstraction
+  ---
+  duration_ms: 0.061582
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for symbolist-atmosphere
+ok 246 - all six prompts are complete for symbolist-atmosphere
+  ---
+  duration_ms: 0.035863
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for lowpoly-flat
+ok 247 - all six prompts are complete for lowpoly-flat
+  ---
+  duration_ms: 0.06004
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for clay-render
+ok 248 - all six prompts are complete for clay-render
+  ---
+  duration_ms: 0.037997
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for wireframe
+ok 249 - all six prompts are complete for wireframe
+  ---
+  duration_ms: 0.031076
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for neon-contour
+ok 250 - all six prompts are complete for neon-contour
+  ---
+  duration_ms: 0.029794
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for voronoi
+ok 251 - all six prompts are complete for voronoi
+  ---
+  duration_ms: 0.029494
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pixel-sorting
+ok 252 - all six prompts are complete for pixel-sorting
+  ---
+  duration_ms: 0.047521
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for chromatic-glitch
+ok 253 - all six prompts are complete for chromatic-glitch
+  ---
+  duration_ms: 0.031236
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for thermal-palette
+ok 254 - all six prompts are complete for thermal-palette
+  ---
+  duration_ms: 0.028643
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for contour-topography
+ok 255 - all six prompts are complete for contour-topography
+  ---
+  duration_ms: 0.028543
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for boxed-figure
+ok 256 - all six prompts are complete for boxed-figure
+  ---
+  duration_ms: 0.031427
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for snow-globe
+ok 257 - all six prompts are complete for snow-globe
+  ---
+  duration_ms: 0.027701
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for embroidered-patch
+ok 258 - all six prompts are complete for embroidered-patch
+  ---
+  duration_ms: 0.03307
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for acrylic-standee
+ok 259 - all six prompts are complete for acrylic-standee
+  ---
+  duration_ms: 0.029554
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for enamel-pin
+ok 260 - all six prompts are complete for enamel-pin
+  ---
+  duration_ms: 0.029264
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for pop-up-book
+ok 261 - all six prompts are complete for pop-up-book
+  ---
+  duration_ms: 0.027481
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for isometric-diorama
+ok 262 - all six prompts are complete for isometric-diorama
+  ---
+  duration_ms: 0.027702
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for miniature-tiltshift
+ok 263 - all six prompts are complete for miniature-tiltshift
+  ---
+  duration_ms: 0.028893
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for sticker-sheet
+ok 264 - all six prompts are complete for sticker-sheet
+  ---
+  duration_ms: 0.027421
+  type: 'test'
+  ...
+# Subtest: all six prompts are complete for trading-card
+ok 265 - all six prompts are complete for trading-card
+  ---
+  duration_ms: 0.028002
+  type: 'test'
+  ...
+# Subtest: search does not invent a missing style combination
+ok 266 - search does not invent a missing style combination
+  ---
+  duration_ms: 0.530686
+  type: 'test'
+  ...
+1..266
+# tests 266
+# suites 0
+# pass 266
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 206.828493
+
+> iro-style-atlas@0.1.0 build
+> node scripts/build.mjs
+
+Built 439 static routes and 1278 model/language text exports. 0 validated examples. No third-party build dependencies.

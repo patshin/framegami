@@ -1,0 +1,20 @@
+{
+  "id": "B00",
+  "status": "frozen-original-integrated",
+  "path": "benchmark/B00-original.png",
+  "sha256": "ff819217be09facc06721466d3ea378b33fbeebfe82903dd654d8434e7179ae3",
+  "generatedExamples": 0,
+  "brief": {
+    "zh": "横向 4:3 写实参考照片：一位虚构成年棕发女性穿蓝色碎花白裙，在阿尔卑斯湖畔露天咖啡桌前单手托腮；右侧一只蓬松的灰白猫。桌上有一杯咖啡和复古相机；背景为湖泊、帆船、小镇、山峰与花盆。",
+    "en": "Landscape 4:3 photographic benchmark: a fictional adult brown-haired woman in a white-and-blue floral dress rests her chin on her hand at a lakeside café table beside a fluffy gray-and-white cat. Coffee cup and vintage camera in front, alpine lake, town, boats, mountains and flowering planters behind."
+  },
+  "note": {
+    "zh": "B00 原图已接入。图库含独立 AI 风格展示图、拼图临时预览及程序化预览，按来源明确区分。独立图的精确 Prompt 与源图输入尚未逐条验证。",
+    "en": "The B00 benchmark is integrated. Images include separate AI showcases, montage-derived provisional previews, and procedural studies; exact prompt and original-image input evidence remains unverified."
+  },
+  "previewPath": "benchmark/B00-preview.webp",
+  "illustratedStyles": 105,
+  "galleryStyles": 67,
+  "provisionalGalleryStyles": 10,
+  "proceduralStudies": 30
+}

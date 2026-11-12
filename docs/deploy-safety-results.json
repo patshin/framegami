@@ -1,0 +1,31 @@
+{
+  "kind": "MOCK_CLI_NO_REMOTE_EXECUTION",
+  "tests": 5,
+  "results": [
+    {
+      "scenario": "no-auth",
+      "status": "PASS",
+      "writes": 0
+    },
+    {
+      "scenario": "existing",
+      "status": "PASS",
+      "writes": 0
+    },
+    {
+      "scenario": "forbidden",
+      "status": "PASS",
+      "writes": 0
+    },
+    {
+      "scenario": "network",
+      "status": "PASS",
+      "writes": 0
+    },
+    {
+      "scenario": "cancel",
+      "status": "PASS",
+      "writes": 0
+    }
+  ]
+}

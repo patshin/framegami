@@ -1,0 +1,96 @@
+{
+  "environment": "Chromium in-memory DOM; instrumented localStorage and Blob capture; NOT live deployment",
+  "tests": 22,
+  "passed": 22,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "preserve-composition mode has 202 entries",
+      "status": "PASS"
+    },
+    {
+      "name": "lab mode has exactly 11 actual reinterpretations",
+      "status": "PASS"
+    },
+    {
+      "name": "treatment mode persists in preview URL",
+      "status": "PASS"
+    },
+    {
+      "name": "batch export contains only the 11 selected prompts",
+      "status": "PASS"
+    },
+    {
+      "name": "comparison URL carries its real selected IDs",
+      "status": "PASS"
+    },
+    {
+      "name": "comparison URL carries model and prompt language",
+      "status": "PASS"
+    },
+    {
+      "name": "comparison export matches selected language and model",
+      "status": "PASS"
+    },
+    {
+      "name": "standalone preview does not invent a public comparison URL",
+      "status": "PASS"
+    },
+    {
+      "name": "untested selected model is explicit in details",
+      "status": "PASS"
+    },
+    {
+      "name": "a style exported by the app can actually be imported",
+      "status": "PASS"
+    },
+    {
+      "name": "imported original is safely a local custom recipe",
+      "status": "PASS"
+    },
+    {
+      "name": "saving an existing custom recipe updates only that record",
+      "status": "PASS"
+    },
+    {
+      "name": "custom tags are shown as escaped text",
+      "status": "PASS"
+    },
+    {
+      "name": "backup retains tags and prompt edits",
+      "status": "PASS"
+    },
+    {
+      "name": "storage failure still saves the custom record in session fallback",
+      "status": "PASS"
+    },
+    {
+      "name": "storage failure still saves comparisons in session fallback",
+      "status": "PASS"
+    },
+    {
+      "name": "atlas has no overflow at 320px",
+      "status": "PASS"
+    },
+    {
+      "name": "atlas has no overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "atlas has no overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "atlas has no overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "reduced-motion mode disables smooth document scrolling",
+      "status": "PASS"
+    },
+    {
+      "name": "new interactions have no JavaScript errors",
+      "status": "PASS"
+    }
+  ]
+}

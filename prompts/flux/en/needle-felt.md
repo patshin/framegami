@@ -1,0 +1,23 @@
+# Needle-felt sculpture
+
+IRO ID: needle-felt
+Version: 0.1.0
+Model target: flux
+Language: en
+Status: UNTESTED RESEARCH DRAFT
+
+Change the provided image's visual treatment to Needle-felt sculpture; do not create an unrelated scene.
+
+Sculpt every subject from dense short needle-felt fibres, rounding forms while retaining original body types and delicate contact shadows.
+
+Preserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.
+
+Keep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.
+
+Apply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.
+
+Let the target medium guide color; do not add new objects merely for visual appeal.
+
+Balance detail: keep identifying features clear and the background subordinate.
+
+Avoid: Do not add plush mascots or change clothing colors.

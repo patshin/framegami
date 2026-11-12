@@ -1,0 +1,10 @@
+{
+  "pages": 439,
+  "prefixes": [
+    "/",
+    "/iro-style-atlas/"
+  ],
+  "checks": 878,
+  "result": "PASS",
+  "method": "URL resolution and local output-file verification; not a live browser navigation test"
+}

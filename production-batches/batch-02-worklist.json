@@ -1,0 +1,109 @@
+{
+  "schema": "iro-generation-worklist-v1",
+  "batch_number": 2,
+  "total_batches": 11,
+  "benchmark_original": "public/benchmark/B00-original.png",
+  "styles": [
+    {
+      "style_id": "ballpoint-blue",
+      "name_zh": "蓝色圆珠笔",
+      "name_en": "Blue ballpoint",
+      "category": "drawing",
+      "family": "ink",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「蓝色圆珠笔」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n以蓝色细密排线、反复叠笔和轻微墨水堆积建立深浅，保留随手画出的线性活力。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不要水彩铺色或均匀蓝色照片。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Blue ballpoint. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nUse fine blue ballpoint hatching, repeated strokes and subtle ink buildup to create tonal range while retaining a lively drawn quality.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nAvoid watercolor washes and a uniformly blue photograph.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "scratchboard",
+      "name_zh": "刮画黑卡",
+      "name_en": "Scratchboard",
+      "category": "drawing",
+      "family": "line",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「刮画黑卡」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n在黑色表面刮出细小白线，线条顺着毛发、织物和物体结构排列，亮部由密集刻线组成。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不要简单反相照片或随意白噪声。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Scratchboard. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nScratch fine white lines from a black ground, aligning marks to fur, fabric and object structure; assemble highlights from denser engraved strokes.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nAvoid simple photographic inversion and arbitrary white noise.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "continuous-line",
+      "name_zh": "连续单线描绘",
+      "name_en": "Continuous-line drawing",
+      "category": "drawing",
+      "family": "line",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「连续单线描绘」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n用一条富有节奏的连续细线追踪人物、宠物与主要物件，允许轻微回环但保留可读轮廓，背景极简。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不要添加多个人脸或将主体拆成无意义线团。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Continuous-line drawing. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nTrace the people, pet and main objects with a rhythmically continuous fine line, allowing small loops while keeping silhouettes readable and the setting minimal.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nAvoid extra faces and meaningless tangles.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "contour-drawing",
+      "name_zh": "留白轮廓线描",
+      "name_en": "Contour drawing",
+      "category": "drawing",
+      "family": "line",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「留白轮廓线描」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n以轻重变化的外轮廓和少量内部结构线描绘完整场景，不填充明暗，重要遮挡关系清楚。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n避免着色、水彩或不必要文字标签。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Contour drawing. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nDescribe the scene using weighted outer contours and sparse internal structural lines, with no tonal fill and clearly readable overlaps.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nAvoid color fills, watercolor and unnecessary labels.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "woodcut-bold",
+      "name_zh": "表现性木刻",
+      "name_en": "Bold woodcut",
+      "category": "print",
+      "family": "relief",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「表现性木刻」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n以粗锐刀痕、倾斜切线和强烈黑白对比构成画面，保留不规则边缘而不破坏关键五官。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不要细腻铜版线或全图噪声。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Bold woodcut. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nConstruct the image using sharp coarse cuts, oblique grooves and strong black-white contrast, retaining irregular edges while preserving facial landmarks.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nAvoid delicate copperplate lines and global noise.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "engraving-burin",
+      "name_zh": "铜版雕刻",
+      "name_en": "Burin engraving",
+      "category": "print",
+      "family": "intaglio",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「铜版雕刻」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n以清晰细长的刻线和弯曲线束描述体积，交叉处建立暗部，整体像精细印在纸上的凹版作品。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不加钞票边框、文字或货币标记。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Burin engraving. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nModel volume with clean elongated engraved lines and curved bundles, deepening shadows at intersections for a finely printed intaglio appearance.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not add banknote frames, text or currency symbols.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "drypoint",
+      "name_zh": "干刻毛刺",
+      "name_en": "Drypoint burr",
+      "category": "print",
+      "family": "intaglio",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「干刻毛刺」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n用带柔软毛刺感的深线描绘主体，深色线边略带绒感，局部轻薄线与浓黑区域形成对比。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不要将线边模糊扩大到物体轮廓之外。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Drypoint burr. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nDraw subjects with dark lines carrying a soft burr-like fringe, contrasting delicate passages with dense velvety accents.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not blur line fringes so far that silhouettes collapse.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "mezzotint",
+      "name_zh": "美柔汀暗调",
+      "name_en": "Mezzotint",
+      "category": "print",
+      "family": "intaglio",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「美柔汀暗调」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n让主体从浓黑绒面暗部逐渐显现，采用极细软颗粒形成平滑明暗，亮部像被轻轻刮亮。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不凭空改变成夜景或用聚光灯重排场景。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Mezzotint. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nLet the subjects emerge from velvety darkness through extremely fine tonal grain, with highlights appearing gently burnished from the dark ground.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not invent a night setting or rearrange the scene around a spotlight.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "sosaku-hanga",
+      "name_zh": "创作版画刀趣",
+      "name_en": "Expressive sosaku-hanga",
+      "category": "japan",
+      "family": "woodblock",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「创作版画刀趣」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n保留直接刻印般的个人刀痕、略不均匀的墨块和简化轮廓，节奏来自木刻边缘而非逼真材质。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不要把它写成光滑细腻的新板画。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Expressive sosaku-hanga. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nRetain direct-carved tool marks, slightly uneven ink masses and simplified silhouettes, deriving rhythm from cut edges rather than photoreal texture.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nAvoid turning it into a polished softly modeled shin-hanga treatment.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "sumizuri-e",
+      "name_zh": "墨摺绘",
+      "name_en": "Sumizuri-e-inspired print",
+      "category": "japan",
+      "family": "woodblock",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「墨摺绘」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n只用黑墨与纸白，以干净木版线、少量粗黑块面和较疏的内部细节呈現场景。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不要加入彩色套版或漫画网点。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Sumizuri-e-inspired print. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nUse only black ink and paper white, with clean woodblock lines, a few bold dark masses and sparse interior detail to describe the scene.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nAvoid colored blocks and manga screentone.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    }
+  ],
+  "notes": "Unvalidated prompt suggestions. Produce real outputs and record generation IDs; never label synthetic images as AI-generated."
+}

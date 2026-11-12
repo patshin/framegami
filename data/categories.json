@@ -1,0 +1,21 @@
+[
+{"id":"painting","zh":"绘画媒介","en":"Painting","glyph":"01","color":"#a85c3f","families":{"oil":["油画","Oil"],"watercolor":["水彩","Watercolor"],"opaque":["不透明绘画","Opaque paint"],"historical":["历史媒介","Historic media"]}},
+{"id":"drawing","zh":"素描与线条","en":"Drawing","glyph":"02","color":"#5c6059","families":{"pencil":["铅笔与粉笔","Pencil & chalk"],"ink":["墨水与钢笔","Ink & pen"],"line":["线条语言","Line systems"]}},
+{"id":"print","zh":"版画与印刷","en":"Printmaking","glyph":"03","color":"#405c77","families":{"relief":["凸版","Relief"],"intaglio":["凹版","Intaglio"],"planographic":["平版与孔版","Planographic & stencil"],"reproduction":["复制与套印","Reproduction"]}},
+{"id":"japan","zh":"日本视觉传统","en":"Japanese traditions","glyph":"04","color":"#9c4844","families":{"painting":["日本绘画","Japanese painting"],"woodblock":["日本木版","Japanese woodblock"],"illustration":["近现代插画","Modern illustration"],"craft":["传统工艺","Craft traditions"]}},
+{"id":"china","zh":"中国绘画与民艺","en":"Chinese traditions","glyph":"05","color":"#4c756b","families":{"painting":["中国画","Chinese painting"],"folk":["民间艺术","Folk arts"],"decorative":["装饰工艺","Decorative craft"]}},
+{"id":"world","zh":"世界艺术传统","en":"World traditions","glyph":"06","color":"#99734d","families":{"miniature":["细密画","Miniature painting"],"folk":["民间图像","Folk imagery"],"decorative":["装饰传统","Decorative traditions"]}},
+{"id":"anime","zh":"日本动画与漫画","en":"Anime & manga","glyph":"07","color":"#838174","families":{"cel":["赛璐璐动画","Cel animation"],"modern":["当代动画","Contemporary anime"],"manga":["漫画技法","Manga techniques"]}},
+{"id":"animation","zh":"动画与卡通","en":"Animation","glyph":"08","color":"#b2704d","families":{"drawn":["手绘动画","Drawn animation"],"three-d":["三维动画","3D animation"],"stop-motion":["定格动画","Stop motion"]}},
+{"id":"comics","zh":"漫画与叙事","en":"Comics","glyph":"09","color":"#565989","families":{"american":["美式漫画","American comics"],"european":["欧洲漫画","European comics"],"indie":["独立与网络漫画","Indie & web comics"]}},
+{"id":"game","zh":"像素与游戏","en":"Pixel & games","glyph":"10","color":"#67794a","families":{"pixel":["像素语言","Pixel languages"],"retro3d":["复古三维","Retro 3D"],"gameart":["游戏图形","Game graphics"]}},
+{"id":"paper","zh":"纸艺与拼贴","en":"Paper & collage","glyph":"11","color":"#b78364","families":{"cut":["切纸与剪纸","Cut paper"],"fold":["折叠与立体纸艺","Folded paper"],"collage":["平面拼贴","Collage"]}},
+{"id":"textile","zh":"织物与纤维","en":"Textile & fibre","glyph":"12","color":"#9e7171","families":{"stitch":["针法与刺绣","Stitches"],"fabric":["织物成像","Fabric images"],"soft":["软雕塑","Soft sculpture"]}},
+{"id":"material","zh":"材质与雕塑","en":"Material & sculpture","glyph":"13","color":"#548485","families":{"ceramic":["陶土与陶瓷","Clay & ceramic"],"hard":["木石金属","Wood, stone & metal"],"glass":["玻璃与镶嵌","Glass & mosaic"]}},
+{"id":"photography","zh":"摄影与成像","en":"Photography","glyph":"14","color":"#686053","families":{"film":["胶片与印相","Film & prints"],"process":["历史成像","Historic processes"],"optical":["光学语言","Optical treatment"]}},
+{"id":"graphic","zh":"平面与设计","en":"Graphic design","glyph":"15","color":"#c05741","families":{"modernist":["现代主义","Modernism"],"decorative":["装饰图形","Decorative graphics"],"editorial":["出版与街头","Editorial & street"]}},
+{"id":"illustration","zh":"绘本与插画","en":"Illustration","glyph":"16","color":"#b78b38","families":{"book":["绘本语言","Picture books"],"editorial":["商业插画","Editorial illustration"],"technical":["图鉴与技术","Informational drawing"]}},
+{"id":"movements","zh":"绘画流派","en":"Art movements","glyph":"17","color":"#7d765c","families":{"classical":["古典表现","Classical approaches"],"modern":["现代绘画","Modern painting"],"abstract":["抽象表现","Abstraction"]}},
+{"id":"digital","zh":"数字与实验","en":"Digital & experimental","glyph":"18","color":"#71658a","families":{"code":["编码图像","Coded images"],"render":["数字渲染","Digital rendering"],"experimental":["实验成像","Experimental images"]}},
+{"id":"lab","zh":"创意改造实验室","en":"Transformation lab","glyph":"19","color":"#2f6162","families":{"object":["物件化","Object conversion"],"layout":["版式与容器","Layouts & containers"],"space":["空间重构","Spatial reconstruction"]}}
+]

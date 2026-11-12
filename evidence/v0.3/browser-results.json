@@ -1,0 +1,122 @@
+{
+  "environment": "Chromium page.set_content with self-contained HTML and hash navigation. Browser HTTP navigation was blocked by administrator policy. No remote hosting or real browser-persistence acceptance is claimed; storage fallback is session-only here.",
+  "checks": [
+    {
+      "name": "Initial 24 style entries render",
+      "result": "PASS"
+    },
+    {
+      "name": "Gallery coverage is explicit 8 of 213",
+      "result": "PASS"
+    },
+    {
+      "name": "No desktop horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "Image-only facet contains exactly eight independent styles",
+      "result": "PASS"
+    },
+    {
+      "name": "All eight case images decode",
+      "result": "PASS"
+    },
+    {
+      "name": "Generated assets are not assigned twice",
+      "result": "PASS"
+    },
+    {
+      "name": "Original and generated style sample both appear",
+      "result": "PASS"
+    },
+    {
+      "name": "4 to 3 is preserved in the comparison",
+      "result": "PASS"
+    },
+    {
+      "name": "Image is not mislabeled as an exact prompt test",
+      "result": "PASS"
+    },
+    {
+      "name": "Before-after slider moves",
+      "result": "PASS"
+    },
+    {
+      "name": "Switching model retains visual sample without certifying model",
+      "result": "PASS"
+    },
+    {
+      "name": "English adapter remains available",
+      "result": "PASS"
+    },
+    {
+      "name": "Favorite toggle remains usable in offline memory rendering",
+      "result": "PASS"
+    },
+    {
+      "name": "Shared comparison restores four style cases",
+      "result": "PASS"
+    },
+    {
+      "name": "All four comparison images decode",
+      "result": "PASS"
+    },
+    {
+      "name": "Synchronized zoom applies to all samples",
+      "result": "PASS"
+    },
+    {
+      "name": "Missing cases remain explicit 205",
+      "result": "PASS"
+    },
+    {
+      "name": "Missing entries are not filled with other style images",
+      "result": "PASS"
+    },
+    {
+      "name": "Verified-only filter cannot confuse sample illustrations with prompt tests",
+      "result": "PASS"
+    },
+    {
+      "name": "Standalone HTML exposes eight locally embedded cases",
+      "result": "PASS"
+    },
+    {
+      "name": "Standalone case src values are embedded data not missing sibling files",
+      "result": "PASS"
+    },
+    {
+      "name": "All standalone images decode without server",
+      "result": "PASS"
+    },
+    {
+      "name": "No horizontal overflow at 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "Eight cards available at 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "No horizontal overflow at 768px",
+      "result": "PASS"
+    },
+    {
+      "name": "Eight cards available at 768px",
+      "result": "PASS"
+    },
+    {
+      "name": "No JavaScript errors in offline-rendered interaction journeys",
+      "result": "PASS"
+    },
+    {
+      "name": "No JavaScript errors in embedded-asset preview",
+      "result": "PASS"
+    }
+  ],
+  "passed": 28,
+  "total": 28,
+  "images": 8,
+  "catalog": 213,
+  "missing": 205
+}

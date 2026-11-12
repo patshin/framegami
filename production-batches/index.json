@@ -1,0 +1,180 @@
+{
+  "schema": "iro-batch-index-v1",
+  "total_missing": 108,
+  "batches": [
+    {
+      "batch": "batch-01",
+      "count": 10,
+      "style_ids": [
+        "rural-handdrawn",
+        "ligne-claire",
+        "oil-glaze",
+        "oil-alla-prima",
+        "oil-scumble",
+        "watercolor-pencil",
+        "acrylic-hard-edge",
+        "casein-paint",
+        "encaustic-wax",
+        "oil-pastel"
+      ]
+    },
+    {
+      "batch": "batch-02",
+      "count": 10,
+      "style_ids": [
+        "ballpoint-blue",
+        "scratchboard",
+        "continuous-line",
+        "contour-drawing",
+        "woodcut-bold",
+        "engraving-burin",
+        "drypoint",
+        "mezzotint",
+        "sosaku-hanga",
+        "sumizuri-e"
+      ]
+    },
+    {
+      "batch": "batch-03",
+      "count": 10,
+      "style_ids": [
+        "yamato-e",
+        "taisho-romance",
+        "showa-ad-illustration",
+        "katazome",
+        "sashiko",
+        "washi-collage",
+        "baimiao",
+        "xieyi-small",
+        "xieyi-bold",
+        "green-blue-mineral"
+      ]
+    },
+    {
+      "batch": "batch-04",
+      "count": 10,
+      "style_ids": [
+        "qianjiang",
+        "nianhua",
+        "chinese-papercut",
+        "shadow-puppet",
+        "cloisonne",
+        "mughal-miniature",
+        "rajput-miniature",
+        "mexican-papel",
+        "polish-wycinanki",
+        "rosemaling"
+      ]
+    },
+    {
+      "batch": "batch-05",
+      "count": 10,
+      "style_ids": [
+        "pysanky-linework",
+        "urban-anime-light",
+        "flat-web-anime",
+        "gekiga-hatching",
+        "slice-life-manga",
+        "painted-3d",
+        "paper-cut-animation",
+        "storybook-cel",
+        "rotoscope-painted",
+        "franco-belgian-brush"
+      ]
+    },
+    {
+      "batch": "batch-06",
+      "count": 10,
+      "style_ids": [
+        "modern-graphic-novel",
+        "indie-duotone-comic",
+        "underground-comix",
+        "pixel-isometric",
+        "pre-rendered-rpg",
+        "voxel-sculpt",
+        "kirigami",
+        "cardboard-model",
+        "magazine-collage",
+        "photomontage-paper"
+      ]
+    },
+    {
+      "batch": "batch-07",
+      "count": 10,
+      "style_ids": [
+        "pressed-botanical",
+        "french-knot",
+        "chain-stitch",
+        "quilting",
+        "tapestry",
+        "batik",
+        "tufted-yarn",
+        "matte-ceramic",
+        "stone-relief",
+        "bronze-relief"
+      ]
+    },
+    {
+      "batch": "batch-08",
+      "count": 10,
+      "style_ids": [
+        "fused-glass",
+        "resin-sculpt",
+        "constructivist-planes",
+        "swiss-reductive",
+        "memphis",
+        "psychedelic-flow",
+        "vintage-travel-graphic",
+        "street-marker",
+        "crayon-picturebook",
+        "no-outline-gouache"
+      ]
+    },
+    {
+      "batch": "batch-09",
+      "count": 10,
+      "style_ids": [
+        "collage-picturebook",
+        "vintage-book-plate",
+        "editorial-flat",
+        "painterly-editorial",
+        "fashion-marker",
+        "botanical-precision",
+        "architectural-wash",
+        "technical-line",
+        "renaissance-modeling",
+        "baroque-chiaroscuro"
+      ]
+    },
+    {
+      "batch": "batch-10",
+      "count": 10,
+      "style_ids": [
+        "rococo-light",
+        "cubist-facets",
+        "futurist-rhythm",
+        "symbolist-atmosphere",
+        "lowpoly-flat",
+        "clay-render",
+        "wireframe",
+        "voronoi",
+        "boxed-figure",
+        "snow-globe"
+      ]
+    },
+    {
+      "batch": "batch-11",
+      "count": 8,
+      "style_ids": [
+        "embroidered-patch",
+        "acrylic-standee",
+        "enamel-pin",
+        "pop-up-book",
+        "isometric-diorama",
+        "miniature-tiltshift",
+        "sticker-sheet",
+        "trading-card"
+      ]
+    }
+  ]
+}

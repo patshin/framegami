@@ -1,0 +1,15 @@
+{
+  "attempt": "A01",
+  "generatedAt": "2026-10-19",
+  "tool": "image_gen",
+  "toolGenerationId": "59b706f3-867f-4fc1-96f9-8980006274f9",
+  "asset": "A01-rejected-ui-mockup.png",
+  "sha256": "f3b77fef9c3a94b8a5adb75c5a27976b7ec74668eb8a6e0122b83cdc530869a9",
+  "intendedRole": "B00 standalone photographic benchmark",
+  "result": "REJECTED_WRONG_ASSET_TYPE",
+  "reason": "Returned an interface mockup rather than a standalone original. Not cropped, not used as B00 and not counted as any style test.",
+  "qualifyingOriginal": false,
+  "qualifyingStyleExamples": 0,
+  "actualUnderlyingModel": "Not asserted",
+  "promptEvidence": "The tool did not expose a nonempty exact generation prompt; no prompt-to-output verification is claimed."
+}

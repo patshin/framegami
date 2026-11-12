@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-19",
+  "authenticatedLogin": "patshin",
+  "targetRepository": "patshin/iro-style-atlas",
+  "getRepositoryResponse": 404,
+  "note": "404 can mean absent or inaccessible; it is not proof of absence. No creation or write action is exposed by the current GitHub connection.",
+  "remoteWritesPerformed": 0,
+  "repositoryCreatedByThisRun": false,
+  "pagesDeployedByThisRun": false,
+  "browserConnection": "Read-only tab tools",
+  "localGitHubCLI": "Not installed in the working container",
+  "alternativePluginSearch": "Returned the existing GitHub integration; no additional usable creation/push action became available",
+  "nextRequirement": "An authenticated local GitHub CLI or equivalent write-capable environment. Never paste an API key or token into chat or the public project."
+}

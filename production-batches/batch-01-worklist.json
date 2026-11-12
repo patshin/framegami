@@ -1,0 +1,109 @@
+{
+  "schema": "iro-generation-worklist-v1",
+  "batch_number": 1,
+  "total_batches": 11,
+  "benchmark_original": "public/benchmark/B00-original.png",
+  "styles": [
+    {
+      "style_id": "rural-handdrawn",
+      "name_zh": "田园手绘长片",
+      "name_en": "Pastoral hand-drawn feature",
+      "category": "anime",
+      "family": "modern",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「田园手绘长片」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n让人物线条轻盈、阴影简洁，植物与建筑以丰富但不杂乱的手绘笔触完成，日光温暖自然。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不添加森林精灵、特定角色或改变原地点。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Pastoral hand-drawn feature. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nKeep character lines light and shading simple while rendering plants and architecture with rich but orderly painted marks and naturally warm daylight.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not add forest spirits, established characters or a new location.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "ligne-claire",
+      "name_zh": "法比清线漫画",
+      "name_en": "Ligne claire",
+      "category": "comics",
+      "family": "european",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「法比清线漫画」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n以统一清晰的黑色轮廓、平整明亮色块和不夸张的写实结构重绘，背景与人物细节等级一致。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不加文字气泡或经典漫画角色。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Ligne claire. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nUse consistently clear black outlines, bright flat colors and restrained realistic structure, keeping equal descriptive clarity in figures and backgrounds.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not add speech bubbles or established characters.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "oil-glaze",
+      "name_zh": "透明罩染油画",
+      "name_en": "Layered oil glazing",
+      "category": "painting",
+      "family": "oil",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「透明罩染油画」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n用薄而透明的色层建立深度，暗部透出底层色，亮部保持细腻边缘；笔触服务形体而不堆厚颜料。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不要厚涂堆塑或均匀的数码光滑磨皮。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Layered oil glazing. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nBuild depth with thin translucent paint layers; let the underpainting show through shadows, and articulate highlights with fine edges rather than raised paint.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nAvoid raised impasto and uniformly airbrushed skin.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "oil-alla-prima",
+      "name_zh": "湿画法一气呵成",
+      "name_en": "Alla prima oil",
+      "category": "painting",
+      "family": "oil",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「湿画法一气呵成」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n将相邻色块湿接湿地衔接，保留迅速落笔的鲜活边缘与局部混色，主次边缘清晰，形体简洁但完整。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不做塑料光泽或机械化描摹。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Alla prima oil. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nJoin adjacent masses wet into wet, retaining decisive brush edges and local color mixing; vary hard and lost edges while keeping forms complete.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nAvoid plastic gloss and mechanically traced contours.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "oil-scumble",
+      "name_zh": "干擦薄涂油画",
+      "name_en": "Scumbled oil",
+      "category": "painting",
+      "family": "oil",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「干擦薄涂油画」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n让浅色干刷断续掠过深色底层，利用画布齿纹显出细碎明暗；整体轻柔有空气感，主体保持结构。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n避免水彩透明晕染和均匀柔焦。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Scumbled oil. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nDrag a pale dry brush lightly across darker underlayers, exposing canvas tooth in broken marks; create atmospheric softness without losing subject structure.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nAvoid watercolor blooms and uniform soft-focus blur.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "watercolor-pencil",
+      "name_zh": "水溶彩铅",
+      "name_en": "Water-soluble pencil",
+      "category": "painting",
+      "family": "watercolor",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「水溶彩铅」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n保留彩铅轮廓与短排线，在部分区域用水化开为透明色面；让干燥笔触与柔化色块形成有意对比。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不要全部融成普通水彩。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Water-soluble pencil. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nRetain colored-pencil contours and short hatching while dissolving selected areas into translucent washes; contrast dry marks with softened pigment fields.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not dissolve every mark into generic watercolor.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "acrylic-hard-edge",
+      "name_zh": "硬边丙烯",
+      "name_en": "Hard-edge acrylic",
+      "category": "painting",
+      "family": "opaque",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「硬边丙烯」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n用平整不透明色面与准确的几何边缘简化主体，明暗分为有限层次，材质只由形状和色值区分。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不要生成海报标题或改变物体轮廓关系。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Hard-edge acrylic. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nSimplify subjects into opaque planes with precise edges and a limited number of value steps; distinguish materials through shape and value rather than texture.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not introduce poster titles or change object relationships.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "casein-paint",
+      "name_zh": "酪蛋白画",
+      "name_en": "Casein-like painting",
+      "category": "painting",
+      "family": "opaque",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「酪蛋白画」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n以细腻哑光、不透明的薄色层和干爽短笔触重绘，色面略带粉质，保留清晰体积而不发亮。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n避免厚重堆塑或水彩渗化。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Casein-like painting. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nRepaint using thin opaque matte layers and dry compact marks, with a softly powdery finish and clear volume without glossy reflections.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nAvoid heavy relief and watercolor bleeding.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "encaustic-wax",
+      "name_zh": "蜡画半透层",
+      "name_en": "Encaustic-like layers",
+      "category": "painting",
+      "family": "historical",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「蜡画半透层」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n以半透明温润蜡层包裹色彩，局部出现轻微刮擦与封存感，边缘柔和但重要身份特征仍可识别。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不要融化身体或把画面变成蜡烛。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Encaustic-like layers. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nSuspend color within translucent warm wax-like layers, with restrained scraping and an embedded feel; soften edges without losing identity markers.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nDo not melt anatomy or turn the scene into candles.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    },
+    {
+      "style_id": "oil-pastel",
+      "name_zh": "油画棒",
+      "name_en": "Oil pastel",
+      "category": "drawing",
+      "family": "pencil",
+      "prompt_version": "0.1.0",
+      "prompt_zh": "使用上传图片作为唯一内容参考，把整幅画面重新绘制为「油画棒」。这是图像编辑／风格迁移，不是基于图片描述重新创作无关场景。\n\n保留主体身份、年龄、发型、衣着特征、表情、物体数量及相互关系；不要添加原图没有的角色、文字、品牌或故事。\n保持原图主体位置、姿势、遮挡关系、镜头方向和画幅比例。若材质或抽象程度与微小细节保留冲突，优先保持主体轮廓与身份线索。\n\n视觉语言\n以粗厚蜡质线条和色块覆盖建形，刮除少量表面露出底色，笔触浓郁而不是柔软粉尘。\n\n人物、宠物、物体和背景都采用同一套视觉语言，不能只给人脸套风格、其余仍是照片。\n配色遵循该风格的媒介要求；避免为了好看而新增原图没有的事物。\n细节有主次，重要身份特征清楚，背景不过度抢眼。\n\n避免的偏差\n不要磨成平滑油画或添加儿童文字。\n\n输出一张完整、协调的作品，不添加标题、水印、边框、比较拼图或多版本。若原图本来有必要的文字，不擅自改写其含义。",
+      "prompt_en": "Use the uploaded image as the sole content reference and redraw the whole scene as Oil pastel. This is image editing and style transfer, not a new scene loosely inspired by a description.\n\nPreserve identities, ages, hairstyles, clothing cues, expressions, object counts and relationships. Do not introduce new characters, text, brands or story events.\nKeep subject placement, poses, occlusion, camera direction and aspect ratio. Where material or abstraction conflicts with tiny details, prioritize recognizable silhouettes and identity cues.\n\nVISUAL LANGUAGE\nUse dense waxy strokes and opaque blocks, scratching selected passages to expose underlying color; make the marks rich rather than powder-soft.\n\nApply one coherent visual language to people, pets, objects and background; do not restyle only the face and leave an unrelated photographic setting.\nLet the target medium guide color; do not add new objects merely for visual appeal.\nBalance detail: keep identifying features clear and the background subordinate.\n\nFAILURE MODES TO AVOID\nAvoid smoothing it into oil painting or adding childlike writing.\n\nOutput one complete coherent artwork without added titles, watermarks, frames, comparison montages or variants. Where essential text already exists in the source, do not invent a different meaning."
+    }
+  ],
+  "notes": "Unvalidated prompt suggestions. Produce real outputs and record generation IDs; never label synthetic images as AI-generated."
+}

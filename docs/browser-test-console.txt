@@ -1,0 +1,22 @@
+
+> iro-style-atlas@0.2.0 test:browser
+> python tests/browser.test.py && python tests/browser-v02.test.py
+
+{
+  "environment": "Real Chromium DOM rendering via set_content; localStorage test double; no HTTP/file navigation",
+  "tests": 65,
+  "passed": 65,
+  "failed": 0,
+  "limitations": [
+    "No live GitHub deployment",
+    "No real-origin browser persistence/clipboard test",
+    "No actual generated style examples",
+    "No Safari/Firefox/device hardware tests"
+  ]
+}
+{
+  "environment": "Chromium in-memory DOM; instrumented localStorage and Blob capture; NOT live deployment",
+  "tests": 22,
+  "passed": 22,
+  "failed": 0
+}

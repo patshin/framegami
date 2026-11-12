@@ -1,0 +1,71 @@
+{
+  "kind": "procedural-style-study",
+  "count": 10,
+  "benchmarkOriginalSha256": "ff819217be09facc06721466d3ea378b33fbeebfe82903dd654d8434e7179ae3",
+  "scriptPath": "scripts/generate-procedural-studies.py",
+  "scriptSha256": "2e9c3f80a489b651f95cff6de8771a47fda3d7d3d3b2f53c08371326f4b3e980",
+  "notAiModelOutputs": true,
+  "notPromptValidated": true,
+  "styles": [
+    {
+      "styleId": "pixel-1bit",
+      "path": "examples/pixel-1bit.webp",
+      "sha256": "e29025d4c0c2689a78a8b7283e1623cb3d19a836edd02a5226c745e8e5a64942",
+      "note_en": "Binary-palette pixel study with ordered dithering and a fixed pixel grid, derived deterministically from B00."
+    },
+    {
+      "styleId": "pixel-cga",
+      "path": "examples/pixel-cga.webp",
+      "sha256": "89244e7186e49cdc3a52a6ad109439d69ec2408a1b6a9c2f939a0bb273681ac9",
+      "note_en": "A cyan-magenta-white-black CGA-like four-color pixel study, generated with fixed color quantization."
+    },
+    {
+      "styleId": "pixel-ascii-mosaic",
+      "path": "examples/pixel-ascii-mosaic.webp",
+      "sha256": "52e3538b98e1acc1095204f4c9359fc1b249d7b8ffe930f3fccafae237b2bf40",
+      "note_en": "Character-cell luminance converted into a colored monospaced ASCII mosaic of the source."
+    },
+    {
+      "styleId": "cmyk-halftone",
+      "path": "examples/cmyk-halftone.webp",
+      "sha256": "b179251f4b4fc271c6c60e4a4feebd8616bafb0cb5dca1d22652ee2e2c69c27e",
+      "note_en": "Four rotated halftone screens approximating offset CMYK print separation."
+    },
+    {
+      "styleId": "line-density",
+      "path": "examples/line-density.webp",
+      "sha256": "84d694e842b2fdc930fe6781b8fbcb1de4d61ecfca80dee778830e5e3684fe67",
+      "note_en": "Dense monochrome hatching driven by image values and major contour edges."
+    },
+    {
+      "styleId": "contour-topography",
+      "path": "examples/contour-topography.webp",
+      "sha256": "b4f71d87840cbc129bed588a51be051bdc302705593bb6ca28419adc467b75b7",
+      "note_en": "Topographic level-set contours computed from luminance and local edges."
+    },
+    {
+      "styleId": "thermal-palette",
+      "path": "examples/thermal-palette.webp",
+      "sha256": "c3898ca0ef50b1169be340e2d06a70a64c32f6a714c9bc357301725fa7987e14",
+      "note_en": "False-color thermal palette mapped from image brightness, not temperature measurements."
+    },
+    {
+      "styleId": "chromatic-glitch",
+      "path": "examples/chromatic-glitch.webp",
+      "sha256": "316374dc69ff0621b2cbdcd962187f78a6d5765ae1ee1b892154d7d137ad9347",
+      "note_en": "RGB channel offsets, scanlines and bounded horizontal digital glitches."
+    },
+    {
+      "styleId": "pixel-sorting",
+      "path": "examples/pixel-sorting.webp",
+      "sha256": "5680782d8e4c167e382be47f0de41e1aa56682940fa1930e3ebb202c37aa88b2",
+      "note_en": "Selected highlight runs sorted by brightness into horizontal pixel-sorting streaks."
+    },
+    {
+      "styleId": "op-art-contours",
+      "path": "examples/op-art-contours.webp",
+      "sha256": "fcbabc3a0ba2272cfb9b9ef3d54f1f1cb3fb5c69619463201646bd42b71bc8c1",
+      "note_en": "Luminance-displaced alternating contour stripes for optical-art interference."
+    }
+  ]
+}

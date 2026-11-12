@@ -1,0 +1,65 @@
+{
+  "benchmark": {
+    "file": "lakeside_café_portrait_with_cat.png",
+    "sha256": "ff819217be09facc06721466d3ea378b33fbeebfe82903dd654d8434e7179ae3",
+    "publicPath": "benchmark/B00-original.png"
+  },
+  "integrated": [
+    {
+      "styleId": "pixar-inspired-3d",
+      "file": "lakeside_café_with_cat_and_camera.png",
+      "publicPath": "examples/pixar-inspired-3d.webp",
+      "sha256": "f6a9ef4d18705c4e1773a66bc9d6bace5d0047823b1b24a74fdee368c2ecc71d"
+    },
+    {
+      "styleId": "cel-1990s-soft",
+      "file": "lakeside_café_afternoon_with_cat.png",
+      "publicPath": "examples/cel-1990s-soft.webp",
+      "sha256": "d8df124eed468ced3971e932f1fe17f43341bb561f8f2fdd3acbe2b0c9b21f4f"
+    },
+    {
+      "styleId": "watercolor-wet",
+      "file": "sunlit_lakeside_café_watercolour.png",
+      "publicPath": "examples/watercolor-wet.webp",
+      "sha256": "a610a3239a3937340805de359179682b23493ea0e2a3c6bfb9c4413051715725"
+    },
+    {
+      "styleId": "impressionist",
+      "file": "impressionist_lakeside_café_by_the_alps.png",
+      "publicPath": "examples/impressionist.webp",
+      "sha256": "50beefbf3ed2e9defc4358a7ee8079e55b3a8cd8192bc2d1e7f80a393b48cd15"
+    },
+    {
+      "styleId": "watercolor-line-wash",
+      "file": "lakeside_café_in_ink_and_watercolour.png",
+      "publicPath": "examples/watercolor-line-wash.webp",
+      "sha256": "ea3243361069bf0d5fe241725a7e8bdbaa8514c08e05341155412b742e163d84"
+    },
+    {
+      "styleId": "ukiyo-e-nishiki",
+      "file": "ukiyo_e_lakeside_café_with_cat.png",
+      "publicPath": "examples/ukiyo-e-nishiki.webp",
+      "sha256": "906cc52017efdbd41b725fc447bebfb88a691e4db2390518db13ed9b083210aa"
+    },
+    {
+      "styleId": "pixel-16bit",
+      "file": "pixel_art_lakeside_café_with_cat.png",
+      "publicPath": "examples/pixel-16bit.webp",
+      "sha256": "2a6d3c6f310e8ae7727d1ee40748c5c7a2abe65a2f1b3dc0b78032068d077a28"
+    },
+    {
+      "styleId": "silver-gelatin",
+      "file": "monochrome_lakeside_café_portrait.png",
+      "publicPath": "examples/silver-gelatin.webp",
+      "sha256": "57d392c91af988ca210001ef8abff0e0f21903f1044a22b87e5bf52369595c1c"
+    }
+  ],
+  "unassigned": [
+    {
+      "file": "neon_rain_at_the_lakeside_café.png",
+      "reason": "Not mapped automatically because the current catalog lacks a matching night-neon same-scene recipe with sufficient confidence."
+    }
+  ],
+  "kind": "same-input-showcase",
+  "note": "These assets are used for browsing within the demo and are not yet promoted to exact-prompt validated examples."
+}

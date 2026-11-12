@@ -1,0 +1,20 @@
+{
+  "browser": "Chromium DOM with offline inlined static build and blocked image fetches",
+  "passed": 12,
+  "failed": 0,
+  "checks": [
+    "24 cards render",
+    "77/213 displayed",
+    "procedural and montage counts disclosed",
+    "77 visual filter results",
+    "programmatic 1-bit search",
+    "programmatic description visible",
+    "programmatic detail tag accurate",
+    "B00 pair displayed",
+    "montage crop no B00 split",
+    "montage provenance disclaimer",
+    "AI-style scene still has B00 slider",
+    "no JS errors"
+  ],
+  "networkHostNavigation": "not tested"
+}

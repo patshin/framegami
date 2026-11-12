@@ -1,0 +1,167 @@
+{
+  "browser": "Chromium headless; standalone data-embedded preview; no live deployment",
+  "passes": 39,
+  "failures": 0,
+  "checks": [
+    {
+      "name": "24 initial cards",
+      "status": "PASS"
+    },
+    {
+      "name": "85 of 213 gallery visual coverage",
+      "status": "PASS"
+    },
+    {
+      "name": "Montage and procedural preview counts disclosed",
+      "status": "PASS"
+    },
+    {
+      "name": "85 images filter results",
+      "status": "PASS"
+    },
+    {
+      "name": "85 visual cards are visible",
+      "status": "PASS"
+    },
+    {
+      "name": "85 visual references, no duplicated image URLs",
+      "status": "PASS"
+    },
+    {
+      "name": "10 montage cards and 8 featured procedural cards labeled",
+      "status": "PASS"
+    },
+    {
+      "name": "Provisional image appears: matte-gouache",
+      "status": "PASS"
+    },
+    {
+      "name": "Provisional image appears: pixel-dither",
+      "status": "PASS"
+    },
+    {
+      "name": "Provisional image appears: shonen-ink",
+      "status": "PASS"
+    },
+    {
+      "name": "Provisional image appears: silver-age-comic",
+      "status": "PASS"
+    },
+    {
+      "name": "Provisional image appears: ink-crosshatch",
+      "status": "PASS"
+    },
+    {
+      "name": "Provisional image appears: expressionist",
+      "status": "PASS"
+    },
+    {
+      "name": "Provisional image appears: soft-focus-optical",
+      "status": "PASS"
+    },
+    {
+      "name": "Provisional image appears: film-color-negative",
+      "status": "PASS"
+    },
+    {
+      "name": "Provisional image appears: webtoon-clean",
+      "status": "PASS"
+    },
+    {
+      "name": "Provisional image appears: watercolor-dry",
+      "status": "PASS"
+    },
+    {
+      "name": "No B00 split for montage crop",
+      "status": "PASS"
+    },
+    {
+      "name": "Provisional label on detail",
+      "status": "PASS"
+    },
+    {
+      "name": "Explicit original-mismatch caveat",
+      "status": "PASS"
+    },
+    {
+      "name": "Provisional source is not an exact prompt test",
+      "status": "PASS"
+    },
+    {
+      "name": "Mixed-source comparison shown",
+      "status": "PASS"
+    },
+    {
+      "name": "Mixed-source warning visible",
+      "status": "PASS"
+    },
+    {
+      "name": "No false synced-zoom control",
+      "status": "PASS"
+    },
+    {
+      "name": "Provisional sample is identified",
+      "status": "PASS"
+    },
+    {
+      "name": "Same-input comparison zoom remains",
+      "status": "PASS"
+    },
+    {
+      "name": "Same-input comparison has two image columns",
+      "status": "PASS"
+    },
+    {
+      "name": "B00 original-result split still works",
+      "status": "PASS"
+    },
+    {
+      "name": "Split slider remains present",
+      "status": "PASS"
+    },
+    {
+      "name": "Procedural B00 original comparison works",
+      "status": "PASS"
+    },
+    {
+      "name": "Procedural original-result label discloses method",
+      "status": "PASS"
+    },
+    {
+      "name": "Procedural warning is explicit",
+      "status": "PASS"
+    },
+    {
+      "name": "128 styles remain with no image",
+      "status": "PASS"
+    },
+    {
+      "name": "Missing-image cards remain abstract",
+      "status": "PASS"
+    },
+    {
+      "name": "Strict prompt-verified gallery remains empty",
+      "status": "PASS"
+    },
+    {
+      "name": "All preview images use embedded data URLs",
+      "status": "PASS"
+    },
+    {
+      "name": "No horizontal overflow on 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "No horizontal overflow on 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "No page script errors",
+      "status": "PASS"
+    }
+  ],
+  "independentStyleShowcases": 67,
+  "montageDerivedProvisional": 10,
+  "proceduralStudies": 8,
+  "untouched": 128
+}

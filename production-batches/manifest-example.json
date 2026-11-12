@@ -1,0 +1,18 @@
+{
+  "schema": "iro-image-pack-v1",
+  "batch_id": "example-001",
+  "date": "2026-11-03",
+  "images": [
+    {
+      "style_id": "rural-handdrawn",
+      "file": "images/rural-handdrawn.png",
+      "source_type": "independent-ai",
+      "generation_id": "REPLACE_WITH_ACTUAL_GENERATION_ID",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "note_zh": "实际生成结果的风格说明，必须由审核者填写",
+      "note_en": "Real style outcome notes written after visual review"
+    }
+  ]
+}

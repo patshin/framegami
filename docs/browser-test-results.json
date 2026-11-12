@@ -1,0 +1,274 @@
+{
+  "environment": "Real Chromium DOM rendering via set_content; localStorage test double; no HTTP/file navigation",
+  "tests": 65,
+  "passed": 65,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "initial 24 cards render",
+      "status": "PASS"
+    },
+    {
+      "name": "research notice states actual image coverage",
+      "status": "PASS"
+    },
+    {
+      "name": "no API key field",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop no horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "featured gallery spans several categories",
+      "status": "PASS"
+    },
+    {
+      "name": "Chinese search finds intended recipe",
+      "status": "PASS"
+    },
+    {
+      "name": "UK spelling alias returns watercolor",
+      "status": "PASS"
+    },
+    {
+      "name": "one-character typo works",
+      "status": "PASS"
+    },
+    {
+      "name": "unknown search gets explicit empty state",
+      "status": "PASS"
+    },
+    {
+      "name": "verified filter cannot fake gallery",
+      "status": "PASS"
+    },
+    {
+      "name": "compact mode renders",
+      "status": "PASS"
+    },
+    {
+      "name": "pagination loads 24 additional styles",
+      "status": "PASS"
+    },
+    {
+      "name": "category opens nested family menu",
+      "status": "PASS"
+    },
+    {
+      "name": "family narrows to 4 Japanese print recipes",
+      "status": "PASS"
+    },
+    {
+      "name": "detail includes original authored technique",
+      "status": "PASS"
+    },
+    {
+      "name": "detail explicitly states same-input showcase is not prompt validation",
+      "status": "PASS"
+    },
+    {
+      "name": "detail has grounded reference links",
+      "status": "PASS"
+    },
+    {
+      "name": "model selection changes prompt text",
+      "status": "PASS"
+    },
+    {
+      "name": "prompt language switch works",
+      "status": "PASS"
+    },
+    {
+      "name": "whole UI language switches",
+      "status": "PASS"
+    },
+    {
+      "name": "favorite toggles aria state",
+      "status": "PASS"
+    },
+    {
+      "name": "favorite stored under app namespace",
+      "status": "PASS"
+    },
+    {
+      "name": "compare selection capped at four",
+      "status": "PASS"
+    },
+    {
+      "name": "four comparison columns render",
+      "status": "PASS"
+    },
+    {
+      "name": "comparison shows actual prompts",
+      "status": "PASS"
+    },
+    {
+      "name": "four comparable visual references render in comparison",
+      "status": "PASS"
+    },
+    {
+      "name": "simple controls update actual text",
+      "status": "PASS"
+    },
+    {
+      "name": "manual edits not silently overwritten",
+      "status": "PASS"
+    },
+    {
+      "name": "overwrite confirmation is real dialog",
+      "status": "PASS"
+    },
+    {
+      "name": "cancel preserves edited prompt",
+      "status": "PASS"
+    },
+    {
+      "name": "switching model restores local draft",
+      "status": "PASS"
+    },
+    {
+      "name": "custom recipe saved",
+      "status": "PASS"
+    },
+    {
+      "name": "custom text is not executed",
+      "status": "PASS"
+    },
+    {
+      "name": "custom title not interpreted as HTML",
+      "status": "PASS"
+    },
+    {
+      "name": "custom card displays literal unsafe text",
+      "status": "PASS"
+    },
+    {
+      "name": "custom copy opens exact content",
+      "status": "PASS"
+    },
+    {
+      "name": "custom prompt survives a target-model switch",
+      "status": "PASS"
+    },
+    {
+      "name": "custom prompt survives switching back",
+      "status": "PASS"
+    },
+    {
+      "name": "explicit reset replaces edited text",
+      "status": "PASS"
+    },
+    {
+      "name": "local image uses blob URL",
+      "status": "PASS"
+    },
+    {
+      "name": "upload triggers no HTTP network requests",
+      "status": "PASS"
+    },
+    {
+      "name": "personal image not included in storage",
+      "status": "PASS"
+    },
+    {
+      "name": "local image can be removed",
+      "status": "PASS"
+    },
+    {
+      "name": "export produces backup schema",
+      "status": "PASS"
+    },
+    {
+      "name": "backup excludes image data",
+      "status": "PASS"
+    },
+    {
+      "name": "conflicting backup keeps both recipes",
+      "status": "PASS"
+    },
+    {
+      "name": "unknown imported favorite rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "invalid JSON leaves content intact",
+      "status": "PASS"
+    },
+    {
+      "name": "custom deletion requires confirmation and works",
+      "status": "PASS"
+    },
+    {
+      "name": "new custom prompt is actually empty",
+      "status": "PASS"
+    },
+    {
+      "name": "source directory contains 25 references",
+      "status": "PASS"
+    },
+    {
+      "name": "about page discloses incomplete examples",
+      "status": "PASS"
+    },
+    {
+      "name": "about page discloses actual implementation",
+      "status": "PASS"
+    },
+    {
+      "name": "slash shortcut opens search",
+      "status": "PASS"
+    },
+    {
+      "name": "no application JavaScript exceptions",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile no horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile starts with two-column grid",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile menu uses native modal",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile category selection closes drawer",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile detail fits viewport",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile workbench is usable",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile workbench no horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile full English UI fits viewport",
+      "status": "PASS"
+    },
+    {
+      "name": "reduced-motion preference honored",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile no JavaScript exceptions",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "No live GitHub deployment",
+    "No real-origin browser persistence/clipboard test",
+    "No exact-prompt validated examples; 57 independent showcases plus provisional and procedural media",
+    "No Safari/Firefox/device hardware tests"
+  ]
+}
