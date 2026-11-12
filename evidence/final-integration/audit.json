@@ -1,0 +1,1402 @@
+[
+  {
+    "zip": "IRO-Assets-Batch-01.zip",
+    "sha256": "c0956090fffd6bf95df1cf892c5234cee2b1e46ad50557efeed1b5f54b166013",
+    "images": [
+      {
+        "style_id": "rural-handdrawn",
+        "sha256": "258199f82e9eb7d81da2e6defd75c909b11ec59caf33db90cee31704d06d4c52",
+        "dimensions": [
+          299,
+          410
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "ligne-claire",
+        "sha256": "96a5a6161822cbd9a701ad6695ae35708ace9253ca7cc5cfb38d0d5be08d348a",
+        "dimensions": [
+          292,
+          410
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "oil-glaze",
+        "sha256": "cc122658fb8d75523eaee2e4fe7810521e731712e560543d55e8c3b8e60f33b4",
+        "dimensions": [
+          291,
+          410
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "oil-alla-prima",
+        "sha256": "5b3e4572bd396cae38d68587001907fdd9579ecd364b55f08cb1982ad0d3d9fb",
+        "dimensions": [
+          292,
+          410
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "oil-scumble",
+        "sha256": "1285e4157d68eff702ac931f436e3ae465fa86e97b7ff17c44624756e4933ec5",
+        "dimensions": [
+          297,
+          410
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "watercolor-pencil",
+        "sha256": "cbb2c6ecac5796908c03f372d5518d535f5e5bff037a28c19b2e7e1b37dfb951",
+        "dimensions": [
+          299,
+          408
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "acrylic-hard-edge",
+        "sha256": "f6d3464457865a0633da20c496603a9c176e1d7ccecf7be37e42360c1d56590e",
+        "dimensions": [
+          292,
+          408
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "casein-paint",
+        "sha256": "bc8af34d381d92b5a1fcf457a3f24747a68bddb4890cf772761c466cad2227c4",
+        "dimensions": [
+          291,
+          408
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "encaustic-wax",
+        "sha256": "d7b75dc9824b92480599396140e22723c7c341f7e008701060ed57f7e7400ca3",
+        "dimensions": [
+          292,
+          408
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "oil-pastel",
+        "sha256": "61069356f657878dcdd8780f1d35b4e77cbaefcf3a3bc89c323117c6e269b137",
+        "dimensions": [
+          297,
+          408
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      }
+    ]
+  },
+  {
+    "zip": "IRO-Assets-Batch-02.zip",
+    "sha256": "059b1b2db51a19a4517d1457d2b616832ff95913fd7c32cc001ad1228e0e3469",
+    "images": [
+      {
+        "style_id": "ballpoint-blue",
+        "sha256": "0396c9d776a4b7d3619dc11964865c273708651a091530d14da3cb859cb297cc",
+        "dimensions": [
+          281,
+          523
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "scratchboard",
+        "sha256": "de75fcf32de81cddfc8cbb7d92c71d9db8ab000ce667aed70786700e577fe7c3",
+        "dimensions": [
+          280,
+          523
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "continuous-line",
+        "sha256": "10f11df91b536b04f420a6a1229ac9fbaea54a1f16ae31ddc9a37e53c60d138d",
+        "dimensions": [
+          281,
+          523
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "contour-drawing",
+        "sha256": "4fb3269935282a73242a3e2bf6b1fa7855cc443e22580b0aa127e0e1eb5eca00",
+        "dimensions": [
+          280,
+          523
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "woodcut-bold",
+        "sha256": "2b85e465f677bbda6e20fbde80c0e5239481b214429f28cb19d06455ace24b11",
+        "dimensions": [
+          281,
+          523
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "engraving-burin",
+        "sha256": "bdf1bbd7c40f0de0647b41b98845b48ff1b2952e0a71cb3b76c2ab18d7931cf5",
+        "dimensions": [
+          281,
+          503
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "drypoint",
+        "sha256": "168b5227e15a2cccded703345eb8f3eb6bbc2e6d6d64c34d4908f072029ceaa4",
+        "dimensions": [
+          280,
+          503
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "mezzotint",
+        "sha256": "baf394a2f917681995830f9663d4f733d16968ec97083ab4fc9baa1b11437923",
+        "dimensions": [
+          281,
+          503
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "sosaku-hanga",
+        "sha256": "3c183e75f616e84b4b205f720a53e820dedee0f7537dd4c0fd43867f801c08ca",
+        "dimensions": [
+          280,
+          503
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      },
+      {
+        "style_id": "sumizuri-e",
+        "sha256": "9dcb758cd9d6dbf6828e2aa00bea4a596f95ae128b9d0fef57e41f7f369d7938",
+        "dimensions": [
+          281,
+          503
+        ],
+        "source": "montage-crop",
+        "matching_pack_prompt_languages": []
+      }
+    ]
+  },
+  {
+    "zip": "IRO-Assets-Batch-03-Fixed-AI.zip",
+    "sha256": "c1bdfc18c7cf16ec9ef55b8c2bb7025939e92a5b946180be5c526c3cacb3ac1c",
+    "images": [
+      {
+        "style_id": "yamato-e",
+        "sha256": "63f5b7b68fe85d174ed38c3851eda83fc764d4d7134fa481241cc369ab733356",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "taisho-romance",
+        "sha256": "3de2eaee3249dcbfc5f9fbbe0ba2d0cc694c79f47e22cd79e3f6dd695338a5bb",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "showa-ad-illustration",
+        "sha256": "510942aadb9ef635d28c1dc27fd881e456263c8e370983a3bf136992b262b497",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "katazome",
+        "sha256": "b2d260c0abfca24b1da5776f8a6ed4c0a2697ef6a9e85ac0a43d30511d31a2ff",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "sashiko",
+        "sha256": "3fd9339a60a3bd0e7e9a0001592dce28d40ee8f2662f5362d5142417d219850c",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "washi-collage",
+        "sha256": "cec34c602e8a0486fe3a0952a88154c138a35be6ca4ab273893f8810ea521e5e",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "baimiao",
+        "sha256": "f90407ae8a34b49e32a8af04f47eac540434cbebfb554b1be17760d609158b4d",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "xieyi-small",
+        "sha256": "7c491df54a4ce4c1fb4b0fe96f25f3cd8f46e0f00baa718bde547068bb0e1db3",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "xieyi-bold",
+        "sha256": "da2cf4a138433804be04672c49b914a196839d431bea893220a889649bc4da0e",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "green-blue-mineral",
+        "sha256": "7b6a4e13b3753202b577f4519dc983fc7196bde42bd47c42cdcdea8816531de4",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      }
+    ]
+  },
+  {
+    "zip": "IRO-Assets-Batch-04-AI.zip",
+    "sha256": "e9d7fa351414607ab48794eefc05fc9d2fe6c96187b4770510caeb7cebe4fd05",
+    "images": [
+      {
+        "style_id": "qianjiang",
+        "sha256": "faa8827c5114f80eec2b5bb803b1b728efd20e276893a4b33dfbc8795bcc77f6",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "nianhua",
+        "sha256": "a2815ad3d3af4521db52284bdaa12dc8a11624c5a6f6aae69f1d4909de0d6c95",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "chinese-papercut",
+        "sha256": "02781382b5060aacdeaba10ace5e9f00b7255f8dd945d4e7683e28aa2b886fc3",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "shadow-puppet",
+        "sha256": "ec26feec86502d853fe6a138f235bd2e44a6dcd018cb1de8fca5afc57f1926b7",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "cloisonne",
+        "sha256": "7028dfc65c921645085d9f8dfd9dce9bc125a2699ac7a377bcf7e78d3c0a0de7",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "mughal-miniature",
+        "sha256": "fd8bdc1d2468388438893cd1066a07599eefa7802a037998d9e800a6230b2cfa",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "rajput-miniature",
+        "sha256": "736fa5cc2e0a80f00cb05ca45e2d47a200a5b11850b5f9e294502a75f3081e86",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "mexican-papel",
+        "sha256": "ef2a65fb66723b8766ec7f8136c8b15c3c0f278b91b712649b0ce33caa397565",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "polish-wycinanki",
+        "sha256": "a4db5b6edddbffb502a58a10bb1d65e9050609fb9352f52a027fa98f80fa47da",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "rosemaling",
+        "sha256": "e50083d120c67ab4503b46851b0ef30eecac63d2a63dcd1f558b8730b8ccecff",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      }
+    ]
+  },
+  {
+    "zip": "IRO-Assets-Batch-05-AI.zip",
+    "sha256": "029ee6e79cb611de2b0f417b3d245c1e8eeaf298bfc5bb974d50a8179100e43a",
+    "images": [
+      {
+        "style_id": "pysanky-linework",
+        "sha256": "34d3ced1701de84fed820595e87aa2bf9956bf44a04661791374c8181ad7c2b5",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "urban-anime-light",
+        "sha256": "beb414e000f92b373a56bb3b80bfca7fc45da1672c048ae6fcae30aaa4e90e96",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "flat-web-anime",
+        "sha256": "2122086bff1ee677e8686a785f81005f65463213bec2d6716c5c6837d891dd2b",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "gekiga-hatching",
+        "sha256": "aa6fa31f3f5562e0e0242e9971a287a2e9e99604a844437d9a857196e8c04dd8",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "slice-life-manga",
+        "sha256": "aa78a7ebd413597d7bea8c7b77858478a8c75dfd488c3f8f448d0c9ca05868de",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "painted-3d",
+        "sha256": "12f585d85ecc1283b493eee51f65332ac4b567be9962e46c0892518f2cccdf25",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "paper-cut-animation",
+        "sha256": "ae11a510febc6f0489977c4df28369cf7ac0e7d42cefc8de982cd88a72fa798a",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "storybook-cel",
+        "sha256": "e56f24f86bd5cf6dc3321f49c9a6ddaadbfae20d3d1b6b52aab8fd70673056a3",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "rotoscope-painted",
+        "sha256": "0524490e080ffc87aafc5c5889ea34f3b7ea900a4168e16191a1a55e44da2831",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "franco-belgian-brush",
+        "sha256": "de48ee1a8f6b0a57c2ac876c85b07746c81e1121b0eb2282b0c9ba7459830ba4",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      }
+    ]
+  },
+  {
+    "zip": "IRO-Assets-Batch-06-AI.zip",
+    "sha256": "9a4272d3452021473db949e6208d4f946ec24797d272dcdfadee49246f3f027f",
+    "images": [
+      {
+        "style_id": "modern-graphic-novel",
+        "sha256": "83e3fbc6797145ec542d0699001b21351a56f75b2d34fb657a4949c365168e13",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "en"
+        ]
+      },
+      {
+        "style_id": "indie-duotone-comic",
+        "sha256": "24a8a04ad16901afb66d297907e89d6c7552eaa77616362a2272272b9c898c74",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "en"
+        ]
+      },
+      {
+        "style_id": "underground-comix",
+        "sha256": "040a76c539624f1893a1ba615036fc5c6521469e683239df66086cb0f3eb2548",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "en"
+        ]
+      },
+      {
+        "style_id": "pixel-isometric",
+        "sha256": "16d0e28ccbf97375ef3fbee06a72a8931d78ef2a508f7148d2c77cebd04af77c",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "en"
+        ]
+      },
+      {
+        "style_id": "pre-rendered-rpg",
+        "sha256": "4acc55d55258acd4b00c6755230e3b20021d94895ff818bd915060bbc97d2b84",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "en"
+        ]
+      },
+      {
+        "style_id": "voxel-sculpt",
+        "sha256": "e261095199df51687d4b64816a500f5bfcb014221ca698201e4c3765aa6b3e13",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "en"
+        ]
+      },
+      {
+        "style_id": "kirigami",
+        "sha256": "3ce7ec7f839833c8005b853c2e5d6c42b973a8cf0ce19e97212f28ce1137ff03",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "en"
+        ]
+      },
+      {
+        "style_id": "cardboard-model",
+        "sha256": "1fd44b4ca3356e0c87a70fee4034f4c72fcaa911765f5361e3cab0446e673d95",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "en"
+        ]
+      },
+      {
+        "style_id": "magazine-collage",
+        "sha256": "ab4588644b78286ba1f49f5d230fe4636afe795e08f27bfbf42789cbcb52b513",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "en"
+        ]
+      },
+      {
+        "style_id": "photomontage-paper",
+        "sha256": "587b312c75512cffa0ed133e5853d701b8aa8bae6e05c14c5be3de02bff22957",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  {
+    "zip": "IRO-Assets-Batch-07-AI.zip",
+    "sha256": "ae4d93fa27db40804b7de76d36106cb5879d45afab6feaf92f538f27b2f8ff0b",
+    "images": [
+      {
+        "style_id": "pressed-botanical",
+        "sha256": "e5fef929c7df5249fc19fd0ccc1204015deba05f20d0367b089144c008e11876",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "french-knot",
+        "sha256": "d287d912556a035082a997117ac2ab516745f99486b4a6c1fe7cf2ccbe9cab29",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "chain-stitch",
+        "sha256": "53819106caafeff4501fd5a1535ab6682f73595afa878887bd988d6783ced3e0",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "quilting",
+        "sha256": "ffc4c05b41b32d2011ef3a40a5b8104c98457fe126ba28ce0f55b8bab1831d09",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "tapestry",
+        "sha256": "2f62d908c566ce31b46466c83a99ebe40315909fe3cc8fa2e368d016cfa70628",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "batik",
+        "sha256": "07ff5fd492deed7d812b110e830c5af045a6a98c69e588daae2d1634c29c1b90",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "tufted-yarn",
+        "sha256": "0016f01ca0defe0b7e0d4aacabd684dddaacc22b6666869e600000b3148c17b5",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "matte-ceramic",
+        "sha256": "81cf65efc52c6672996c55bdb469e6cde3e8a6b513676e994925d4918095b06e",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "stone-relief",
+        "sha256": "3b2b4a0ef916232eb79241b1864d01d3b9341baceaa66f662801215186522875",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "bronze-relief",
+        "sha256": "cb021f7dc5059570ce037a2899bbb66c9a12094887709e226bd6ac287fb1e284",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      }
+    ]
+  },
+  {
+    "zip": "IRO-Assets-Batch-08-AI.zip",
+    "sha256": "9f976d193c0ea9aaae072f83152790f516dde867c3ecaf3d265bd67036d93720",
+    "images": [
+      {
+        "style_id": "fused-glass",
+        "sha256": "45422434ffcc16b21b4cbee0eb57913935a8c4c6f3bad1f4ac10037d1e8ec496",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "resin-sculpt",
+        "sha256": "d52fe39422a5d3ec25723088386790d0c00650dcd187d3598c765a5bb84f0789",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "constructivist-planes",
+        "sha256": "c8797910fa0f1cd5ca6267b62de6d8fd279455e567694dc3689d14fd54ccbfc2",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "swiss-reductive",
+        "sha256": "07fd3821ff29d92c0be66468ed524120b6c6ec779bddac01701141abbca3dd57",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "memphis",
+        "sha256": "0063ca0fe17dc62d592128705de14abf58b71cbf82f80d47951434162372c05b",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "psychedelic-flow",
+        "sha256": "2d8b741ce53a3667a7ffb2cb722dde1b4c224f4e4494854f9122c288515b2029",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "vintage-travel-graphic",
+        "sha256": "15424c88416563bb13763726b658f5c03520d6014b1115a3bf702dca3a0e78ed",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "street-marker",
+        "sha256": "e27bdea0c52fed45f0e9e3ab44f5bb336c7d3d2af13935cd40c3d0ac50c22ee5",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "crayon-picturebook",
+        "sha256": "907edb6887ebb9f0e6dc658174b4018c23421cb92302bd4e21f4f37f58258b3e",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "no-outline-gouache",
+        "sha256": "a11a7d5b7368cf2d6c64078da16cd2c9c56e22781c1aba09cb2b7f47fff6e0e7",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      }
+    ]
+  },
+  {
+    "zip": "IRO-Assets-Batch-09-AI.zip",
+    "sha256": "43a72f31aefe56697b672db1c9fcc647e795b371b0c687fa1b776d537453da4d",
+    "images": [
+      {
+        "style_id": "collage-picturebook",
+        "sha256": "3596d123d5669627b510ca760b81ef8d722b6645fc6d4f3fd56b2735a918d914",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "vintage-book-plate",
+        "sha256": "98c1832ac679e9a778077f46a577021dd56d7b609678c74f3f7bc8808957a2c1",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "editorial-flat",
+        "sha256": "260e817eeed1703b5588b5cefbe0b42bcabdfc53e48a979be8f3e773440483a4",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "painterly-editorial",
+        "sha256": "ec966945941694d8b9f44501182af9dad60214dedfc765d874bb7ad1481c3fae",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "fashion-marker",
+        "sha256": "e5a787ae365b5e77696827226fc79a44c403bdf8aa8bdcf7d00902b828098021",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "botanical-precision",
+        "sha256": "25eb93043ab4c2bdce76172d83cb2225da3509a5628630822a890867ae79898b",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "architectural-wash",
+        "sha256": "539ca34db4cc984c901c3dcd8d0f74668d0733cac767930a62cd2c7db5869d53",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "technical-line",
+        "sha256": "4f603a2380413589e5644ecf297222a4266cf3d67c48f9f162f6aa402f23f3a5",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "renaissance-modeling",
+        "sha256": "878b8e04a2805d3b70aa24345a5415db339cdd3ddcd61886bb3ba518c566a4db",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "baroque-chiaroscuro",
+        "sha256": "90eca71f913853740dbb4dfb2e9c5b7856ff5adc6f76fcd62083140a6e2081bd",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      }
+    ]
+  },
+  {
+    "zip": "IRO-Assets-Batch-10-AI-ImportReady.zip",
+    "sha256": "94aeaf3fccca997208e430596c96d3948b923ce0ebd5767cf8868453b98224f4",
+    "images": [
+      {
+        "style_id": "rococo-light",
+        "sha256": "d1c6e4d3bb39310907d3796ae5d45da3975803f624083a834e193cac2a90faad",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "cubist-facets",
+        "sha256": "5454273a5ece80f8e9d83ee033cfa68be18c57dc2ace2119e2e918559e24073f",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "futurist-rhythm",
+        "sha256": "f7102cf560936e60d82329a7327bde18f445dcf3238559d222f6c8b8823ffa16",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "symbolist-atmosphere",
+        "sha256": "13e573a58feb31283f955a156d48da25306bbd4156a1b77aebe0bd38458e8916",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "lowpoly-flat",
+        "sha256": "979800cef4853fb27dd66739bf6668292cf07230d231cb8b90aea9566006c33d",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "clay-render",
+        "sha256": "40f0e6adaaef0fe5e991c859ea1927c51f4897eaa74dbe65a1a6b525848a890a",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "wireframe",
+        "sha256": "fec80bfe7df3f7f68b3003e3d0c4f4f0b0ae6bd92570349ab4fb9b08e89e0ea8",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "voronoi",
+        "sha256": "4fe561cfce83ac40d112faed81681c69f66b15df937622d02237429d8a075dc2",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "boxed-figure",
+        "sha256": "efa796e4c823d1bc44580a3f385e8bd42ebdb3b2b815dbbf10c80b6adc6b3fe0",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "snow-globe",
+        "sha256": "58f9788c7a8df03bc3e94fb660ca569ca7b0d74953d15cb2ce223a8cd58c8c34",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      }
+    ]
+  },
+  {
+    "zip": "IRO-Assets-Batch-11-AI-ImportReady.zip",
+    "sha256": "a97d4b1ac8dc3824e86fbf2f5e87f9377a5c4f611c8204cc6aa67834da8e27e0",
+    "images": [
+      {
+        "style_id": "embroidered-patch",
+        "sha256": "b690f73fe6384ad68d4fd4d5223ba4bd8ac1fa642808749f2ce7ab8ead973902",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "acrylic-standee",
+        "sha256": "099a7a396b8ac385dbe9684f36f2ad6b1f96bc846844abdb91f3f81d04b2f312",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "enamel-pin",
+        "sha256": "20d435b53cd413f53147c878df95ed24b49c0f57a597b96ca8664220a03f7ea8",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "pop-up-book",
+        "sha256": "f511132286781c4d39ba300a154d518f94b26e7beeed2379d96a659505a5f878",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "isometric-diorama",
+        "sha256": "e9952efad509bbbdb1dc8937c9133d84a2d139ff94801198ab4483eb68f29c85",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "miniature-tiltshift",
+        "sha256": "dee04dda594434ea0caf1853badc85fab6bd901f5bc521e511cf1226a7b41e35",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "sticker-sheet",
+        "sha256": "5a1499afb73de556f5193270ad7331cd7d6e9c3b6132c4f280d6db843bf11568",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      },
+      {
+        "style_id": "trading-card",
+        "sha256": "c99f16b55e31d9799e3b8d80ae1ade8a7cda017e3a016170a736ced13af6dd2a",
+        "dimensions": [
+          1448,
+          1086
+        ],
+        "source": "independent-ai",
+        "matching_pack_prompt_languages": [
+          "zh",
+          "en"
+        ]
+      }
+    ]
+  }
+]

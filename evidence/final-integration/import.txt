@@ -1,0 +1,76 @@
+IRO-Assets-Batch-01.zip ['--dry-run'] VALID: 10 records; existing visual coverage 105/213
+DRY RUN — no project files changed
+
+IRO-Assets-Batch-01.zip [] VALID: 10 records; existing visual coverage 105/213
+IMPORTED 10 — visual coverage 115 /213
+Run: npm run check
+
+IRO-Assets-Batch-02.zip ['--dry-run'] VALID: 10 records; existing visual coverage 115/213
+DRY RUN — no project files changed
+
+IRO-Assets-Batch-02.zip [] VALID: 10 records; existing visual coverage 115/213
+IMPORTED 10 — visual coverage 125 /213
+Run: npm run check
+
+IRO-Assets-Batch-03-Fixed-AI.zip ['--dry-run'] VALID: 10 records; existing visual coverage 125/213
+DRY RUN — no project files changed
+
+IRO-Assets-Batch-03-Fixed-AI.zip [] VALID: 10 records; existing visual coverage 125/213
+IMPORTED 10 — visual coverage 135 /213
+Run: npm run check
+
+IRO-Assets-Batch-04-AI.zip ['--dry-run'] VALID: 10 records; existing visual coverage 135/213
+DRY RUN — no project files changed
+
+IRO-Assets-Batch-04-AI.zip [] VALID: 10 records; existing visual coverage 135/213
+IMPORTED 10 — visual coverage 145 /213
+Run: npm run check
+
+IRO-Assets-Batch-05-AI.zip ['--dry-run'] VALID: 10 records; existing visual coverage 145/213
+DRY RUN — no project files changed
+
+IRO-Assets-Batch-05-AI.zip [] VALID: 10 records; existing visual coverage 145/213
+IMPORTED 10 — visual coverage 155 /213
+Run: npm run check
+
+IRO-Assets-Batch-06-AI.zip ['--dry-run'] VALID: 10 records; existing visual coverage 155/213
+DRY RUN — no project files changed
+
+IRO-Assets-Batch-06-AI.zip [] VALID: 10 records; existing visual coverage 155/213
+IMPORTED 10 — visual coverage 165 /213
+Run: npm run check
+
+IRO-Assets-Batch-07-AI.zip ['--dry-run'] VALID: 10 records; existing visual coverage 165/213
+DRY RUN — no project files changed
+
+IRO-Assets-Batch-07-AI.zip [] VALID: 10 records; existing visual coverage 165/213
+IMPORTED 10 — visual coverage 175 /213
+Run: npm run check
+
+IRO-Assets-Batch-08-AI.zip ['--dry-run'] VALID: 10 records; existing visual coverage 175/213
+DRY RUN — no project files changed
+
+IRO-Assets-Batch-08-AI.zip [] VALID: 10 records; existing visual coverage 175/213
+IMPORTED 10 — visual coverage 185 /213
+Run: npm run check
+
+IRO-Assets-Batch-09-AI.zip ['--dry-run'] VALID: 10 records; existing visual coverage 185/213
+DRY RUN — no project files changed
+
+IRO-Assets-Batch-09-AI.zip [] VALID: 10 records; existing visual coverage 185/213
+IMPORTED 10 — visual coverage 195 /213
+Run: npm run check
+
+IRO-Assets-Batch-10-AI-ImportReady.zip ['--dry-run'] VALID: 10 records; existing visual coverage 195/213
+DRY RUN — no project files changed
+
+IRO-Assets-Batch-10-AI-ImportReady.zip [] VALID: 10 records; existing visual coverage 195/213
+IMPORTED 10 — visual coverage 205 /213
+Run: npm run check
+
+IRO-Assets-Batch-11-AI-ImportReady.zip ['--dry-run'] VALID: 8 records; existing visual coverage 205/213
+DRY RUN — no project files changed
+
+IRO-Assets-Batch-11-AI-ImportReady.zip [] VALID: 8 records; existing visual coverage 205/213
+IMPORTED 8 — visual coverage 213 /213
+Run: npm run check

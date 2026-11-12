@@ -47,6 +47,7 @@ export function validateCatalog(data=readJSON('data/catalog.json'),cats=readJSON
   const accepted=s.examples?.filter(x=>x.accepted)||[];
   for(const ill of s.illustrations||[]){
    if(ill.styleId!==s.id)err('Illustration assignment does not match style ID');
+   if(ill.generationRecordStatus==='unavailable' && (ill.kind!=='same-input-showcase'||ill.generationId!==null||ill.accepted!==false||ill.promptVerified!==false))err('Incomplete generation record must remain an unvalidated independent showcase');
    if(ill.promptVerified===true)err('Illustration cannot be marked as an exact-prompt test');
    if(!ill.path||path.isAbsolute(ill.path)||ill.path.split('/').includes('..')){err('Unsafe illustration path');continue;}
    const ip=path.join(root,'public',ill.path);

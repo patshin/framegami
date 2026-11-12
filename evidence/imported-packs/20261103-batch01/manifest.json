@@ -1,0 +1,243 @@
+{
+  "schema": "iro-image-pack-v1",
+  "batch_id": "20261103-batch01",
+  "date": "2026-11-03",
+  "description": "IRO style atlas Batch 01, 10 montage-derived visual previews, not ten independent model outputs or strict prompt validation.",
+  "provenance": "One complete AI-generated contact-sheet image, generated with ChatGPT image tool.",
+  "generation_id": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+  "source_montage_sha256": "8ca8b2ee2f41c07e3892ba707394e069a217a03be99e3eb3b37b3b08350b391e",
+  "queue_first_10_style_ids": [
+    "rural-handdrawn",
+    "ligne-claire",
+    "oil-glaze",
+    "oil-alla-prima",
+    "oil-scumble",
+    "watercolor-pencil",
+    "acrylic-hard-edge",
+    "casein-paint",
+    "encaustic-wax",
+    "oil-pastel"
+  ],
+  "images": [
+    {
+      "style_id": "rural-handdrawn",
+      "file": "images/rural-handdrawn.png",
+      "source_type": "montage-crop",
+      "generation_id": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        0,
+        0,
+        299,
+        410
+      ],
+      "source_panel_label": "Row 1, Column 1: Pastoral hand-drawn feature",
+      "note_zh": "田园植物与纸面手绘质感清楚，轮廓轻柔，色彩温暖。人物肖像另于 B00，作为风格视觉预览。",
+      "note_en": "Warm pastel floral setting, lightly drawn outlines and paper texture show a pastoral hand-drawn look. Different portrait from B00; visual preview only.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "258199f82e9eb7d81da2e6defd75c909b11ec59caf33db90cee31704d06d4c52"
+    },
+    {
+      "style_id": "ligne-claire",
+      "file": "images/ligne-claire.png",
+      "source_type": "montage-crop",
+      "generation_id": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        315,
+        0,
+        607,
+        410
+      ],
+      "source_panel_label": "Row 1, Column 2: Ligne claire",
+      "note_zh": "人物及背景采用连贯、简洁的深色线稿和平涂色块，符合法比清线漫画的典型表达。",
+      "note_en": "Continuous clear contour outlines and restrained flat colors cover both subject and background, consistent with ligne claire comics.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "96a5a6161822cbd9a701ad6695ae35708ace9253ca7cc5cfb38d0d5be08d348a"
+    },
+    {
+      "style_id": "oil-glaze",
+      "file": "images/oil-glaze.png",
+      "source_type": "montage-crop",
+      "generation_id": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        624,
+        0,
+        915,
+        410
+      ],
+      "source_panel_label": "Row 1, Column 3: Layered oil glazing",
+      "note_zh": "深色底层与半透明暖色叠色形成柔和明暗，体现油画透明罩染的视觉倾向；非严格技法复现。",
+      "note_en": "Soft layered warm tones over darker passages suggest oil glazing, though the visual alone does not prove a true layered-paint process.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "cc122658fb8d75523eaee2e4fe7810521e731712e560543d55e8c3b8e60f33b4"
+    },
+    {
+      "style_id": "oil-alla-prima",
+      "file": "images/oil-alla-prima.png",
+      "source_type": "montage-crop",
+      "generation_id": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        930,
+        0,
+        1222,
+        410
+      ],
+      "source_panel_label": "Row 1, Column 4: Alla prima oil",
+      "note_zh": "可见明显的湿画法笔触、色块衔接与边缘融合，具有一气呵成的油画观感。",
+      "note_en": "Decisive paint strokes and wet-into-wet transitions between neighboring colored masses evoke alla-prima oil handling.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "5b3e4572bd396cae38d68587001907fdd9579ecd364b55f08cb1982ad0d3d9fb"
+    },
+    {
+      "style_id": "oil-scumble",
+      "file": "images/oil-scumble.png",
+      "source_type": "montage-crop",
+      "generation_id": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        1239,
+        0,
+        1536,
+        410
+      ],
+      "source_panel_label": "Row 1, Column 5: Scumbled oil",
+      "note_zh": "干燥、断续的笔触与透出底色的颗粒感比较清楚，符合干擦薄涂油画的观感。",
+      "note_en": "Broken scumbled marks and underlying color visible through dry textured strokes suggest thin dry-brush oil layers.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "1285e4157d68eff702ac931f436e3ae465fa86e97b7ff17c44624756e4933ec5"
+    },
+    {
+      "style_id": "watercolor-pencil",
+      "file": "images/watercolor-pencil.png",
+      "source_type": "montage-crop",
+      "generation_id": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        0,
+        508,
+        299,
+        916
+      ],
+      "source_panel_label": "Row 2, Column 1: Water-soluble pencil",
+      "note_zh": "彩铅线条与局部水溶晕开并存，纸张纹理、透明设色及干湿差异可以辨认。",
+      "note_en": "Colored-pencil hatching coexists with dissolved translucent color washes, clearly suggesting water-soluble pencil media.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "cbb2c6ecac5796908c03f372d5518d535f5e5bff037a28c19b2e7e1b37dfb951"
+    },
+    {
+      "style_id": "acrylic-hard-edge",
+      "file": "images/acrylic-hard-edge.png",
+      "source_type": "montage-crop",
+      "generation_id": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        315,
+        508,
+        607,
+        916
+      ],
+      "source_panel_label": "Row 2, Column 2: Hard-edge acrylic",
+      "note_zh": "边界清晰、块面概括、颜色不透明，具备典型硬边丙烯平面视觉特征。",
+      "note_en": "Sharp graphic boundaries, opaque painted color planes and simplified shapes show a hard-edge acrylic treatment.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "f6d3464457865a0633da20c496603a9c176e1d7ccecf7be37e42360c1d56590e"
+    },
+    {
+      "style_id": "casein-paint",
+      "file": "images/casein-paint.png",
+      "source_type": "montage-crop",
+      "generation_id": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        624,
+        508,
+        915,
+        916
+      ],
+      "source_panel_label": "Row 2, Column 3: Casein-like painting",
+      "note_zh": "低反光、细腻粉感的平涂与局部干笔纹理明显，可作为酪蛋白画的材质参考。",
+      "note_en": "Matte, low-sheen opaque color and compact dry strokes provide a useful casein-paint visual reference.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "bc8af34d381d92b5a1fcf457a3f24747a68bddb4890cf772761c466cad2227c4"
+    },
+    {
+      "style_id": "encaustic-wax",
+      "file": "images/encaustic-wax.png",
+      "source_type": "montage-crop",
+      "generation_id": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        930,
+        508,
+        1222,
+        916
+      ],
+      "source_panel_label": "Row 2, Column 4: Encaustic-like layers",
+      "note_zh": "画面存在嵌入式半透明暖色层和刮擦纹理，接近蜡画层叠效果；并非真实蜡材证明。",
+      "note_en": "Translucent warm layers and scraped, embedded-looking marks suggest an encaustic-wax finish; not evidence of physical heated wax.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "d7b75dc9824b92480599396140e22723c7c341f7e008701060ed57f7e7400ca3"
+    },
+    {
+      "style_id": "oil-pastel",
+      "file": "images/oil-pastel.png",
+      "source_type": "montage-crop",
+      "generation_id": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        1239,
+        508,
+        1536,
+        916
+      ],
+      "source_panel_label": "Row 2, Column 5: Oil pastel",
+      "note_zh": "饱和且不透明的蜡质色条、交叠方向笔触较明显，是油画棒媒介的视觉示意。",
+      "note_en": "Dense opaque waxy color strokes, layered directional marks and bright pigmentation convey oil-pastel media.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "61069356f657878dcdd8780f1d35b4e77cbaefcf3a3bc89c323117c6e269b137"
+    }
+  ]
+}

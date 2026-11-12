@@ -1,44 +1,82 @@
-"""Current image-source UX smoke in Chromium (offline HTML, no live deployment)."""
+"""Exercise the production static build under a repository prefix."""
+import json
+import os
+import subprocess
 from pathlib import Path
-import json, shutil
-from playwright.sync_api import sync_playwright
-R=Path(__file__).resolve().parents[1]
-catalog=json.loads((R/'data/catalog.json').read_text(encoding='utf-8'))
-active=[s for s in catalog if any(v.get('displayApproved') for v in s.get('illustrations',[]))]
-montage=[s for s in active if any(v.get('displayApproved') and v.get('kind')=='montage-derived-preview' for v in s['illustrations'])]
-procedural=[s for s in active if any(v.get('displayApproved') and v.get('kind')=='procedural-style-study' for v in s['illustrations'])]
-html=(R/'IRO-preview.html').read_text(encoding='utf-8').replace('"base":"./"','"base":"https://iro.test/"')
-checks=[]
-def check(name,okay):
-    if not okay:raise AssertionError(name)
-    checks.append(name)
-with sync_playwright() as p:
-    system_chromium=shutil.which('chromium') or shutil.which('chromium-browser') or shutil.which('google-chrome')
-    launch_args={'headless':True,'args':['--no-sandbox']}
-    if system_chromium:launch_args['executable_path']=system_chromium
-    b=p.chromium.launch(**launch_args)
-    page=b.new_page(viewport={'width':1440,'height':900})
-    errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
-    page.set_content(html,wait_until='domcontentloaded',timeout=60000)
-    check('initial cards',page.locator('.style-card').count()==24)
-    notice=page.locator('.research-notice').inner_text()
-    check('live coverage',f'{len(active)}/{len(catalog)}' in notice)
-    page.locator('#status-filter').select_option('images')
-    while page.locator('[data-action="more"]').count():page.locator('[data-action="more"]').click()
-    check('all illustrated styles',page.locator('.style-card').count()==len(active))
-    check('all image cards have files',page.locator('.style-card img').count()==len(active))
-    if montage:
-        sid=montage[0]['id']
-        page.locator(f'[data-card="{sid}"] [data-nav="style"]').first.click()
-        check('montage not compared against B00',page.locator('.split-view').count()==0)
-        montage_note=page.locator('.visual-note').inner_text()
-        check('montage clearly disclosed',('拼图' in montage_note and '不是独立' in montage_note) or ('montage' in montage_note.lower() and 'not' in montage_note.lower()))
-        page.locator('[data-nav="atlas"]').first.click()
-    if procedural:
-        sid=procedural[0]['id']
-        page.locator(f'[data-card="{sid}"] [data-nav="style"]').first.click()
-        note=page.locator('.visual-note').inner_text()
-        check('procedural warning',('B00' in note and '不是 ImageGen' in note) or ('deterministic' in note.lower() and 'not' in note.lower()))
-    check('no script errors',not errors)
-    b.close()
-print('PASS',len(checks),'offline browser checks; no live deployment claimed')
+from playwright.sync_api import sync_playwright, expect
+
+root = Path(__file__).resolve().parents[1]
+out = root / 'evidence/final-integration'
+catalog = json.loads((root / 'data/catalog.json').read_text())
+server = subprocess.Popen(['node', '--input-type=module', '-e', """
+import {createStaticServer} from './scripts/serve.mjs';
+const server = createStaticServer({prefix:'/iro-style-atlas'});
+server.listen(0,'127.0.0.1',()=>console.log(server.address().port));
+"""], cwd=root, stdout=subprocess.PIPE, text=True)
+try:
+    base = f'http://127.0.0.1:{int(server.stdout.readline())}/iro-style-atlas/'
+    with sync_playwright() as pw:
+        for width,height in [(1920,1080),(1366,768),(375,667),(412,915)]:
+            browser = pw.chromium.launch(executable_path=os.getenv('IRO_CHROME') or None)
+            context = browser.new_context(viewport=dict(width=width,height=height),
+                is_mobile=width<500,has_touch=width<500,permissions=['clipboard-read','clipboard-write'])
+            page=context.new_page()
+            errors=[]
+            page.on('pageerror',lambda exc:errors.append(str(exc)))
+            page.goto(base)
+            expect(page.locator('.research-notice')).to_contain_text('213/213')
+            assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
+            page.screenshot(path=out/f'atlas-{width}.jpg')
+            search=page.locator('#style-search')
+            for term,sid in [('皮克斯','pixar-inspired-3d'),('watercolour','watercolor-wet')]:
+                search.fill(term)
+                expect(page.locator(f'[data-card="{sid}"]')).to_be_visible()
+            search.fill('xyz-no-such-style')
+            expect(page.locator('.empty-state')).to_be_visible()
+            page.locator('[data-action="reset-search"]').click()
+            nav=page.locator('.sidebar')
+            if width<500:
+                page.locator('[data-action="menu"]').click()
+                nav=page.locator('#mobile-menu')
+            nav.locator('[data-category="japan"]').click()
+            if width<500:page.locator('[data-action="menu"]').click()
+            nav.locator('[data-family="woodblock"]').click()
+            expect(page.locator('.style-card')).to_have_count(4)
+            page.locator('[data-nav="style"][data-id="shin-hanga"]').first.click()
+            page.locator('[data-model="gemini"]').click()
+            page.locator('#detail-lang').select_option('en')
+            page.locator('[data-action="language"]').click()
+            expect(page.locator('html')).to_have_attribute('lang','en')
+            page.locator('[data-action="copy-detail"]').click()
+            assert page.evaluate('navigator.clipboard.readText()')==page.locator('#detail-prompt').inner_text()
+            page.locator('[data-favorite="shin-hanga"]').first.click()
+            page.reload()
+            expect(page.locator('[data-favorite="shin-hanga"]').first).to_have_attribute('aria-pressed','true')
+            page.screenshot(path=out/f'detail-{width}.jpg')
+            page.goto(base+'en/workbench/')
+            page.locator('#work-text').fill('Keep the ink texture.')
+            page.reload()
+            expect(page.locator('#work-text')).to_have_value('Keep the ink texture.')
+            page.locator('[data-action="save-custom"]').click()
+            page.locator('#custom-name').fill('Ink study')
+            page.locator('[data-dialog-action="save-custom"]').click()
+            page.goto(base+'en/custom/')
+            expect(page.get_by_text('Ink study',exact=True).first).to_be_visible()
+            if width==1366:
+                for s in catalog:
+                    sample=next(i for i in s['illustrations'] if i['displayApproved'])
+                    page.goto(base+'zh/style/'+s['id']+'/')
+                    image=page.locator('img[src$="/'+sample['path']+'"]').first
+                    image.evaluate('img => img.decode()')
+                    assert image.evaluate('img=>img.naturalWidth')==sample['width']
+                    page.evaluate('async url=>{const img=new Image();img.src=url;await img.decode()}',base+sample['thumbnailPath'])
+                    if sample['kind']=='montage-derived-preview':
+                        assert page.locator('.split-view').count()==0
+                page.goto(base+'en/compare/?ids=shin-hanga,rural-handdrawn')
+                expect(page.locator('.compare-column')).to_have_count(2)
+            assert not errors, errors
+            browser.close()
+            print('PASS',width,height,flush=True)
+finally:
+    server.terminate()
+    server.wait()

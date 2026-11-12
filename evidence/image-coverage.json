@@ -1,13 +1,13 @@
 {
   "total": 213,
-  "withImages": 105,
-  "independentShowcases": 67,
-  "provisionalMontageCrops": 10,
+  "withImages": 213,
+  "independentShowcases": 155,
+  "provisionalMontageCrops": 30,
   "proceduralStudies": 28,
-  "missing": 108,
+  "missing": 0,
   "exactPromptValidated": 0,
   "retainedProceduralStudyRecords": 30,
-  "previewCoverageComplete": false,
+  "previewCoverageComplete": true,
   "complete": false,
   "entries": [
     {
@@ -81,10 +81,10 @@
         "zh": "田园手绘长片",
         "en": "Pastoral hand-drawn feature"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/rural-handdrawn.webp",
+      "generationId": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -237,10 +237,10 @@
         "zh": "法比清线漫画",
         "en": "Ligne claire"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/ligne-claire.webp",
+      "generationId": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -328,10 +328,10 @@
         "zh": "透明罩染油画",
         "en": "Layered oil glazing"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/oil-glaze.webp",
+      "generationId": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -354,10 +354,10 @@
         "zh": "湿画法一气呵成",
         "en": "Alla prima oil"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/oil-alla-prima.webp",
+      "generationId": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -367,10 +367,10 @@
         "zh": "干擦薄涂油画",
         "en": "Scumbled oil"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/oil-scumble.webp",
+      "generationId": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -432,10 +432,10 @@
         "zh": "水溶彩铅",
         "en": "Water-soluble pencil"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/watercolor-pencil.webp",
+      "generationId": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -458,10 +458,10 @@
         "zh": "硬边丙烯",
         "en": "Hard-edge acrylic"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/acrylic-hard-edge.webp",
+      "generationId": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -471,10 +471,10 @@
         "zh": "酪蛋白画",
         "en": "Casein-like painting"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/casein-paint.webp",
+      "generationId": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -510,10 +510,10 @@
         "zh": "蜡画半透层",
         "en": "Encaustic-like layers"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/encaustic-wax.webp",
+      "generationId": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -562,10 +562,10 @@
         "zh": "油画棒",
         "en": "Oil pastel"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/oil-pastel.webp",
+      "generationId": "9a14b839-225a-4ebd-b95a-53bc29c1ec80",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -627,10 +627,10 @@
         "zh": "蓝色圆珠笔",
         "en": "Blue ballpoint"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/ballpoint-blue.webp",
+      "generationId": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -640,10 +640,10 @@
         "zh": "刮画黑卡",
         "en": "Scratchboard"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/scratchboard.webp",
+      "generationId": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -653,10 +653,10 @@
         "zh": "连续单线描绘",
         "en": "Continuous-line drawing"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/continuous-line.webp",
+      "generationId": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -666,10 +666,10 @@
         "zh": "留白轮廓线描",
         "en": "Contour drawing"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/contour-drawing.webp",
+      "generationId": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -705,10 +705,10 @@
         "zh": "表现性木刻",
         "en": "Bold woodcut"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/woodcut-bold.webp",
+      "generationId": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -718,10 +718,10 @@
         "zh": "铜版雕刻",
         "en": "Burin engraving"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/engraving-burin.webp",
+      "generationId": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -744,10 +744,10 @@
         "zh": "干刻毛刺",
         "en": "Drypoint burr"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/drypoint.webp",
+      "generationId": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -770,10 +770,10 @@
         "zh": "美柔汀暗调",
         "en": "Mezzotint"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/mezzotint.webp",
+      "generationId": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -848,10 +848,10 @@
         "zh": "创作版画刀趣",
         "en": "Expressive sosaku-hanga"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/sosaku-hanga.webp",
+      "generationId": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -861,10 +861,10 @@
         "zh": "墨摺绘",
         "en": "Sumizuri-e-inspired print"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
+      "status": "PROVISIONAL_MONTAGE_CROP",
+      "imagePath": "examples/sumizuri-e.webp",
+      "generationId": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "imageSource": "cropped-generated-montage",
       "independentlyGenerated": false,
       "promptVerified": false
     },
@@ -887,11 +887,11 @@
         "zh": "大和绘叙事色面",
         "en": "Yamato-e-inspired color"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/yamato-e.webp",
+      "generationId": "b44f718b-e030-4bcf-851a-c9cac3516ef8",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -926,11 +926,11 @@
         "zh": "大正抒情插画",
         "en": "Taisho-inspired lyrical illustration"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/taisho-romance.webp",
+      "generationId": "7954626a-63cf-40c3-b578-594dac80b5cd",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -939,11 +939,11 @@
         "zh": "昭和商业插画",
         "en": "Showa-era commercial illustration"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/showa-ad-illustration.webp",
+      "generationId": "59712c39-02cc-4e4e-877b-f75daf5a7ce1",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -978,11 +978,11 @@
         "zh": "型染留白",
         "en": "Katazome-inspired resist"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/katazome.webp",
+      "generationId": "f9097a4f-5d52-491f-8b8f-0e7e85bd2fbd",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -991,11 +991,11 @@
         "zh": "刺子线迹转绘",
         "en": "Sashiko-inspired stitching"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/sashiko.webp",
+      "generationId": "a3ea5c17-7456-4edf-b612-2bc12221374c",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1004,11 +1004,11 @@
         "zh": "和纸拼贴",
         "en": "Washi-paper collage"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/washi-collage.webp",
+      "generationId": "b8826dcc-ed6b-45f8-ad3a-ab07cca86b0c",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1017,11 +1017,11 @@
         "zh": "白描",
         "en": "Baimiao contour drawing"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/baimiao.webp",
+      "generationId": "52e37cb4-111a-435d-9bb6-76ee9eb8b4e1",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1030,11 +1030,11 @@
         "zh": "小写意",
         "en": "Controlled xieyi"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/xieyi-small.webp",
+      "generationId": "26ec59ff-84e8-4fd0-97bc-c39ab19c55cf",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1043,11 +1043,11 @@
         "zh": "大写意",
         "en": "Bold xieyi"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/xieyi-bold.webp",
+      "generationId": "fc3e8a06-0487-4411-a442-92ab12c73323",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1056,11 +1056,11 @@
         "zh": "青绿设色",
         "en": "Blue-green mineral color"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/green-blue-mineral.webp",
+      "generationId": "84788246-b557-42cb-a5b6-9c6a4b892364",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1069,11 +1069,11 @@
         "zh": "浅绛淡设色",
         "en": "Pale-ochre ink color"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/qianjiang.webp",
+      "generationId": "200b261e-5f2f-4c11-af10-9cd0632d923c",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1082,11 +1082,11 @@
         "zh": "木版年画",
         "en": "Nianhua-inspired woodblock"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/nianhua.webp",
+      "generationId": "2d726e7a-ec69-46a0-9aff-0e2c04fd0fd4",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1095,11 +1095,11 @@
         "zh": "单色民间剪纸",
         "en": "Chinese papercut-inspired silhouette"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/chinese-papercut.webp",
+      "generationId": "d4665819-312a-4760-83e9-23458b161592",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1108,11 +1108,11 @@
         "zh": "皮影透色",
         "en": "Translucent shadow-puppet craft"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/shadow-puppet.webp",
+      "generationId": "3f9dc9d8-1bb9-4003-b135-a793d8be977d",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1134,11 +1134,11 @@
         "zh": "景泰蓝分区珐琅",
         "en": "Cloisonné-like enamel"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/cloisonne.webp",
+      "generationId": "b6585d9f-e57d-4e87-98d6-51b325ac0f88",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1147,11 +1147,11 @@
         "zh": "莫卧儿细密画启发",
         "en": "Mughal-miniature-inspired painting"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/mughal-miniature.webp",
+      "generationId": "fa670d8c-c7f6-4281-b3a7-a47937b1137b",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1160,11 +1160,11 @@
         "zh": "拉杰普特色面启发",
         "en": "Rajput-inspired color planes"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/rajput-miniature.webp",
+      "generationId": "81396be4-3ab6-4b0f-b7fc-9ed099f7b618",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1186,11 +1186,11 @@
         "zh": "镂花薄纸启发",
         "en": "Papel-picado-inspired paper"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/mexican-papel.webp",
+      "generationId": "dc6e9a5d-9e28-43c4-9419-aa9605db7911",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1199,11 +1199,11 @@
         "zh": "多层彩纸剪花启发",
         "en": "Wycinanki-inspired cut paper"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/polish-wycinanki.webp",
+      "generationId": "c937eaaa-c690-4be0-8ce1-c1b46e64e3b8",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1212,11 +1212,11 @@
         "zh": "卷草彩绘启发",
         "en": "Rosemaling-inspired brushwork"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/rosemaling.webp",
+      "generationId": "aeda9d25-7efa-4a43-8a6b-21b224a6d803",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1225,11 +1225,11 @@
         "zh": "蜡染彩蛋线艺启发",
         "en": "Wax-resist ornamental linework"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/pysanky-linework.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1264,11 +1264,11 @@
         "zh": "都市光影剧场版",
         "en": "Urban cinematic anime"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/urban-anime-light.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1277,11 +1277,11 @@
         "zh": "平面色块动画",
         "en": "Flat contemporary anime"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/flat-web-anime.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1316,11 +1316,11 @@
         "zh": "剧画细密排线",
         "en": "Gekiga-style hatching"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/gekiga-hatching.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1342,11 +1342,11 @@
         "zh": "日常漫画简线",
         "en": "Slice-of-life manga"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/slice-life-manga.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1355,11 +1355,11 @@
         "zh": "绘画感三维动画",
         "en": "Painterly 3D animation"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/painted-3d.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1368,11 +1368,11 @@
         "zh": "剪纸动画帧",
         "en": "Cut-paper animation frame"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/paper-cut-animation.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1407,11 +1407,11 @@
         "zh": "绘本式手绘动画",
         "en": "Storybook cel animation"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/storybook-cel.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1420,11 +1420,11 @@
         "zh": "手绘转描动画",
         "en": "Painted rotoscope"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/rotoscope-painted.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1433,11 +1433,11 @@
         "zh": "欧洲笔刷漫画",
         "en": "Expressive European brush comic"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/franco-belgian-brush.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1472,11 +1472,11 @@
         "zh": "现代彩色图像小说",
         "en": "Modern color graphic novel"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/modern-graphic-novel.webp",
+      "generationId": "4c579fa2-34aa-4023-8dcd-34f27a9db60f",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1498,11 +1498,11 @@
         "zh": "双色独立漫画",
         "en": "Duotone indie comic"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/indie-duotone-comic.webp",
+      "generationId": "cc7305d1-f3a1-474c-accb-d95bace89add",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1511,11 +1511,11 @@
         "zh": "密线独立漫画",
         "en": "Dense-line underground comic"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/underground-comix.webp",
+      "generationId": "839d6aa0-e1fc-407f-8252-4fa9692c31f0",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1563,11 +1563,11 @@
         "zh": "等距像素重构",
         "en": "Isometric pixel reinterpretation"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/pixel-isometric.webp",
+      "generationId": "db18eb3e-23c7-466d-86ee-df969619fb16",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1628,11 +1628,11 @@
         "zh": "预渲染 RPG 场景感",
         "en": "Pre-rendered RPG scene"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/pre-rendered-rpg.webp",
+      "generationId": "c84af9ac-fa46-44ce-a456-82a0fee22d23",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1641,11 +1641,11 @@
         "zh": "细体素造型",
         "en": "Fine voxel construction"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/voxel-sculpt.webp",
+      "generationId": "1b620b29-67aa-49d0-9d7e-8b757f2cb9a2",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1667,11 +1667,11 @@
         "zh": "切折纸立体",
         "en": "Kirigami cut-and-fold"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/kirigami.webp",
+      "generationId": "e94af55b-b2c0-4603-8ed0-c7c8b5f995ac",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1680,11 +1680,11 @@
         "zh": "纸板模型",
         "en": "Cardboard model"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/cardboard-model.webp",
+      "generationId": "3359801b-28c5-4811-94a0-a5ce374c3545",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1706,11 +1706,11 @@
         "zh": "杂志剪贴重绘",
         "en": "Magazine-cut collage"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/magazine-collage.webp",
+      "generationId": "0bbd04bb-0955-4b95-93e2-ab407fc46b9a",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1719,11 +1719,11 @@
         "zh": "摄影纸拼贴",
         "en": "Photographic paper montage"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/photomontage-paper.webp",
+      "generationId": "6dc7f434-20b1-4fe9-9cd9-a7dbf23ae908",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1732,11 +1732,11 @@
         "zh": "压花材质拼画",
         "en": "Pressed-botanical collage"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/pressed-botanical.webp",
+      "generationId": "2bf2682b-a7a4-4fdb-b108-453d6c5cad0d",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1758,11 +1758,11 @@
         "zh": "法国结粒绣",
         "en": "French-knot embroidery"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/french-knot.webp",
+      "generationId": "1eb609f6-f996-4df9-a865-fca940197a3a",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1771,11 +1771,11 @@
         "zh": "链式线绣",
         "en": "Chain-stitch drawing"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/chain-stitch.webp",
+      "generationId": "0678ac96-4dd4-4f0c-a1e9-64b52a124121",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1797,11 +1797,11 @@
         "zh": "绗缝浮起",
         "en": "Quilted relief"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/quilting.webp",
+      "generationId": "c903834c-a131-4609-af2f-497bdf1ee048",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1810,11 +1810,11 @@
         "zh": "平织壁毯",
         "en": "Woven tapestry"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/tapestry.webp",
+      "generationId": "2344d23a-1e06-4dcb-8201-30307c82d8cc",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1823,11 +1823,11 @@
         "zh": "蜡防染织物",
         "en": "Batik-inspired resist"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/batik.webp",
+      "generationId": "fd6d51e3-f41b-4ff3-847a-f367ad2cec3d",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1849,11 +1849,11 @@
         "zh": "簇绒纱线",
         "en": "Tufted-yarn picture"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/tufted-yarn.webp",
+      "generationId": "be406098-e24d-46b3-9983-f0cceb550a78",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1875,11 +1875,11 @@
         "zh": "哑光陶瓷",
         "en": "Matte ceramic"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/matte-ceramic.webp",
+      "generationId": "0c0aff44-dc6c-4b81-a5a3-7d5ce0870fdf",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1914,11 +1914,11 @@
         "zh": "浅浮雕石面",
         "en": "Stone bas-relief"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/stone-relief.webp",
+      "generationId": "9cb59998-cd5f-437d-89fd-2e169c5e7300",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1927,11 +1927,11 @@
         "zh": "青铜浅浮雕",
         "en": "Bronze relief"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/bronze-relief.webp",
+      "generationId": "08467b81-cfe4-4256-a641-444bb995d723",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1966,11 +1966,11 @@
         "zh": "熔融玻璃色面",
         "en": "Fused-glass art"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/fused-glass.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -1979,11 +1979,11 @@
         "zh": "半透树脂造型",
         "en": "Translucent resin sculpture"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/resin-sculpt.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2161,11 +2161,11 @@
         "zh": "构成主义色面",
         "en": "Constructivist-inspired planes"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/constructivist-planes.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2174,11 +2174,11 @@
         "zh": "瑞士式简化图形",
         "en": "Swiss-inspired reductive graphic"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/swiss-reductive.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2200,11 +2200,11 @@
         "zh": "孟菲斯图形语言",
         "en": "Memphis-inspired graphics"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/memphis.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2239,11 +2239,11 @@
         "zh": "迷幻流线",
         "en": "Psychedelic contour flow"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/psychedelic-flow.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2252,11 +2252,11 @@
         "zh": "复古旅行画报转绘",
         "en": "Vintage travel-graphic treatment"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/vintage-travel-graphic.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2265,11 +2265,11 @@
         "zh": "街头马克笔插画",
         "en": "Street-marker illustration"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/street-marker.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2278,11 +2278,11 @@
         "zh": "蜡笔绘本",
         "en": "Crayon picture book"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/crayon-picturebook.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2291,11 +2291,11 @@
         "zh": "无轮廓水粉绘本",
         "en": "Outline-free gouache book"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/no-outline-gouache.webp",
       "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2304,11 +2304,11 @@
         "zh": "拼贴绘本",
         "en": "Picture-book collage"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/collage-picturebook.webp",
+      "generationId": "8d6033c1-9515-4fc5-ae4a-9c00c40f580e",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2317,11 +2317,11 @@
         "zh": "复古彩色书页插画",
         "en": "Vintage color book plate"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/vintage-book-plate.webp",
+      "generationId": "3ad38617-c2ad-4495-816f-0f26ec7e0843",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2330,11 +2330,11 @@
         "zh": "平面编辑插画",
         "en": "Flat editorial illustration"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/editorial-flat.webp",
+      "generationId": "af22207e-e49b-4c0f-95f2-073ae9d79b76",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2343,11 +2343,11 @@
         "zh": "笔刷编辑插画",
         "en": "Painterly editorial illustration"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/painterly-editorial.webp",
+      "generationId": "c16b8f6d-3d81-4ecd-b355-9d627716053a",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2356,11 +2356,11 @@
         "zh": "服装马克笔手绘",
         "en": "Fashion-marker drawing"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/fashion-marker.webp",
+      "generationId": "022c9624-f796-4ce3-9505-ec3708fe5967",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2369,11 +2369,11 @@
         "zh": "博物图鉴笔法",
         "en": "Natural-history illustration treatment"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/botanical-precision.webp",
+      "generationId": "b3069272-7d3a-47db-b5a0-cd904d41ce21",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2382,11 +2382,11 @@
         "zh": "建筑钢笔淡彩",
         "en": "Architectural pen wash"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/architectural-wash.webp",
+      "generationId": "8e3da51e-b0d0-4e1f-b0e8-c7b0ff2d642e",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2395,11 +2395,11 @@
         "zh": "工程线描美学",
         "en": "Technical-line illustration"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/technical-line.webp",
+      "generationId": "c9d34555-0f1a-491a-a35d-bf19605f230a",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2408,11 +2408,11 @@
         "zh": "文艺复兴柔和塑形",
         "en": "Renaissance-inspired modeling"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/renaissance-modeling.webp",
+      "generationId": "c54fd674-54ab-42f7-92d6-c07983bbbc66",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2421,11 +2421,11 @@
         "zh": "巴洛克明暗绘画",
         "en": "Baroque-inspired chiaroscuro"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/baroque-chiaroscuro.webp",
+      "generationId": "5364680c-8b66-4011-b4b5-f514a976972d",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2434,11 +2434,11 @@
         "zh": "洛可可轻盈设色",
         "en": "Rococo-inspired lightness"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/rococo-light.webp",
+      "generationId": "aa89afc0-de85-4d37-8a78-82e66782c041",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2486,11 +2486,11 @@
         "zh": "立体主义切面",
         "en": "Cubist-inspired facets"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/cubist-facets.webp",
+      "generationId": "f1fbeba3-35bf-4b3c-a38a-6c42faa2fe63",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2499,11 +2499,11 @@
         "zh": "未来主义节奏",
         "en": "Futurist-inspired rhythm"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/futurist-rhythm.webp",
+      "generationId": "1a41616b-1b10-4303-a094-9e779781b563",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2525,11 +2525,11 @@
         "zh": "象征主义绘画感",
         "en": "Symbolist-inspired atmosphere"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/symbolist-atmosphere.webp",
+      "generationId": "3a63c039-3cbc-4e25-a1b7-015504b8ce7b",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2538,11 +2538,11 @@
         "zh": "平面低多边形",
         "en": "Flat polygon illustration"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/lowpoly-flat.webp",
+      "generationId": "e186b7e3-c60e-4766-8623-97862658bd97",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2551,11 +2551,11 @@
         "zh": "白模软光渲染",
         "en": "Soft-lit clay render"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/clay-render.webp",
+      "generationId": "23ad9295-dab5-49a8-9d01-11b8789d791a",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2564,11 +2564,11 @@
         "zh": "可读线框转绘",
         "en": "Readable wireframe"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/wireframe.webp",
+      "generationId": "bf7368ea-0bc5-460e-afbb-430f1b93f3d3",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2590,11 +2590,11 @@
         "zh": "细胞镶片",
         "en": "Cellular polygon mosaic"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/voronoi.webp",
+      "generationId": "71d782e6-c1a9-4faa-a4dd-9f614ffbf691",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2655,11 +2655,11 @@
         "zh": "盒装收藏手办",
         "en": "Boxed collectible figure"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/boxed-figure.webp",
+      "generationId": "1d5ea4bb-2d9a-4686-9882-ebd8da3ec423",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2668,11 +2668,11 @@
         "zh": "雪景球微缩",
         "en": "Glass-globe miniature"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/snow-globe.webp",
+      "generationId": "479d05b5-5228-4cea-93fa-a59c0bbe77bd",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2681,11 +2681,11 @@
         "zh": "刺绣徽章",
         "en": "Embroidered patch"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/embroidered-patch.webp",
+      "generationId": "4c972984-2273-4357-a053-161c02ae989a",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2694,11 +2694,11 @@
         "zh": "透明亚克力立牌",
         "en": "Clear acrylic standee"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/acrylic-standee.webp",
+      "generationId": "02b74a8b-7d06-413d-91d2-c6dc073444a7",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2707,11 +2707,11 @@
         "zh": "珐琅胸针",
         "en": "Enamel pin"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/enamel-pin.webp",
+      "generationId": "7ae798b2-465b-424b-9b96-6f1baa6ba0ab",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2720,11 +2720,11 @@
         "zh": "立体书跨页",
         "en": "Pop-up book spread"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/pop-up-book.webp",
+      "generationId": "e1544b61-980f-498a-bd26-cfe62a8303a0",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2733,11 +2733,11 @@
         "zh": "等距微缩布景",
         "en": "Isometric diorama"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/isometric-diorama.webp",
+      "generationId": "9ed69595-15fd-4713-8b57-ded2a36a12bc",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2746,11 +2746,11 @@
         "zh": "模型摄影微缩",
         "en": "Miniature-model reinterpretation"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/miniature-tiltshift.webp",
+      "generationId": "b616fa20-7d01-438a-ac8e-a21bc598c575",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2759,11 +2759,11 @@
         "zh": "角色贴纸组",
         "en": "Character sticker sheet"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/sticker-sheet.webp",
+      "generationId": "685afd38-dd42-494e-b377-906794135b70",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     },
     {
@@ -2772,11 +2772,11 @@
         "zh": "收藏卡艺术版",
         "en": "Art collectible card"
       },
-      "status": "MISSING_IMAGE",
-      "imagePath": null,
-      "generationId": null,
-      "imageSource": "none",
-      "independentlyGenerated": false,
+      "status": "INDEPENDENT_SHOWCASE_PROMPT_UNVERIFIED",
+      "imagePath": "examples/trading-card.webp",
+      "generationId": "95b94272-6a9a-43e1-84bf-eed7aced8e1a",
+      "imageSource": "separate-generated-image",
+      "independentlyGenerated": true,
       "promptVerified": false
     }
   ]

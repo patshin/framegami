@@ -1,0 +1,243 @@
+{
+  "schema": "iro-image-pack-v1",
+  "batch_id": "20261103-batch02",
+  "date": "2026-11-03",
+  "description": "IRO style atlas Batch 02, 10 montage-derived visual previews, not ten independent model outputs or strict prompt validation.",
+  "provenance": "One complete AI-generated contact-sheet image, generated with ChatGPT image tool.",
+  "generation_id": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+  "source_montage_sha256": "4f264a43b007fd8b244c4773ec8109f0a18c28642ddf0e0ff9f9472f0ec3335f",
+  "queue_style_ids": [
+    "ballpoint-blue",
+    "scratchboard",
+    "continuous-line",
+    "contour-drawing",
+    "woodcut-bold",
+    "engraving-burin",
+    "drypoint",
+    "mezzotint",
+    "sosaku-hanga",
+    "sumizuri-e"
+  ],
+  "images": [
+    {
+      "style_id": "ballpoint-blue",
+      "file": "images/ballpoint-blue.png",
+      "source_type": "montage-crop",
+      "generation_id": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        8,
+        22,
+        289,
+        545
+      ],
+      "source_panel_label": "Row 1, Column 1: Blue Ballpoint",
+      "note_zh": "蓝色圆珠笔排线和密集手写质感明显，适合作为圆珠笔风格视觉预览。",
+      "note_en": "Layered blue hatching and handwriting-like pen texture make this a useful blue-ballpoint visual preview.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "0396c9d776a4b7d3619dc11964865c273708651a091530d14da3cb859cb297cc"
+    },
+    {
+      "style_id": "scratchboard",
+      "file": "images/scratchboard.png",
+      "source_type": "montage-crop",
+      "generation_id": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        296,
+        22,
+        576,
+        545
+      ],
+      "source_panel_label": "Row 1, Column 2: Scratchboard",
+      "note_zh": "高反差黑底与刮刻出的亮线清楚，符合刮画黑卡风格。",
+      "note_en": "High-contrast white scratches on black clearly match a scratchboard look.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "de75fcf32de81cddfc8cbb7d92c71d9db8ab000ce667aed70786700e577fe7c3"
+    },
+    {
+      "style_id": "continuous-line",
+      "file": "images/continuous-line.png",
+      "source_type": "montage-crop",
+      "generation_id": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        584,
+        22,
+        865,
+        545
+      ],
+      "source_panel_label": "Row 1, Column 3: Continuous-Line Drawing",
+      "note_zh": "画面轮廓以连贯单线为主，细节简化，符合连续单线描绘。",
+      "note_en": "The composition is carried mainly by one continuous line, fitting a continuous-line drawing preview.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "10f11df91b536b04f420a6a1229ac9fbaea54a1f16ae31ddc9a37e53c60d138d"
+    },
+    {
+      "style_id": "contour-drawing",
+      "file": "images/contour-drawing.png",
+      "source_type": "montage-crop",
+      "generation_id": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        874,
+        22,
+        1154,
+        545
+      ],
+      "source_panel_label": "Row 1, Column 4: Contour Drawing",
+      "note_zh": "保留大量留白，仅以轮廓线组织形体，符合轮廓线描。",
+      "note_en": "Large open white areas with sparse outlines fit a contour-drawing treatment.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "4fb3269935282a73242a3e2bf6b1fa7855cc443e22580b0aa127e0e1eb5eca00"
+    },
+    {
+      "style_id": "woodcut-bold",
+      "file": "images/woodcut-bold.png",
+      "source_type": "montage-crop",
+      "generation_id": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        1161,
+        22,
+        1442,
+        545
+      ],
+      "source_panel_label": "Row 1, Column 5: Bold Woodcut",
+      "note_zh": "粗黑白块面与木刻刀痕明确，适合作为表现性木刻示例。",
+      "note_en": "Chunky black-and-white carving marks make this suitable as a bold woodcut preview.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "2b85e465f677bbda6e20fbde80c0e5239481b214429f28cb19d06455ace24b11"
+    },
+    {
+      "style_id": "engraving-burin",
+      "file": "images/engraving-burin.png",
+      "source_type": "montage-crop",
+      "generation_id": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        8,
+        569,
+        289,
+        1072
+      ],
+      "source_panel_label": "Row 2, Column 1: Burin Engraving",
+      "note_zh": "细密而规则的雕版排线清楚，符合铜版雕刻视觉语言。",
+      "note_en": "Fine regular engraved lines fit the visual language of burin engraving.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "bdf1bbd7c40f0de0647b41b98845b48ff1b2952e0a71cb3b76c2ab18d7931cf5"
+    },
+    {
+      "style_id": "drypoint",
+      "file": "images/drypoint.png",
+      "source_type": "montage-crop",
+      "generation_id": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        296,
+        569,
+        576,
+        1072
+      ],
+      "source_panel_label": "Row 2, Column 2: Drypoint Burr",
+      "note_zh": "线条边缘毛刺感和干刻噪点明显，适合作为干刻毛刺预览。",
+      "note_en": "Fuzzy burr-like marks and scratched texture make this a suitable drypoint preview.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "168b5227e15a2cccded703345eb8f3eb6bbc2e6d6d64c34d4908f072029ceaa4"
+    },
+    {
+      "style_id": "mezzotint",
+      "file": "images/mezzotint.png",
+      "source_type": "montage-crop",
+      "generation_id": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        584,
+        569,
+        865,
+        1072
+      ],
+      "source_panel_label": "Row 2, Column 3: Mezzotint",
+      "note_zh": "绵密暗调和柔黑层次明显，符合美柔汀暗调效果。",
+      "note_en": "Velvety dark tones and soft mezzotint texture are clearly visible.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "baf394a2f917681995830f9663d4f733d16968ec97083ab4fc9baa1b11437923"
+    },
+    {
+      "style_id": "sosaku-hanga",
+      "file": "images/sosaku-hanga.png",
+      "source_type": "montage-crop",
+      "generation_id": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        874,
+        569,
+        1154,
+        1072
+      ],
+      "source_panel_label": "Row 2, Column 4: Expressive Sosaku-hanga",
+      "note_zh": "版画式套色、粗犷刀趣和日式创作木版味道明显。",
+      "note_en": "Expressive hand-cut print texture and restrained color blocks fit sosaku-hanga.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "3c183e75f616e84b4b205f720a53e820dedee0f7537dd4c0fd43867f801c08ca"
+    },
+    {
+      "style_id": "sumizuri-e",
+      "file": "images/sumizuri-e.png",
+      "source_type": "montage-crop",
+      "generation_id": "e857433e-9ab4-441f-89b9-ddfa782f19f9",
+      "model": "chatgpt",
+      "language": "en",
+      "prompt_verified": false,
+      "montage_file": "montages/source-grid.png",
+      "crop_box": [
+        1161,
+        569,
+        1442,
+        1072
+      ],
+      "source_panel_label": "Row 2, Column 5: Sumizuri-e Print",
+      "note_zh": "单色墨摺质感与擦拓般纹理明显，适合作为墨摺绘预览。",
+      "note_en": "Monochrome ink-rubbing texture and rubbed paper feel fit a sumizuri-e style preview.",
+      "environment": "AI style-atlas montage; crop independently sourced from the full montage; not an exact B00 image-edit or exact-prompt verification",
+      "prompt_version": "0.1.0",
+      "crop_sha256": "9dcb758cd9d6dbf6828e2aa00bea4a596f95ae128b9d0fef57e41f7f369d7938"
+    }
+  ]
+}

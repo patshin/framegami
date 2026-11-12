@@ -66,3 +66,7 @@ npm run preview
 `production-batches/index.json` 将当前 108 个缺图 ID 划分为 11 批（前 10 批每批 10 个，最后一批 8 个）。各批完整中英文 Prompt 在 `production-batches/batch-XX-worklist.json` 中；这只是一份待生成任务队列，不是已生成文件。**新素材由助手按批生成并打成 ZIP 后，Codex 运行上面的两行命令即可全部配到前端。**
 
 若导入中断，保留原项目备份并通过 Git 回退；不要手工清空 `illustrations` 或改已有图片哈希。
+
+## 213/213 最终集成更新
+
+以上 105/213 及 108 项队列为历史交接记录。当前计数见 evidence/image-coverage.json。对于确有包级独立 AI 来源声明但无生成记录的图片，规范化 manifest 使用 generation_record_status="unavailable" 和 generation_id=null；无法证实的提交语言使用 language="unknown"。保留源 manifest、包 SHA-256 与来源缺口。拼图记录仍须提供原拼图、裁切坐标及生成编号。

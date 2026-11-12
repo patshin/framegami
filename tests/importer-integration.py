@@ -11,6 +11,17 @@ for folder in ['data','public','src','scripts','tests','evidence','docs','.githu
     shutil.copytree(src/folder,proj/folder)
 for filename in ['package.json','.gitignore']:
     shutil.copy2(src/filename,proj/filename)
+# Create two vacant slots only inside the disposable copy, even after full coverage.
+catalog_path = proj/'data/catalog.json'
+catalog = json.loads(catalog_path.read_text())
+for style in catalog:
+    if style['id'] in ('rural-handdrawn', 'ligne-claire'):
+        for illustration in style['illustrations']:
+            for key in ('path', 'thumbnailPath'):
+                (proj/'public'/illustration[key]).unlink(missing_ok=True)
+        style['illustrations'] = []
+baseline = sum(any(i.get('displayApproved') for i in s['illustrations']) for s in catalog)
+catalog_path.write_text(json.dumps(catalog))
 # Use synthetic images ONLY within the sandbox clone to test importer mechanics; these are not product examples.
 original=Image.open(src/'public/benchmark/B00-original.png').convert('RGB').resize((480,360))
 def png(image):
@@ -20,7 +31,7 @@ b=ImageEnhance.Brightness(original).enhance(.85)
 c=ImageEnhance.Contrast(original).enhance(1.25)
 mont=Image.new('RGB',(960,360),(245,245,245));mont.paste(original,(0,0));mont.paste(b,(480,0))
 for batch,items in [
-    ('testbatch01',[{'style_id':'rural-handdrawn','file':'images/rural-handdrawn.png','source_type':'independent-ai','generation_id':'fixture-only-1','model':'chatgpt','language':'en','note_zh':'合成测试图像，无实际生成模型','note_en':'Synthetic importer test fixture, not a model output'}]),
+    ('testbatch01',[{'style_id':'rural-handdrawn','file':'images/rural-handdrawn.png','source_type':'independent-ai','generation_id':None,'generation_record_status':'unavailable','model':'chatgpt','language':'en','note_zh':'合成测试图像，无实际生成模型','note_en':'Synthetic importer test fixture, not a model output'}]),
     ('testbatch02',[{'style_id':'ligne-claire','file':'images/ligne-claire.png','source_type':'montage-crop','generation_id':'fixture-montage-only','model':'chatgpt','language':'en','montage_file':'montages/fixture.png','crop_box':[480,0,960,360],'source_panel_label':'second panel','note_zh':'合成拼图测试图像','note_en':'Synthetic montage test fixture'}]),
     ('testbatch03',[{'style_id':'line-density','file':'images/line-density.png','source_type':'independent-ai','generation_id':'fixture-only-3','model':'chatgpt','language':'en','note_zh':'用于升级归档验证的合成测试图','note_en':'Synthetic upgrade test fixture'}])
 ]:
@@ -45,7 +56,7 @@ for batch,items in [
         old=next(s for s in cat if s['id']=='line-density')['illustrations']
         print('archive:',[(v.get('displayApproved'),v.get('kind'),v['path']) for v in old]);assert len(old)>=2 and old[1]['displayApproved'] is False
         assert (proj/'public'/old[1]['path']).is_file()
-    assert cover=={'testbatch01':106,'testbatch02':107,'testbatch03':107}[batch]
+    assert cover == baseline + (1 if batch == 'testbatch01' else 2)
     replay=subprocess.run(cmd,cwd=proj,text=True,capture_output=True)
     assert replay.returncode!=0 and 'already imported' in replay.stderr
 result=subprocess.run(['npm','run','check'],cwd=proj,text=True,capture_output=True,timeout=120)

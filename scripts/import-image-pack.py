@@ -85,15 +85,17 @@ def main():
             source_type=rec.get('source_type')
             if source_type not in ('independent-ai','montage-crop'):raise ValueError('Unsupported source_type')
             if rec.get('prompt_verified') is True or rec.get('accepted') is True:raise ValueError('A style preview cannot claim prompt validation')
-            if rec.get('model') not in ('chatgpt','gemini','flux') or rec.get('language') not in ('zh','en'):
+            incomplete = source_type == 'independent-ai' and rec.get('generation_id') is None and rec.get('generation_record_status') == 'unavailable'
+            languages = ('zh', 'en', 'unknown') if incomplete else ('zh', 'en')
+            if rec.get('model') not in ('chatgpt','gemini','flux') or rec.get('language') not in languages:
                 raise ValueError('Explicit supported model/language required')
             gid=rec.get('generation_id','')
-            if not isinstance(gid,str) or not (1<=len(gid)<=150):raise ValueError('Generation ID required')
+            if not incomplete and (not isinstance(gid,str) or not (1<=len(gid.strip())<=150)):raise ValueError('Generation ID required')
             for field in ('note_zh','note_en'):
                 if not isinstance(rec.get(field),str) or not (2<=len(rec[field])<=800):
                     raise ValueError('Bilingual review notes required')
             file=safe_path(rec.get('file'))
-            if not file.startswith('images/') or Path(file).suffix.lower() not in IMG_EXTS or file not in names:
+            if Path(file).with_suffix('').as_posix() != 'images/'+sid or Path(file).suffix.lower() not in IMG_EXTS or file not in names:
                 raise ValueError('Invalid/missing image: '+str(file))
             raw=z.read(file);rawhash=digest(raw)
             if rawhash in used:raise ValueError('One source image cannot be reused for multiple styles')
@@ -164,7 +166,7 @@ def main():
           sourceOutputSha256=p['rawhash'],sourceImagePath=str(rawpath.relative_to(ROOT)),
           outputSha256=digest(p['full']),thumbnailSha256=digest(p['thumb']),
           promptVersion=style['version'],model=rec['model'],lang=rec['language'],
-          generationId=rec['generation_id'],date=run_date,reviewer='batch handoff; human visual review required',
+          generationId=rec.get('generation_id'),generationRecordStatus='unavailable' if rec.get('generation_id') is None else 'supplied',date=run_date,reviewer='batch handoff; human visual review required',
           environment=str(rec.get('environment','image-generation model; original image input not independently verified'))[:400],
           reviewNote={'zh':rec['note_zh'],'en':rec['note_en']},
           singleIndependentOutput=rec['source_type']=='independent-ai',actualSubmittedPromptCaptured=False,

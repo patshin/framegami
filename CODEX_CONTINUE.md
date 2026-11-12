@@ -1,3 +1,1 @@
-# 继续开发请先阅读
-
-本项目以本交接包的 `iro-style-atlas/` 为唯一基线，当前 **105/213**，缺图 **108**。请阅读 `docs/CODEX_HANDOFF_PROMPT.md` 与 `docs/IMAGE_PACK_HANDOFF.md`。今后的素材包通过 `scripts/import-image-pack.py` 批量导入，不再手工修改 HTML；所有示意图保持准确来源与未验证标识。
+当前研究预览覆盖 213/213。请从 README.md、docs/STATUS.md 和 evidence/image-coverage.json 开始。105/213 的 CHECKPOINT-MANIFEST.json、production-batches 与原交接文档是历史基线。增量升级请遵循 docs/IMAGE_PACK_HANDOFF.md，并保留原始来源与严格验证门槛。
